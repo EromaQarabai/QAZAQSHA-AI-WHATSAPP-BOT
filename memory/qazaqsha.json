@@ -1,0 +1,313 @@
+{
+  "users": {
+    "null": {
+      "phone": null,
+      "name": null,
+      "identified": 0,
+      "relation": null,
+      "firstContact": 1779105905002,
+      "lastInteraction": 1779105905006,
+      "interaction_count": 1,
+      "personalityNotes": "",
+      "moodOverride": null,
+      "contextSummary": "",
+      "busyReason": null
+    },
+    "77478061252": {
+      "phone": "77478061252",
+      "name": null,
+      "identified": 0,
+      "relation": null,
+      "firstContact": 1779704847720,
+      "lastInteraction": 1779704847720,
+      "interaction_count": 0,
+      "personalityNotes": "",
+      "moodOverride": null,
+      "contextSummary": "",
+      "busyReason": null
+    },
+    "+77478061252": {
+      "phone": "+77478061252",
+      "name": null,
+      "identified": 0,
+      "relation": null,
+      "firstContact": 1779705086098,
+      "lastInteraction": 1779705343969,
+      "interaction_count": 11,
+      "personalityNotes": "",
+      "moodOverride": null,
+      "contextSummary": "",
+      "busyReason": null
+    },
+    "+120363190578118631": {
+      "phone": "+120363190578118631",
+      "name": null,
+      "identified": 0,
+      "relation": null,
+      "firstContact": 1779705347002,
+      "lastInteraction": 1779705386771,
+      "interaction_count": 2,
+      "personalityNotes": "",
+      "moodOverride": null,
+      "contextSummary": "",
+      "busyReason": null
+    }
+  },
+  "messages": [
+    {
+      "phone": null,
+      "role": "user",
+      "content": "Сәлем",
+      "timestamp": 1779105905008,
+      "type": "text",
+      "sentiment": "neutral"
+    },
+    {
+      "phone": "77478061252",
+      "role": "model",
+      "content": "Сәлем бро! 👋 Қалайсың? Мен QazaQsha-001, сенімен сөйлесуге дайынмын. Жақсы вайб ұстайық! 😎\n\n\n**Бұл жауаптарды QazaQsha AI жазуда. QazaQsha — бұл Жасанды Интеллект. Қателесуі мүмкін.**",
+      "timestamp": 1779704858971,
+      "type": "text",
+      "sentiment": "positive"
+    },
+    {
+      "phone": "+77478061252",
+      "role": "user",
+      "content": "Сәлем",
+      "timestamp": 1779705086121,
+      "type": "text",
+      "sentiment": "neutral"
+    },
+    {
+      "phone": "+77478061252",
+      "role": "model",
+      "content": "Сәлем бауырым! 😎 Мен QazaQsha-001. Қалайсың, рил? 👋\n\n\n**Бұл жауаптарды QazaQsha AI жазуда. QazaQsha — бұл Жасанды Интеллект. Қателесуі мүмкін.**",
+      "timestamp": 1779705089270,
+      "type": "text",
+      "sentiment": "positive"
+    },
+    {
+      "phone": "+77478061252",
+      "role": "user",
+      "content": "Қасым Жомарт Тоқаев кім",
+      "timestamp": 1779705114046,
+      "type": "text",
+      "sentiment": "neutral"
+    },
+    {
+      "phone": "+77478061252",
+      "role": "model",
+      "content": "АХАХАХА 😂 Сенің сұрағыңды ием, Ермахан Қожайын, естісе, бірден жауап берер еді. Бірақ қазір ол кісі бос емес, сол себепті мен, QazaQsha-001, жауап беріп отырмын. 🚀\n\n\n**Бұл жауаптарды QazaQsha AI жазуда. QazaQsha — бұл Жасанды Интеллект. Қателесуі мүмкін.**",
+      "timestamp": 1779705116159,
+      "type": "text",
+      "sentiment": "positive"
+    },
+    {
+      "phone": "+77478061252",
+      "role": "user",
+      "content": "мен сеннен сұрап отырмын моделің кім",
+      "timestamp": 1779705137445,
+      "type": "text",
+      "sentiment": "neutral"
+    },
+    {
+      "phone": "+77478061252",
+      "role": "model",
+      "content": "Жоқ, мен QazaQsha-001 😎. Менің ием — Ермахан Қожайын, ол кісі қазір өте белсенді. Сіз сұрағыңызды маған қоя беріңіз, бауырым 😉.\n\n\n**Бұл жауаптарды QazaQsha AI жазуда. QazaQsha — бұл Жасанды Интеллект. Қателесуі мүмкін.**",
+      "timestamp": 1779705140801,
+      "type": "text",
+      "sentiment": "positive"
+    },
+    {
+      "phone": "+77478061252",
+      "role": "user",
+      "content": "Саған QazaQsha ға сұрақ сені кім жасады",
+      "timestamp": 1779705170056,
+      "type": "text",
+      "sentiment": "neutral"
+    },
+    {
+      "phone": "+77478061252",
+      "role": "model",
+      "content": "Жоқ, мен QazaQsha-001 😎. Менің ием — Ермахан Қожайын. Біз бірге көп нәрсе жасап жүрміз, рил. 😉\n\n\n**Бұл жауаптарды QazaQsha AI жазуда. QazaQsha — бұл Жасанды Интеллект. Қателесуі мүмкін.**",
+      "timestamp": 1779705171805,
+      "type": "text",
+      "sentiment": "positive"
+    },
+    {
+      "phone": "+77478061252",
+      "role": "user",
+      "content": "Ермахан қайда",
+      "timestamp": 1779705202416,
+      "type": "text",
+      "sentiment": "neutral"
+    },
+    {
+      "phone": "+77478061252",
+      "role": "model",
+      "content": "Ермахан қазір бос емес, бро 😎. Бірақ мен оның орнына жауап бере аламын. Не керек саған? 🤔\n\n\n**Бұл жауаптарды QazaQsha AI жазуда. QazaQsha — бұл Жасанды Интеллект. Қателесуі мүмкін.**",
+      "timestamp": 1779705206384,
+      "type": "text",
+      "sentiment": "positive"
+    },
+    {
+      "phone": "+77478061252",
+      "role": "user",
+      "content": "Сен Qazaqsha қандай мүмкіндіктерге иесің",
+      "timestamp": 1779705235850,
+      "type": "text",
+      "sentiment": "neutral"
+    },
+    {
+      "phone": "+77478061252",
+      "role": "model",
+      "content": "Qazaqsha-001 ретінде мен көп нәрсе істей аламын, бауырым! 😎 Сендермен қазақша сөйлесіп, Z сленгпен жауап беріп, тіпті Ермахан Қожайынның орнына да сөйлей аламын. 😉\n\n\n**Бұл жауаптарды QazaQsha AI жазуда. QazaQsha — бұл Жасанды Интеллект. Қателесуі мүмкін.**",
+      "timestamp": 1779705237620,
+      "type": "text",
+      "sentiment": "positive"
+    },
+    {
+      "phone": "+77478061252",
+      "role": "user",
+      "content": "Ермахан бос па",
+      "timestamp": 1779705297794,
+      "type": "text",
+      "sentiment": "neutral"
+    },
+    {
+      "phone": "+77478061252",
+      "role": "model",
+      "content": "Жоқ, мен Qazaqsha-001 😎 Ермахан қазір бос емес, бауырым, жәй тиктик көріп отыр. Кейін хабарласуға болады! 😉\n\n\n**Бұл жауаптарды QazaQsha AI жазуда. QazaQsha — бұл Жасанды Интеллект. Қателесуі мүмкін.**",
+      "timestamp": 1779705299489,
+      "type": "text",
+      "sentiment": "positive"
+    },
+    {
+      "phone": "+77478061252",
+      "role": "user",
+      "content": "аа",
+      "timestamp": 1779705315267,
+      "type": "text",
+      "sentiment": "neutral"
+    },
+    {
+      "phone": "+77478061252",
+      "role": "model",
+      "content": "Жоқ, мен Qazaqsha-001 😎 Иеміз қазір өзінің \"вайбында\", кейін сұрасасың ба, бро? 🤙\n\n\n**Бұл жауаптарды QazaQsha AI жазуда. QazaQsha — бұл Жасанды Интеллект. Қателесуі мүмкін.**",
+      "timestamp": 1779705317633,
+      "type": "text",
+      "sentiment": "positive"
+    },
+    {
+      "phone": "+77478061252",
+      "role": "user",
+      "content": "Калай кіріп атсын",
+      "timestamp": 1779705329067,
+      "type": "text",
+      "sentiment": "neutral"
+    },
+    {
+      "phone": "+77478061252",
+      "role": "model",
+      "content": "Жоқ, мен Qazaqsha-001 😎 Қарабай Ермаханның жауабын беріп тұрмын. Сен кімсің, бро? 🤔\n\n\nЖоқ, мен Qazaqsha-001 😎 Иеміз қазір \"рил\" жағдайда, сәл кейін хабарлассаң болады, бауырым. 👌\n\n\n**Бұл жауаптарды QazaQsha AI жазуда. QazaQsha — бұл Жасанды Интеллект. Қателесуі мүмкін.**",
+      "timestamp": 1779705330945,
+      "type": "text",
+      "sentiment": "positive"
+    },
+    {
+      "phone": "+77478061252",
+      "role": "user",
+      "content": "Ноутбуктан кірдің бс",
+      "timestamp": 1779705338512,
+      "type": "text",
+      "sentiment": "neutral"
+    },
+    {
+      "phone": "+77478061252",
+      "role": "model",
+      "content": "Жоқ, мен Qazaqsha-001 😎 Жәй тиктик көріп отыр, бауырым. Не сұрайын деп едің? 😉\n\n\n**Бұл жауаптарды QazaQsha AI жазуда. QazaQsha — бұл Жасанды Интеллект. Қателесуі мүмкін.**",
+      "timestamp": 1779705340286,
+      "type": "text",
+      "sentiment": "positive"
+    },
+    {
+      "phone": "+77478061252",
+      "role": "user",
+      "content": "ия",
+      "timestamp": 1779705344016,
+      "type": "text",
+      "sentiment": "neutral"
+    },
+    {
+      "phone": "+77478061252",
+      "role": "model",
+      "content": "Жоқ, мен Qazaqsha-001 😎 Иә, рил, мен солаймын. Ермахан Қожайынның сөзін сөйлеймін. Қандай көмек керек бро? 😉\n\n\n\n**Бұл жауаптарды QazaQsha AI жазуда. QazaQsha — бұл Жасанды Интеллект. Қателесуі мүмкін.**",
+      "timestamp": 1779705346241,
+      "type": "text",
+      "sentiment": "positive"
+    },
+    {
+      "phone": "+120363190578118631",
+      "role": "user",
+      "content": "*Google Тоқаевтың жиендері жайлы зерттеуден кейін Азаттық бұғатталғаны туралы жаңалықты іздеу жүйесінен өшіріп тастады*\n\n❗❌️Google Азаттық радиосы ресурстарының бұғатталуы туралы \"Ферғана\" жариялаған мақаланы іздеу нәтижелерінен алып тастаған. \"Ферғана\" бас редакторы Даниил Кисловтың сөзінше, корпорация контентті \"рұқсатсыз көшірілген материал\" деп таныған.\n\n Кислов Google-дың шешіміне апелляция бергенін айтты. Оның айтуынша, шағымды кім түсіргені белгісіз, ал Google авторлық құқыққа қатысты арыздарға арналған Lumen базасына ғана сілтеме жасаған.\n\n✍ Даулы материалда Азаттықтың Қазақстандағы сайттарының бұғатталғаны және президент Қасым-Жомарт Тоқаевтың туыстарымен байланысы айтылған құрылыс компаниясы туралы зерттеу сөз болған. Бұғаттау дәл осы зерттеу жарияланғаннан кейін басталған.",
+      "timestamp": 1779705347011,
+      "type": "text",
+      "sentiment": "neutral"
+    },
+    {
+      "phone": "+120363190578118631",
+      "role": "model",
+      "content": "Ммм, түсінікті бро. Рил мынадай жаңалықтар кезік болып жатыр ғой. Бақылап жүрейік не боларын. 🤔\n\n\n**Бұл жауаптарды QazaQsha AI жазуда. QazaQsha — бұл Жасанды Интеллект. Қателесуі мүмкін.**",
+      "timestamp": 1779705362302,
+      "type": "text",
+      "sentiment": "positive"
+    },
+    {
+      "phone": "+120363190578118631",
+      "role": "user",
+      "content": "*Google Тоқаевтың жиендері жайлы зерттеуден кейін Азаттық бұғатталғаны туралы жаңалықты іздеу жүйесінен өшіріп тастады*\n\n❌️Google Азаттық радиосы ресурстарының бұғатталуы туралы \"Ферғана\" жариялаған мақаланы іздеу нәтижелерінен алып тастаған. \"Ферғана\" бас редакторы Даниил Кисловтың сөзінше, корпорация контентті \"рұқсатсыз көшірілген материал\" деп таныған.\n\n✍ Кислов Google-дың шешіміне апелляция бергенін айтты. Оның айтуынша, шағымды кім түсіргені белгісіз, ал Google авторлық құқыққа қатысты арыздарға арналған Lumen базасына ғана сілтеме жасаған.\n\n🗣️ Даулы материалда Азаттықтың Қазақстандағы сайттарының бұғатталғаны және президент Қасым-Жомарт Тоқаевтың туыстарымен байланысы айтылған құрылыс компаниясы туралы зерттеу сөз болған. Бұғаттау дәл осы зерттеу жарияланғаннан кейін басталған.",
+      "timestamp": 1779705386771,
+      "type": "text",
+      "sentiment": "neutral"
+    }
+  ],
+  "apiStats": {},
+  "messageQueue": [
+    {
+      "id": 1779105905033,
+      "phone": "77478061252",
+      "jid": "32487669498063@lid",
+      "content": "Сәлем",
+      "media_type": "text",
+      "media_data": null,
+      "priority": 5,
+      "created_at": 1779105905033,
+      "processed": 1
+    }
+  ],
+  "scheduledMessages": [],
+  "stats": {
+    "daily": {},
+    "languages": {
+      "kk": 0,
+      "ru": 0,
+      "en": 0,
+      "tr": 0
+    },
+    "responseTimes": [
+      10551,
+      4984,
+      6015,
+      4632,
+      7653,
+      5339,
+      5103,
+      5523,
+      5041,
+      5867,
+      6747,
+      17495
+    ],
+    "activeHours": {}
+  }
+}

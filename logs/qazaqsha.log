@@ -1,0 +1,989 @@
+{"time":"2026-05-25T10:26:27.079Z","level":"info","msg":"JSON деректер қоры іске қосылды (lowdb)"}
+{"time":"2026-05-25T10:26:27.081Z","level":"info","msg":"Блоктізім жүктелді: 0 нөмір"}
+{"time":"2026-05-25T10:26:27.083Z","level":"info","msg":"API кілт статистикасы инициализацияланды"}
+{"time":"2026-05-25T10:26:27.086Z","level":"info","msg":"Gemini клиенттері іске қосылды: 5/5"}
+{"time":"2026-05-25T10:26:27.106Z","level":"info","msg":"Telegram бот іске қосылды"}
+{"time":"2026-05-25T10:26:27.115Z","level":"info","msg":"Cron жұмыстары іске қосылды"}
+{"time":"2026-05-25T10:26:27.704Z","level":"info","msg":"QazaQsha-001 іске қосылды"}
+{"time":"2026-05-25T10:26:27.713Z","level":"info","msg":"✅ Dashboard іске қосылды: http://localhost:3000"}
+{"time":"2026-05-25T10:26:28.787Z","level":"info","msg":"WhatsApp клиенті инициализацияланды"}
+{"time":"2026-05-25T10:26:29.988Z","level":"info","msg":"connected to WA","detail":{"browser":["QazaQsha-001","Chrome","1.0"],"helloMsg":{"clientHello":{"ephemeral":"SybSs+cQRF0cgC8pcSdK3KN2tEpnGH5vEjoQQ5v4MXI="}}}}
+{"time":"2026-05-25T10:26:30.222Z","level":"trace","msg":"recv 350 bytes, total recv 350 bytes"}
+{"time":"2026-05-25T10:26:30.223Z","level":"trace","msg":"recv frame","detail":{}}
+{"time":"2026-05-25T10:26:30.226Z","level":"trace","msg":"handshake recv from WA","detail":{"handshake":{"serverHello":{"ephemeral":"fVRqh2R/1SUnxz+dlKM/a40P1YaA7GzKLmBeTWBE8Xc=","static":"zp+pPfiHXwFJ5hm9hePMYgBlpjUx1wEqU0aOg10AkPrZBfWSniWQySXxrCSiDeFf","payload":"mUNoQA7c4OYgWToTYf7RF3GUBeZ05LRaIHTvDwtQi/bn4hah2dlRuCWT0bUsqvR5IqSkg6M/pLbikxos7qJzQsNyRDNM8xZjfRGMAJjXviCgPp0NdA1gohiZQw/DQpSyobFHix8jScEKnbDyT3qIDwUK9cWwuNX7FsT1/vbWJJcuUIN1f/Qks9Wi8//VpbdQzLd8RxdV+VbbYwl2A/kOeLTCjBRIIH80ggEBhND5Bebymv1Hh37w9xDVYNwQwAhzCeRhkHlcId3hzGknpn/7qa4t0pADbj3OI8P6txWy3ZMBfQIxU2SOdAgUt7pkoLfjSHTt+9gptJIkPo5SanCcKrw="}}}}
+{"time":"2026-05-25T10:26:30.255Z","level":"info","msg":"not logged in, attempting registration...","detail":{"node":{"passive":false,"userAgent":{"platform":"WEB","appVersion":{"primary":2,"secondary":3000,"tertiary":1035194821},"mcc":"000","mnc":"000","osVersion":"0.1","device":"Desktop","osBuildNumber":"0.1","releaseChannel":"RELEASE","localeLanguageIso6391":"en","localeCountryIso31661Alpha2":"US"},"webInfo":{"webSubPlatform":"WEB_BROWSER"},"connectType":"WIFI_UNKNOWN","connectReason":"USER_ACTIVATED","devicePairingData":{"eRegid":"AAAAWg==","eKeytype":"BQ==","eIdent":"Dh/jMvD4VWn1nboUdShDvGNZrGPYDvppMclBN8TCMzA=","eSkeyId":"AAAB","eSkeyVal":"JBmdgZLVwvUJfCl13URCBCA8DdUHeLiSMIccKbWv3GA=","eSkeySig":"rxOJ9IURuTERE34VX/iWxE8NF+iAoN9JK1iIsIJANr8lO+nuqdEdqhwsHlqC/UoJL7m4uNJc6Oj10v+wrPxwhw==","buildHash":"oslHHv+RCp4a5lmJCiiHLQ==","deviceProps":"CgxRYXphUXNoYS0wMDEYASAAKhUYgFAgATAAOAFAAUgBUAFYAWABcAE="},"pull":false}}}
+{"time":"2026-05-25T10:26:30.606Z","level":"trace","msg":"recv 698 bytes, total recv 698 bytes"}
+{"time":"2026-05-25T10:26:30.609Z","level":"trace","msg":"recv frame","detail":{"msg":"477285524"}}
+{"time":"2026-05-25T10:26:30.665Z","level":"info","msg":"📱 QR код сканерлеу керек! WhatsApp → Байланысқан құрылғылар"}
+{"time":"2026-05-25T10:26:49.069Z","level":"trace","msg":"recv 748 bytes, total recv 748 bytes"}
+{"time":"2026-05-25T10:26:49.071Z","level":"trace","msg":"recv frame","detail":{"msg":"3094529932"}}
+{"time":"2026-05-25T10:26:49.072Z","level":"debug","msg":"pair success recv"}
+{"time":"2026-05-25T10:26:49.115Z","level":"info","msg":"pairing configured successfully, expect to restart the connection...","detail":{"me":{"id":"77760711033:29@s.whatsapp.net"},"platform":"android"}}
+{"time":"2026-05-25T10:26:49.791Z","level":"trace","msg":"recv 52 bytes, total recv 52 bytes"}
+{"time":"2026-05-25T10:26:49.792Z","level":"trace","msg":"recv frame","detail":{}}
+{"time":"2026-05-25T10:26:49.793Z","level":"error","msg":"stream errored out","detail":{"node":{"tag":"stream:error","attrs":{"code":"515"}}}}
+{"time":"2026-05-25T10:26:49.794Z","level":"info","msg":"connection errored","detail":{"trace":"Error: Stream Errored (restart required)\n    at WebSocketClient.<anonymous> (file:///C:/Users/Erom/Downloads/QazaQsha_fixed/QazaQsha/node_modules/@whiskeysockets/baileys/lib/Socket/socket.js:510:13)\n    at WebSocketClient.emit (node:events:509:28)\n    at file:///C:/Users/Erom/Downloads/QazaQsha_fixed/QazaQsha/node_modules/@whiskeysockets/baileys/lib/Socket/socket.js:230:35\n    at Object.decodeFrame (file:///C:/Users/Erom/Downloads/QazaQsha_fixed/QazaQsha/node_modules/@whiskeysockets/baileys/lib/Utils/noise-handler.js:140:17)\n    at process.processTicksAndRejections (node:internal/process/task_queues:104:5)"}}
+{"time":"2026-05-25T10:26:49.796Z","level":"trace","msg":"recv frame","detail":{}}
+{"time":"2026-05-25T10:26:49.797Z","level":"trace","msg":"connection already closed","detail":{"trace":"Error: Connection Terminated by Server\n    at WebSocketClient.<anonymous> (file:///C:/Users/Erom/Downloads/QazaQsha_fixed/QazaQsha/node_modules/@whiskeysockets/baileys/lib/Socket/socket.js:447:40)\n    at WebSocketClient.emit (node:events:509:28)\n    at file:///C:/Users/Erom/Downloads/QazaQsha_fixed/QazaQsha/node_modules/@whiskeysockets/baileys/lib/Socket/socket.js:230:35\n    at Object.decodeFrame (file:///C:/Users/Erom/Downloads/QazaQsha_fixed/QazaQsha/node_modules/@whiskeysockets/baileys/lib/Utils/noise-handler.js:140:17)\n    at process.processTicksAndRejections (node:internal/process/task_queues:104:5)"}}
+{"time":"2026-05-25T10:26:53.165Z","level":"info","msg":"WhatsApp клиенті инициализацияланды"}
+{"time":"2026-05-25T10:26:53.166Z","level":"debug","msg":"Event buffer activated"}
+{"time":"2026-05-25T10:26:53.594Z","level":"info","msg":"connected to WA","detail":{"browser":["QazaQsha-001","Chrome","1.0"],"helloMsg":{"clientHello":{"ephemeral":"IAJxSzFRm6fH+aW28BTkmNdX8fTmCDSAUWLjLnmgHkE="}}}}
+{"time":"2026-05-25T10:26:53.740Z","level":"trace","msg":"recv 350 bytes, total recv 350 bytes"}
+{"time":"2026-05-25T10:26:53.741Z","level":"trace","msg":"recv frame","detail":{}}
+{"time":"2026-05-25T10:26:53.742Z","level":"trace","msg":"handshake recv from WA","detail":{"handshake":{"serverHello":{"ephemeral":"bB21JURm/IZNxaDVMk+k1mlsdJd4kPI2qylvTGiI+BU=","static":"IjU+9y1X5NVY3bPA/FPoUeJzMGOdFkO32XEY+82BQB29q4lSQ+GyavB9zvUOzi+n","payload":"kh8Z0gEQZ+WswE8DgAVRU2coVEfeUJaKU8FYg/xuwR7fBkcXJG2M/rW1jBf+Oiax+ZYMaax03zJ0q7zDZ35d2v8yZjC6X3A9qSyH8bZAYBnBffPv1waCoBn0Uri+w5hv/l+WS0GGTTF7iDUg9HxfqxefskPn3c/hVXoGSoBWlNQGDzpdh8Pd7+VxZGrq+kf5hyKZn1B8he69dk7e/BAjm/ZTGJzrxITbMD+4KLgzfmPDCyryZFHrd+ejqfvz/gDChdx8A7qzcekcapUhKZtVRpD5esKkiB+jWXaHRNGv+au3+2Sa+ECagGWzGrfNxh3+Zk1zvjpNwn6HLwV8EEKx1n4="}}}}
+{"time":"2026-05-25T10:26:53.747Z","level":"info","msg":"logging in...","detail":{"node":{"username":"77760711033","passive":false,"userAgent":{"platform":"WEB","appVersion":{"primary":2,"secondary":3000,"tertiary":1035194821},"mcc":"000","mnc":"000","osVersion":"0.1","device":"Desktop","osBuildNumber":"0.1","releaseChannel":"RELEASE","localeLanguageIso6391":"en","localeCountryIso31661Alpha2":"US"},"webInfo":{"webSubPlatform":"WEB_BROWSER"},"connectType":"WIFI_UNKNOWN","connectReason":"USER_ACTIVATED","device":29,"pull":true}}}
+{"time":"2026-05-25T10:26:54.246Z","level":"trace","msg":"recv 113 bytes, total recv 113 bytes"}
+{"time":"2026-05-25T10:26:54.247Z","level":"trace","msg":"recv frame","detail":{}}
+{"time":"2026-05-25T10:26:54.895Z","level":"trace","msg":"recv 48 bytes, total recv 48 bytes"}
+{"time":"2026-05-25T10:26:54.896Z","level":"trace","msg":"recv frame","detail":{}}
+{"time":"2026-05-25T10:26:54.900Z","level":"trace","msg":"recv 53 bytes, total recv 53 bytes"}
+{"time":"2026-05-25T10:26:54.901Z","level":"trace","msg":"recv frame","detail":{}}
+{"time":"2026-05-25T10:26:55.030Z","level":"trace","msg":"recv 37 bytes, total recv 37 bytes"}
+{"time":"2026-05-25T10:26:55.031Z","level":"trace","msg":"recv frame","detail":{}}
+{"time":"2026-05-25T10:26:55.032Z","level":"info","msg":"handled 0 offline messages/notifications"}
+{"time":"2026-05-25T10:26:55.033Z","level":"debug","msg":"Flushing event buffer"}
+{"time":"2026-05-25T10:26:55.034Z","level":"trace","msg":"released buffered events","detail":{"conditionalChatUpdatesLeft":0}}
+{"time":"2026-05-25T10:26:55.034Z","level":"trace","msg":"flushed events for initial buffer"}
+{"time":"2026-05-25T10:26:55.035Z","level":"info","msg":"Connection is now AwaitingInitialSync, buffering events"}
+{"time":"2026-05-25T10:26:55.035Z","level":"debug","msg":"Event buffer activated"}
+{"time":"2026-05-25T10:26:55.036Z","level":"info","msg":"History sync is disabled by config, not waiting for notification. Transitioning to Online."}
+{"time":"2026-05-25T10:26:55.046Z","level":"debug","msg":"Flushing event buffer"}
+{"time":"2026-05-25T10:26:55.047Z","level":"trace","msg":"released buffered events","detail":{"conditionalChatUpdatesLeft":0}}
+{"time":"2026-05-25T10:26:55.158Z","level":"trace","msg":"recv 219 bytes, total recv 219 bytes"}
+{"time":"2026-05-25T10:26:55.159Z","level":"trace","msg":"recv frame","detail":{"msg":"232939961"}}
+{"time":"2026-05-25T10:26:55.160Z","level":"debug","msg":"Event buffer activated"}
+{"time":"2026-05-25T10:26:55.161Z","level":"debug","msg":"sent ack","detail":{"recv":{"tag":"notification","attrs":{"from":"212925788725319@lid","type":"account_sync","id":"232939961","t":"1779704813"}},"sent":{"id":"232939961","to":"212925788725319@lid","class":"notification","type":"account_sync"}}}
+{"time":"2026-05-25T10:26:55.163Z","level":"trace","msg":"recv 45 bytes, total recv 45 bytes"}
+{"time":"2026-05-25T10:26:55.164Z","level":"trace","msg":"recv frame","detail":{"msg":"34227.1856-1"}}
+{"time":"2026-05-25T10:26:55.165Z","level":"info","msg":"0 pre-keys found on server"}
+{"time":"2026-05-25T10:26:55.166Z","level":"trace","msg":"entering transaction"}
+{"time":"2026-05-25T10:26:55.167Z","level":"info","msg":"uploading pre-keys","detail":{"count":30}}
+{"time":"2026-05-25T10:26:55.178Z","level":"trace","msg":"caching in transaction","detail":{"types":["pre-key"]}}
+{"time":"2026-05-25T10:26:55.183Z","level":"debug","msg":"Flushing event buffer"}
+{"time":"2026-05-25T10:26:55.184Z","level":"trace","msg":"released buffered events","detail":{"conditionalChatUpdatesLeft":0}}
+{"time":"2026-05-25T10:26:55.905Z","level":"trace","msg":"recv 38 bytes, total recv 38 bytes"}
+{"time":"2026-05-25T10:26:55.906Z","level":"trace","msg":"recv frame","detail":{"msg":"34227.1856-2"}}
+{"time":"2026-05-25T10:26:55.907Z","level":"info","msg":"uploaded pre-keys","detail":{"count":30}}
+{"time":"2026-05-25T10:26:55.907Z","level":"trace","msg":"committing transaction"}
+{"time":"2026-05-25T10:26:55.912Z","level":"trace","msg":"updated cache","detail":{"keys":30}}
+{"time":"2026-05-25T10:26:55.942Z","level":"trace","msg":"committed transaction","detail":{"dbQueriesInTransaction":0}}
+{"time":"2026-05-25T10:26:56.021Z","level":"trace","msg":"recv 247 bytes, total recv 247 bytes"}
+{"time":"2026-05-25T10:26:56.022Z","level":"trace","msg":"recv frame","detail":{"msg":"AC1EAD71B7096F10CD37EC8FA31A9E0F"}}
+{"time":"2026-05-25T10:26:56.023Z","level":"debug","msg":"Event buffer activated"}
+{"time":"2026-05-25T10:26:56.027Z","level":"trace","msg":"loading from store","detail":{"items":1}}
+{"time":"2026-05-25T10:26:56.028Z","level":"trace","msg":"recv 312 bytes, total recv 312 bytes"}
+{"time":"2026-05-25T10:26:56.029Z","level":"trace","msg":"recv frame","detail":{"msg":"AC1D671CC21EA9F148F950C2388474B4"}}
+{"time":"2026-05-25T10:26:56.031Z","level":"trace","msg":"loading from store","detail":{"items":1}}
+{"time":"2026-05-25T10:26:56.039Z","level":"trace","msg":"updated cache","detail":{"keys":1}}
+{"time":"2026-05-25T10:26:56.044Z","level":"debug","msg":"sending receipt for messages","detail":{"attrs":{"id":"AC1EAD71B7096F10CD37EC8FA31A9E0F","to":"77760711033@s.whatsapp.net","type":"peer_msg"},"messageIds":["AC1EAD71B7096F10CD37EC8FA31A9E0F"]}}
+{"time":"2026-05-25T10:26:56.048Z","level":"debug","msg":"Flushing event buffer"}
+{"time":"2026-05-25T10:26:56.050Z","level":"trace","msg":"released buffered events","detail":{"conditionalChatUpdatesLeft":0}}
+{"time":"2026-05-25T10:26:56.052Z","level":"trace","msg":"updated cache","detail":{"keys":1}}
+{"time":"2026-05-25T10:26:56.056Z","level":"debug","msg":"sending receipt for messages","detail":{"attrs":{"id":"AC1D671CC21EA9F148F950C2388474B4","to":"77760711033@s.whatsapp.net","type":"peer_msg"},"messageIds":["AC1D671CC21EA9F148F950C2388474B4"]}}
+{"time":"2026-05-25T10:26:56.058Z","level":"debug","msg":"Event buffer activated"}
+{"time":"2026-05-25T10:26:56.059Z","level":"trace","msg":"entering transaction"}
+{"time":"2026-05-25T10:26:56.059Z","level":"trace","msg":"caching in transaction","detail":{"types":["app-state-sync-key"]}}
+{"time":"2026-05-25T10:26:56.060Z","level":"info","msg":"injecting new app state sync keys","detail":{"newAppStateSyncKeyId":"AAAAACYg","newKeys":["AAAAACYg"]}}
+{"time":"2026-05-25T10:26:56.060Z","level":"trace","msg":"committing transaction"}
+{"time":"2026-05-25T10:26:56.061Z","level":"trace","msg":"updated cache","detail":{"keys":1}}
+{"time":"2026-05-25T10:26:56.065Z","level":"trace","msg":"committed transaction","detail":{"dbQueriesInTransaction":0}}
+{"time":"2026-05-25T10:26:56.066Z","level":"debug","msg":"Flushing event buffer"}
+{"time":"2026-05-25T10:26:56.067Z","level":"trace","msg":"released buffered events","detail":{"conditionalChatUpdatesLeft":0}}
+{"time":"2026-05-25T10:26:56.093Z","level":"trace","msg":"recv 44 bytes, total recv 44 bytes"}
+{"time":"2026-05-25T10:26:56.094Z","level":"trace","msg":"recv frame","detail":{"msg":"34227.1856-3"}}
+{"time":"2026-05-25T10:26:56.095Z","level":"info","msg":"opened connection to WA"}
+{"time":"2026-05-25T10:26:56.099Z","level":"warn","msg":"no name present, ignoring presence update request..."}
+{"time":"2026-05-25T10:26:56.100Z","level":"info","msg":"✅ Қосылды! Ермахан Қожайын дайын."}
+{"time":"2026-05-25T10:26:56.158Z","level":"trace","msg":"recv 328 bytes, total recv 328 bytes"}
+{"time":"2026-05-25T10:26:56.159Z","level":"trace","msg":"recv frame","detail":{"msg":"ACA84FDDFAA3DAE3EA268A79B5097531"}}
+{"time":"2026-05-25T10:26:56.160Z","level":"debug","msg":"Event buffer activated"}
+{"time":"2026-05-25T10:26:56.162Z","level":"trace","msg":"updated cache","detail":{"keys":1}}
+{"time":"2026-05-25T10:26:56.165Z","level":"debug","msg":"sending receipt for messages","detail":{"attrs":{"id":"ACA84FDDFAA3DAE3EA268A79B5097531","to":"77760711033@s.whatsapp.net","type":"peer_msg"},"messageIds":["ACA84FDDFAA3DAE3EA268A79B5097531"]}}
+{"time":"2026-05-25T10:26:56.169Z","level":"error","msg":"error in handling message","detail":{"error":{},"node":{"tag":"message","attrs":{"from":"77760711033@s.whatsapp.net","type":"text","id":"ACA84FDDFAA3DAE3EA268A79B5097531","category":"peer","t":"1779704814"},"content":[{"tag":"meta","attrs":{"appdata":"default"}},{"tag":"enc","attrs":{"v":"2","type":"pkmsg"},"content":{"type":"Buffer","data":[51,18,33,5,123,130,89,181,87,42,161,234,127,79,235,81,216,12,223,207,133,58,11,173,25,95,185,195,100,9,32,176,179,230,51,76,26,33,5,33,146,41,243,162,88,204,19,11,203,23,142,117,31,151,61,138,30,203,159,209,233,126,123,254,235,245,100,37,235,166,14,34,162,1,51,10,33,5,151,151,88,159,234,75,42,80,142,180,58,132,221,14,244,37,117,24,211,60,219,244,110,120,27,224,192,187,219,175,243,38,16,2,24,0,34,112,102,97,186,81,237,82,233,75,157,121,222,58,20,178,161,52,88,44,166,22,79,42,67,15,35,182,160,203,149,171,44,104,199,88,200,75,54,97,139,112,149,232,208,28,98,106,0,47,226,76,175,118,210,215,66,239,69,150,118,211,79,234,208,139,74,253,167,160,248,216,218,27,131,217,64,110,107,202,89,58,208,71,63,209,59,9,244,131,55,72,44,7,70,203,178,232,10,41,47,172,102,224,157,130,142,99,116,136,217,90,54,222,218,152,167,207,67,26,142,12,40,151,234,197,149,4,48,1]}}]}}}
+{"time":"2026-05-25T10:26:56.175Z","level":"debug","msg":"Flushing event buffer"}
+{"time":"2026-05-25T10:26:56.176Z","level":"trace","msg":"released buffered events","detail":{"conditionalChatUpdatesLeft":0}}
+{"time":"2026-05-25T10:26:56.192Z","level":"trace","msg":"recv 58 bytes, total recv 58 bytes"}
+{"time":"2026-05-25T10:26:56.193Z","level":"trace","msg":"recv frame","detail":{"msg":"AC1EAD71B7096F10CD37EC8FA31A9E0F"}}
+{"time":"2026-05-25T10:26:56.215Z","level":"trace","msg":"recv 58 bytes, total recv 58 bytes"}
+{"time":"2026-05-25T10:26:56.216Z","level":"trace","msg":"recv frame","detail":{"msg":"AC1D671CC21EA9F148F950C2388474B4"}}
+{"time":"2026-05-25T10:26:56.305Z","level":"trace","msg":"recv 58 bytes, total recv 58 bytes"}
+{"time":"2026-05-25T10:26:56.306Z","level":"trace","msg":"recv frame","detail":{"msg":"ACA84FDDFAA3DAE3EA268A79B5097531"}}
+{"time":"2026-05-25T10:26:56.377Z","level":"trace","msg":"recv 237 bytes, total recv 237 bytes"}
+{"time":"2026-05-25T10:26:56.378Z","level":"trace","msg":"recv frame","detail":{"msg":"34227.1856-6"}}
+{"time":"2026-05-25T10:26:56.388Z","level":"trace","msg":"recv 1345 bytes, total recv 1345 bytes"}
+{"time":"2026-05-25T10:26:56.391Z","level":"trace","msg":"recv frame","detail":{"msg":"34227.1856-5"}}
+{"time":"2026-05-25T10:26:58.443Z","level":"trace","msg":"recv 34285 bytes, total recv 34285 bytes"}
+{"time":"2026-05-25T10:26:58.444Z","level":"trace","msg":"recv frame","detail":{"msg":"AC5275D3DAA7876197D2B89B7A85EA16"}}
+{"time":"2026-05-25T10:26:58.445Z","level":"debug","msg":"Event buffer activated"}
+{"time":"2026-05-25T10:26:58.447Z","level":"trace","msg":"updated cache","detail":{"keys":1}}
+{"time":"2026-05-25T10:26:58.456Z","level":"debug","msg":"sending receipt for messages","detail":{"attrs":{"id":"AC5275D3DAA7876197D2B89B7A85EA16","to":"77760711033@s.whatsapp.net","type":"peer_msg"},"messageIds":["AC5275D3DAA7876197D2B89B7A85EA16"]}}
+{"time":"2026-05-25T10:26:58.458Z","level":"debug","msg":"sending receipt for messages","detail":{"attrs":{"id":"AC5275D3DAA7876197D2B89B7A85EA16","to":"77760711033@s.whatsapp.net","type":"hist_sync"},"messageIds":["AC5275D3DAA7876197D2B89B7A85EA16"]}}
+{"time":"2026-05-25T10:26:58.460Z","level":"trace","msg":"recv 7035 bytes, total recv 7035 bytes"}
+{"time":"2026-05-25T10:26:58.463Z","level":"trace","msg":"recv frame","detail":{"msg":"ACF93DB8519E8DB5EEB70EFEC50277AE"}}
+{"time":"2026-05-25T10:26:58.464Z","level":"info","msg":"got history notification","detail":{"histNotification":{"fileLength":"0","syncType":"INITIAL_BOOTSTRAP","initialHistBootstrapInlinePayload":"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"},"process":false,"id":"AC5275D3DAA7876197D2B89B7A85EA16","isLatest":true}}
+{"time":"2026-05-25T10:26:58.473Z","level":"debug","msg":"Flushing event buffer"}
+{"time":"2026-05-25T10:26:58.474Z","level":"trace","msg":"released buffered events","detail":{"conditionalChatUpdatesLeft":0}}
+{"time":"2026-05-25T10:26:58.475Z","level":"trace","msg":"updated cache","detail":{"keys":1}}
+{"time":"2026-05-25T10:26:58.484Z","level":"debug","msg":"sending receipt for messages","detail":{"attrs":{"id":"ACF93DB8519E8DB5EEB70EFEC50277AE","to":"77760711033@s.whatsapp.net","type":"peer_msg"},"messageIds":["ACF93DB8519E8DB5EEB70EFEC50277AE"]}}
+{"time":"2026-05-25T10:26:58.486Z","level":"debug","msg":"sending receipt for messages","detail":{"attrs":{"id":"ACF93DB8519E8DB5EEB70EFEC50277AE","to":"77760711033@s.whatsapp.net","type":"hist_sync"},"messageIds":["ACF93DB8519E8DB5EEB70EFEC50277AE"]}}
+{"time":"2026-05-25T10:26:58.488Z","level":"debug","msg":"Event buffer activated"}
+{"time":"2026-05-25T10:26:58.488Z","level":"info","msg":"got history notification","detail":{"histNotification":{"fileLength":"0","syncType":"INITIAL_STATUS_V3","initialHistBootstrapInlinePayload":"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"},"process":false,"id":"ACF93DB8519E8DB5EEB70EFEC50277AE","isLatest":true}}
+{"time":"2026-05-25T10:26:58.489Z","level":"debug","msg":"Flushing event buffer"}
+{"time":"2026-05-25T10:26:58.490Z","level":"trace","msg":"released buffered events","detail":{"conditionalChatUpdatesLeft":0}}
+{"time":"2026-05-25T10:26:58.598Z","level":"trace","msg":"recv 58 bytes, total recv 58 bytes"}
+{"time":"2026-05-25T10:26:58.601Z","level":"trace","msg":"recv frame","detail":{"msg":"AC5275D3DAA7876197D2B89B7A85EA16"}}
+{"time":"2026-05-25T10:26:58.602Z","level":"trace","msg":"recv 58 bytes, total recv 58 bytes"}
+{"time":"2026-05-25T10:26:58.603Z","level":"trace","msg":"recv frame","detail":{"msg":"AC5275D3DAA7876197D2B89B7A85EA16"}}
+{"time":"2026-05-25T10:26:58.650Z","level":"trace","msg":"recv 58 bytes, total recv 58 bytes"}
+{"time":"2026-05-25T10:26:58.651Z","level":"trace","msg":"recv frame","detail":{"msg":"ACF93DB8519E8DB5EEB70EFEC50277AE"}}
+{"time":"2026-05-25T10:26:58.653Z","level":"trace","msg":"recv 58 bytes, total recv 58 bytes"}
+{"time":"2026-05-25T10:26:58.655Z","level":"trace","msg":"recv frame","detail":{"msg":"ACF93DB8519E8DB5EEB70EFEC50277AE"}}
+{"time":"2026-05-25T10:26:58.656Z","level":"trace","msg":"recv 1707 bytes, total recv 1707 bytes"}
+{"time":"2026-05-25T10:26:58.657Z","level":"trace","msg":"recv frame","detail":{"msg":"AC34C15E2DA48ABA3495F2B471A22357"}}
+{"time":"2026-05-25T10:26:58.658Z","level":"debug","msg":"Event buffer activated"}
+{"time":"2026-05-25T10:26:58.659Z","level":"trace","msg":"updated cache","detail":{"keys":1}}
+{"time":"2026-05-25T10:26:58.689Z","level":"debug","msg":"sending receipt for messages","detail":{"attrs":{"id":"AC34C15E2DA48ABA3495F2B471A22357","to":"77760711033@s.whatsapp.net","type":"peer_msg"},"messageIds":["AC34C15E2DA48ABA3495F2B471A22357"]}}
+{"time":"2026-05-25T10:26:58.691Z","level":"debug","msg":"sending receipt for messages","detail":{"attrs":{"id":"AC34C15E2DA48ABA3495F2B471A22357","to":"77760711033@s.whatsapp.net","type":"hist_sync"},"messageIds":["AC34C15E2DA48ABA3495F2B471A22357"]}}
+{"time":"2026-05-25T10:26:58.694Z","level":"info","msg":"got history notification","detail":{"histNotification":{"fileLength":"0","syncType":"PUSH_NAME","chunkOrder":1,"initialHistBootstrapInlinePayload":"eAHNV1trXUUYpVrbUmtp9vZFBXvaqngjzu2bywYxBV+kKKL4LDvkQA+eJKWJFfNQom2lWKSX1ChiSCmIIiipvWhb2v6FOT7po/0F5ye4Zu80Z3smQxvogyRzcmFmvtta6/tm2+biue1PG2O4VE5bZsZmRj85WM7OlIcOjU61Z7Mt7013u+VU8ULYxQwZa5SQw7u2/X38rx/xdaXYU+0TjjHjLB/e9+iB9z8oXq4MGmWksGSHt+zwZ/2Kv+mv4fNW8Vp1HRNWKkVseO/ITDnVKSfmPu1OlJPjZftIeS8aQUwKoYcPbPFnevO9Y8VL4VplLNNckBje9fhH5eEyXHekLIv9lQdkuHOk1fDWff4C/LzeOxG8bfmL/jb+ONk75S/5q/4G/vrNrxS7q4A1U0iyjYLYNFqM1jaEsqREtGHXgXZ3ojNedlrvfHx47iCKUV2ojLJCORllEBfuqy4UxA1XsdOP+ZWZdrfYW20KJdUsrsPm/vK5r+taMZLCSGYiSzv8Yoi795lf6Z2uvWJGMOSUR1Fs+rAwVR4IHhlpIww9ta+/dGYe6yzWl1in7q17CSTp4IUbrgHifTXcHOpJkqvI9E5/xf/hb8HJ4/h5uWjVuxG0RAaHr3vk6NyqQRJSaasiTsDgs9tzqw0jDntGG+302Pj0bLb17fZs2dr/1sNAzUMA3v/jijfqsltDxClK5h7/PTB001+pSLMC2oAyrUoELqNaN8GfB9CUB9jyoApW6SFgxp2RhobRseWfExfwXevMfXfVNgnEdppHaritv/zD7/3l03dqKoLQxCHBETM2H707f7F4PaSRUaCrjhV4d3/p3GmsRawFrJNYING581if3/1qefW4AIu5EhGTd1dVuOHvhFq0/Hl/rXcMxD4Gatca9kplHR4KxWMhfmKyPdGebdW62Sk2tPn5Ch5WEknNIzZunSwngxIXImwD1xznKlaXJ/tLi19gIfTFb1d//2YjMr+BjrDaMO/TYmpNZ0JKkiyC0a43O92p6TloRWf2UNW4NtIVN7K3UnlDzkHDRQTBoPI/Fa7OLaRTahG1w2f8d5DOeSDjEtb1lj+DznYV/8BnrbwMQkpcURTmzrpBgMdVPyxerGpN2nJp4nayfRLdbbKcOTh9ZJVfUHwdZDZi4bvT3c5UWYzVjhMJ8DVyfG9/aQHNZOHnPwGLhV/Cb1i3sa5i/Yp1a46FG5I8zoxVDKAT6ATWurFuZ2KOVydSEefgh5BcMIaqS2kaR1KdNkdhNHfCcXQkgX4+sJLq4Dl31mpuiJEWzujGkZTY5NwopTDBwQoxx6sjVfRJcGQWGqi4FUxjLKmjrwey1Bw4wrXhAtGrkLeBCZbiQYZcoWuTEwbga4SenG5yrgV3FGYpLpGygRGT0pAM3mM4QEEQPkC6ll+jEyNFHjSSQZKEgGOyNlIXPiWBOQ4IIh1SQ9I2gk/OmZlEYzBaO+UwicpGJKkZKeOMo34MydUQ8kEkCoPeuuQFuMKMqJFeJAH6uhZ8st3kIVsScTKJEV03IZwag3OhJbCLadoIgkIPQknOjhnnaLEhYw69sUZwBS4AaP3hfQTegFFCgFdMNANJ8B+QB7M0kZKSS8z5a7Gz1AMF6QIUuXaCkSLXxAolBhjEDiOB8to45hpYMSmhgxU4hQcSxgL0hwZ9kzMsdMVBYy20ihMS1owl0dPBFG5hQyHJFkoxOKIgqevOvjm3FoHggFLCqcYRkxqGEQuwSwzGAH3ZKGTyKTCCcmg8EyQAaRvBQyXWf+flXFjtGKoig2s1ImvtSr2qMq0wnUOGLGlodxV7fSL18Mw0RAqJYeE1hC64Bpbk2xj4At4FBiqEz3izPaQaF4QbNQkGlAwCM/CLBeFe7/mXCQ4AayMREHg58Cs5DOWIA4kEWZTDC/A/bEyMj5kmZ5xTYKTFj2DkXw6GRj8="},"process":false,"id":"AC34C15E2DA48ABA3495F2B471A22357","isLatest":true}}
+{"time":"2026-05-25T10:26:58.695Z","level":"debug","msg":"Flushing event buffer"}
+{"time":"2026-05-25T10:26:58.696Z","level":"trace","msg":"released buffered events","detail":{"conditionalChatUpdatesLeft":0}}
+{"time":"2026-05-25T10:26:58.830Z","level":"trace","msg":"recv 58 bytes, total recv 58 bytes"}
+{"time":"2026-05-25T10:26:58.831Z","level":"trace","msg":"recv frame","detail":{"msg":"AC34C15E2DA48ABA3495F2B471A22357"}}
+{"time":"2026-05-25T10:26:58.847Z","level":"trace","msg":"recv 58 bytes, total recv 58 bytes"}
+{"time":"2026-05-25T10:26:58.848Z","level":"trace","msg":"recv frame","detail":{"msg":"AC34C15E2DA48ABA3495F2B471A22357"}}
+{"time":"2026-05-25T10:27:00.178Z","level":"trace","msg":"recv 651 bytes, total recv 651 bytes"}
+{"time":"2026-05-25T10:27:00.179Z","level":"trace","msg":"recv frame","detail":{"msg":"ACDDA0EE6F15A918612DB8D0F834F955"}}
+{"time":"2026-05-25T10:27:00.180Z","level":"debug","msg":"Event buffer activated"}
+{"time":"2026-05-25T10:27:00.181Z","level":"trace","msg":"updated cache","detail":{"keys":1}}
+{"time":"2026-05-25T10:27:00.185Z","level":"debug","msg":"sending receipt for messages","detail":{"attrs":{"id":"ACDDA0EE6F15A918612DB8D0F834F955","to":"77760711033@s.whatsapp.net","type":"peer_msg"},"messageIds":["ACDDA0EE6F15A918612DB8D0F834F955"]}}
+{"time":"2026-05-25T10:27:00.187Z","level":"debug","msg":"sending receipt for messages","detail":{"attrs":{"id":"ACDDA0EE6F15A918612DB8D0F834F955","to":"77760711033@s.whatsapp.net","type":"hist_sync"},"messageIds":["ACDDA0EE6F15A918612DB8D0F834F955"]}}
+{"time":"2026-05-25T10:27:00.188Z","level":"info","msg":"got history notification","detail":{"histNotification":{"fileSha256":"PneFkFnbjMnLM3AirCfexsfIFzU++nPz3XZkYF5iaMQ=","fileLength":"970","mediaKey":"5juoGE8zFrDXPgDrEXOaSe2dFWpONRbk0NfUgb6Ntb8=","fileEncSha256":"f9pPIq060ndmir3TgboSFCMHS9yYvlEYX3MvftB2Gxs=","directPath":"/v/t62.31111-24/706978004_1320054920098034_2932885724042661117_n.enc?ccb=11-4&oh=01_Q5Aa4gGVIpja4EoKrAeSwOm8uF2W5B8Vg9yOufw8JdAOW1O0fw&oe=6A3B879E&_nc_sid=5e03e0","syncType":"NON_BLOCKING_DATA","encHandle":"AQK1nd1FPyVdBYDrQeBoVYwA7g4bRiMfFpum7HBFL_w73oLcRlwPRYskBCdkadFrz0Q-sWqSpe9M_fdYQ493i0bSbwuqhr6EZoX6zSukNnSII2rUGEeR85kn46nhePsuT6E"},"process":false,"id":"ACDDA0EE6F15A918612DB8D0F834F955","isLatest":true}}
+{"time":"2026-05-25T10:27:00.189Z","level":"debug","msg":"Flushing event buffer"}
+{"time":"2026-05-25T10:27:00.190Z","level":"trace","msg":"released buffered events","detail":{"conditionalChatUpdatesLeft":0}}
+{"time":"2026-05-25T10:27:00.335Z","level":"trace","msg":"recv 58 bytes, total recv 58 bytes"}
+{"time":"2026-05-25T10:27:00.337Z","level":"trace","msg":"recv frame","detail":{"msg":"ACDDA0EE6F15A918612DB8D0F834F955"}}
+{"time":"2026-05-25T10:27:00.338Z","level":"trace","msg":"recv 58 bytes, total recv 58 bytes"}
+{"time":"2026-05-25T10:27:00.340Z","level":"trace","msg":"recv frame","detail":{"msg":"ACDDA0EE6F15A918612DB8D0F834F955"}}
+{"time":"2026-05-25T10:27:02.111Z","level":"trace","msg":"recv 66 bytes, total recv 66 bytes"}
+{"time":"2026-05-25T10:27:02.112Z","level":"trace","msg":"recv frame","detail":{"msg":"746760253"}}
+{"time":"2026-05-25T10:27:02.113Z","level":"debug","msg":"Event buffer activated"}
+{"time":"2026-05-25T10:27:02.114Z","level":"trace","msg":"entering transaction"}
+{"time":"2026-05-25T10:27:02.115Z","level":"trace","msg":"loading from store","detail":{"items":1}}
+{"time":"2026-05-25T10:27:02.117Z","level":"info","msg":"resyncing critical_block from v0"}
+{"time":"2026-05-25T10:27:02.390Z","level":"trace","msg":"recv 683 bytes, total recv 683 bytes"}
+{"time":"2026-05-25T10:27:02.391Z","level":"trace","msg":"recv frame","detail":{"msg":"34227.1856-7"}}
+{"time":"2026-05-25T10:27:02.416Z","level":"trace","msg":"caching in transaction","detail":{"types":["app-state-sync-version"]}}
+{"time":"2026-05-25T10:27:02.417Z","level":"info","msg":"synced critical_block to v1"}
+{"time":"2026-05-25T10:27:02.417Z","level":"trace","msg":"committing transaction"}
+{"time":"2026-05-25T10:27:02.418Z","level":"trace","msg":"updated cache","detail":{"keys":1}}
+{"time":"2026-05-25T10:27:02.424Z","level":"trace","msg":"committed transaction","detail":{"dbQueriesInTransaction":2}}
+{"time":"2026-05-25T10:27:02.426Z","level":"trace","msg":"processing sync action","detail":{"syncAction":{"syncAction":{"index":"WyJnZW5lcmF0ZWRfd3VpIl0=","value":{"timestamp":"1779704817030","wamoUserIdentifierAction":{"identifier":"809f19dc-f6e8-443d-a151-fa479f4ad57d"}},"padding":"","version":7},"index":["generated_wui"]},"initialSync":false}}
+{"time":"2026-05-25T10:27:02.427Z","level":"debug","msg":"unprocessable update","detail":{"syncAction":{"syncAction":{"index":"WyJnZW5lcmF0ZWRfd3VpIl0=","value":{"timestamp":"1779704817030","wamoUserIdentifierAction":{"identifier":"809f19dc-f6e8-443d-a151-fa479f4ad57d"}},"padding":"","version":7},"index":["generated_wui"]}}}
+{"time":"2026-05-25T10:27:02.428Z","level":"trace","msg":"processing sync action","detail":{"syncAction":{"syncAction":{"index":"WyJzZXR0aW5nX2xvY2FsZSJd","value":{"timestamp":"1779704817030","localeSetting":{"locale":"kk-KZ"}},"padding":"","version":3},"index":["setting_locale"]},"initialSync":false}}
+{"time":"2026-05-25T10:27:02.428Z","level":"debug","msg":"unprocessable update","detail":{"syncAction":{"syncAction":{"index":"WyJzZXR0aW5nX2xvY2FsZSJd","value":{"timestamp":"1779704817030","localeSetting":{"locale":"kk-KZ"}},"padding":"","version":3},"index":["setting_locale"]}}}
+{"time":"2026-05-25T10:27:02.429Z","level":"trace","msg":"processing sync action","detail":{"syncAction":{"syncAction":{"index":"WyJzZXR0aW5nX3B1c2hOYW1lIl0=","value":{"timestamp":"1779704817031","pushNameSetting":{"name":"𝕰𝖗𝖒𝖆𝖍𝖆𝖓"}},"padding":"","version":1},"index":["setting_pushName"]},"initialSync":false}}
+{"time":"2026-05-25T10:27:02.430Z","level":"debug","msg":"updated pushName","detail":{"name":"𝕰𝖗𝖒𝖆𝖍𝖆𝖓"}}
+{"time":"2026-05-25T10:27:02.433Z","level":"debug","msg":"sent ack","detail":{"recv":{"tag":"notification","attrs":{"from":"@s.whatsapp.net","type":"server_sync","id":"746760253","t":"1779704820"}},"sent":{"id":"746760253","to":"@s.whatsapp.net","class":"notification","type":"server_sync"}}}
+{"time":"2026-05-25T10:27:02.436Z","level":"debug","msg":"Flushing event buffer"}
+{"time":"2026-05-25T10:27:02.438Z","level":"trace","msg":"released buffered events","detail":{"conditionalChatUpdatesLeft":0}}
+{"time":"2026-05-25T10:27:04.759Z","level":"trace","msg":"recv 75 bytes, total recv 75 bytes"}
+{"time":"2026-05-25T10:27:04.760Z","level":"trace","msg":"recv frame","detail":{"msg":"512671807"}}
+{"time":"2026-05-25T10:27:04.761Z","level":"debug","msg":"Event buffer activated"}
+{"time":"2026-05-25T10:27:04.762Z","level":"trace","msg":"entering transaction"}
+{"time":"2026-05-25T10:27:04.762Z","level":"trace","msg":"loading from store","detail":{"items":1}}
+{"time":"2026-05-25T10:27:04.768Z","level":"info","msg":"resyncing regular from v0"}
+{"time":"2026-05-25T10:27:05.244Z","level":"trace","msg":"recv 5599 bytes, total recv 5599 bytes"}
+{"time":"2026-05-25T10:27:05.245Z","level":"trace","msg":"recv frame","detail":{"msg":"34227.1856-8"}}
+{"time":"2026-05-25T10:27:05.274Z","level":"trace","msg":"caching in transaction","detail":{"types":["app-state-sync-version"]}}
+{"time":"2026-05-25T10:27:05.275Z","level":"info","msg":"synced regular to v1"}
+{"time":"2026-05-25T10:27:05.275Z","level":"trace","msg":"committing transaction"}
+{"time":"2026-05-25T10:27:05.277Z","level":"trace","msg":"updated cache","detail":{"keys":1}}
+{"time":"2026-05-25T10:27:05.279Z","level":"trace","msg":"committed transaction","detail":{"dbQueriesInTransaction":2}}
+{"time":"2026-05-25T10:27:05.280Z","level":"trace","msg":"processing sync action","detail":{"syncAction":{"syncAction":{"index":"WyJzaGFyZU93blBuIiwiNzMyMzM3MjI1MzMwMkBsaWQiXQ==","value":{"timestamp":"1779704821158"},"padding":"","version":7},"index":["shareOwnPn","7323372253302@lid"]},"initialSync":false}}
+{"time":"2026-05-25T10:27:05.280Z","level":"debug","msg":"unprocessable update","detail":{"syncAction":{"syncAction":{"index":"WyJzaGFyZU93blBuIiwiNzMyMzM3MjI1MzMwMkBsaWQiXQ==","value":{"timestamp":"1779704821158"},"padding":"","version":7},"index":["shareOwnPn","7323372253302@lid"]},"id":"7323372253302@lid"}}
+{"time":"2026-05-25T10:27:05.281Z","level":"trace","msg":"processing sync action","detail":{"syncAction":{"syncAction":{"index":"WyJzaGFyZU93blBuIiwiMzI0ODc2Njk0OTgwNjNAbGlkIl0=","value":{"timestamp":"1779704821158"},"padding":"","version":7},"index":["shareOwnPn","32487669498063@lid"]},"initialSync":false}}
+{"time":"2026-05-25T10:27:05.281Z","level":"debug","msg":"unprocessable update","detail":{"syncAction":{"syncAction":{"index":"WyJzaGFyZU93blBuIiwiMzI0ODc2Njk0OTgwNjNAbGlkIl0=","value":{"timestamp":"1779704821158"},"padding":"","version":7},"index":["shareOwnPn","32487669498063@lid"]},"id":"32487669498063@lid"}}
+{"time":"2026-05-25T10:27:05.282Z","level":"trace","msg":"processing sync action","detail":{"syncAction":{"syncAction":{"index":"WyJzaGFyZU93blBuIiwiMTcyNzIyODE0NTAxMDE5QGxpZCJd","value":{"timestamp":"1779704821159"},"padding":"","version":7},"index":["shareOwnPn","172722814501019@lid"]},"initialSync":false}}
+{"time":"2026-05-25T10:27:05.283Z","level":"debug","msg":"unprocessable update","detail":{"syncAction":{"syncAction":{"index":"WyJzaGFyZU93blBuIiwiMTcyNzIyODE0NTAxMDE5QGxpZCJd","value":{"timestamp":"1779704821159"},"padding":"","version":7},"index":["shareOwnPn","172722814501019@lid"]},"id":"172722814501019@lid"}}
+{"time":"2026-05-25T10:27:05.284Z","level":"trace","msg":"processing sync action","detail":{"syncAction":{"syncAction":{"index":"WyJzaGFyZU93blBuIiwiMjE1NDM2NzM0MDU0NzNAbGlkIl0=","value":{"timestamp":"1779704821159"},"padding":"","version":7},"index":["shareOwnPn","21543673405473@lid"]},"initialSync":false}}
+{"time":"2026-05-25T10:27:05.285Z","level":"debug","msg":"unprocessable update","detail":{"syncAction":{"syncAction":{"index":"WyJzaGFyZU93blBuIiwiMjE1NDM2NzM0MDU0NzNAbGlkIl0=","value":{"timestamp":"1779704821159"},"padding":"","version":7},"index":["shareOwnPn","21543673405473@lid"]},"id":"21543673405473@lid"}}
+{"time":"2026-05-25T10:27:05.285Z","level":"trace","msg":"processing sync action","detail":{"syncAction":{"syncAction":{"index":"WyJzaGFyZU93blBuIiwiMTc3MjY2NTU0MzMxMzUyQGxpZCJd","value":{"timestamp":"1779704821159"},"padding":"","version":7},"index":["shareOwnPn","177266554331352@lid"]},"initialSync":false}}
+{"time":"2026-05-25T10:27:05.286Z","level":"debug","msg":"unprocessable update","detail":{"syncAction":{"syncAction":{"index":"WyJzaGFyZU93blBuIiwiMTc3MjY2NTU0MzMxMzUyQGxpZCJd","value":{"timestamp":"1779704821159"},"padding":"","version":7},"index":["shareOwnPn","177266554331352@lid"]},"id":"177266554331352@lid"}}
+{"time":"2026-05-25T10:27:05.286Z","level":"trace","msg":"processing sync action","detail":{"syncAction":{"syncAction":{"index":"WyJzaGFyZU93blBuIiwiNjQwNTE0ODQ4NTYzNDhAbGlkIl0=","value":{"timestamp":"1779704821159"},"padding":"","version":7},"index":["shareOwnPn","64051484856348@lid"]},"initialSync":false}}
+{"time":"2026-05-25T10:27:05.287Z","level":"debug","msg":"unprocessable update","detail":{"syncAction":{"syncAction":{"index":"WyJzaGFyZU93blBuIiwiNjQwNTE0ODQ4NTYzNDhAbGlkIl0=","value":{"timestamp":"1779704821159"},"padding":"","version":7},"index":["shareOwnPn","64051484856348@lid"]},"id":"64051484856348@lid"}}
+{"time":"2026-05-25T10:27:05.287Z","level":"trace","msg":"processing sync action","detail":{"syncAction":{"syncAction":{"index":"WyJzaGFyZU93blBuIiwiMTI4NjkwNjkyMzI1NTQ3QGxpZCJd","value":{"timestamp":"1779704821159"},"padding":"","version":7},"index":["shareOwnPn","128690692325547@lid"]},"initialSync":false}}
+{"time":"2026-05-25T10:27:05.288Z","level":"debug","msg":"unprocessable update","detail":{"syncAction":{"syncAction":{"index":"WyJzaGFyZU93blBuIiwiMTI4NjkwNjkyMzI1NTQ3QGxpZCJd","value":{"timestamp":"1779704821159"},"padding":"","version":7},"index":["shareOwnPn","128690692325547@lid"]},"id":"128690692325547@lid"}}
+{"time":"2026-05-25T10:27:05.288Z","level":"trace","msg":"processing sync action","detail":{"syncAction":{"syncAction":{"index":"WyJzaGFyZU93blBuIiwiNzg0MDQ3NjIyMzQ4ODlAbGlkIl0=","value":{"timestamp":"1779704821159"},"padding":"","version":7},"index":["shareOwnPn","78404762234889@lid"]},"initialSync":false}}
+{"time":"2026-05-25T10:27:05.289Z","level":"debug","msg":"unprocessable update","detail":{"syncAction":{"syncAction":{"index":"WyJzaGFyZU93blBuIiwiNzg0MDQ3NjIyMzQ4ODlAbGlkIl0=","value":{"timestamp":"1779704821159"},"padding":"","version":7},"index":["shareOwnPn","78404762234889@lid"]},"id":"78404762234889@lid"}}
+{"time":"2026-05-25T10:27:05.290Z","level":"trace","msg":"processing sync action","detail":{"syncAction":{"syncAction":{"index":"WyJzaGFyZU93blBuIiwiMjc1NTQ3OTg4OTYzMzU2QGxpZCJd","value":{"timestamp":"1779704821159"},"padding":"","version":7},"index":["shareOwnPn","275547988963356@lid"]},"initialSync":false}}
+{"time":"2026-05-25T10:27:05.290Z","level":"debug","msg":"unprocessable update","detail":{"syncAction":{"syncAction":{"index":"WyJzaGFyZU93blBuIiwiMjc1NTQ3OTg4OTYzMzU2QGxpZCJd","value":{"timestamp":"1779704821159"},"padding":"","version":7},"index":["shareOwnPn","275547988963356@lid"]},"id":"275547988963356@lid"}}
+{"time":"2026-05-25T10:27:05.291Z","level":"trace","msg":"processing sync action","detail":{"syncAction":{"syncAction":{"index":"WyJzaGFyZU93blBuIiwiMTI3MzI0OTU5ODM0MzI0QGxpZCJd","value":{"timestamp":"1779704821159"},"padding":"","version":7},"index":["shareOwnPn","127324959834324@lid"]},"initialSync":false}}
+{"time":"2026-05-25T10:27:05.291Z","level":"debug","msg":"unprocessable update","detail":{"syncAction":{"syncAction":{"index":"WyJzaGFyZU93blBuIiwiMTI3MzI0OTU5ODM0MzI0QGxpZCJd","value":{"timestamp":"1779704821159"},"padding":"","version":7},"index":["shareOwnPn","127324959834324@lid"]},"id":"127324959834324@lid"}}
+{"time":"2026-05-25T10:27:05.292Z","level":"trace","msg":"processing sync action","detail":{"syncAction":{"syncAction":{"index":"WyJzaGFyZU93blBuIiwiMTYwNzU3MDAyMDE4OTk0QGxpZCJd","value":{"timestamp":"1779704821159"},"padding":"","version":7},"index":["shareOwnPn","160757002018994@lid"]},"initialSync":false}}
+{"time":"2026-05-25T10:27:05.292Z","level":"debug","msg":"unprocessable update","detail":{"syncAction":{"syncAction":{"index":"WyJzaGFyZU93blBuIiwiMTYwNzU3MDAyMDE4OTk0QGxpZCJd","value":{"timestamp":"1779704821159"},"padding":"","version":7},"index":["shareOwnPn","160757002018994@lid"]},"id":"160757002018994@lid"}}
+{"time":"2026-05-25T10:27:05.293Z","level":"trace","msg":"processing sync action","detail":{"syncAction":{"syncAction":{"index":"WyJzaGFyZU93blBuIiwiMTk4ODYxNzUwNTYyOTc2QGxpZCJd","value":{"timestamp":"1779704821159"},"padding":"","version":7},"index":["shareOwnPn","198861750562976@lid"]},"initialSync":false}}
+{"time":"2026-05-25T10:27:05.296Z","level":"debug","msg":"unprocessable update","detail":{"syncAction":{"syncAction":{"index":"WyJzaGFyZU93blBuIiwiMTk4ODYxNzUwNTYyOTc2QGxpZCJd","value":{"timestamp":"1779704821159"},"padding":"","version":7},"index":["shareOwnPn","198861750562976@lid"]},"id":"198861750562976@lid"}}
+{"time":"2026-05-25T10:27:05.301Z","level":"trace","msg":"processing sync action","detail":{"syncAction":{"syncAction":{"index":"WyJzaGFyZU93blBuIiwiMjM4NTQ4MTg4NDQ3ODhAbGlkIl0=","value":{"timestamp":"1779704821159"},"padding":"","version":7},"index":["shareOwnPn","23854818844788@lid"]},"initialSync":false}}
+{"time":"2026-05-25T10:27:05.305Z","level":"debug","msg":"unprocessable update","detail":{"syncAction":{"syncAction":{"index":"WyJzaGFyZU93blBuIiwiMjM4NTQ4MTg4NDQ3ODhAbGlkIl0=","value":{"timestamp":"1779704821159"},"padding":"","version":7},"index":["shareOwnPn","23854818844788@lid"]},"id":"23854818844788@lid"}}
+{"time":"2026-05-25T10:27:05.305Z","level":"trace","msg":"processing sync action","detail":{"syncAction":{"syncAction":{"index":"WyJzaGFyZU93blBuIiwiNjU5Nzk5NDE5Mjg5OTRAbGlkIl0=","value":{"timestamp":"1779704821159"},"padding":"","version":7},"index":["shareOwnPn","65979941928994@lid"]},"initialSync":false}}
+{"time":"2026-05-25T10:27:05.306Z","level":"debug","msg":"unprocessable update","detail":{"syncAction":{"syncAction":{"index":"WyJzaGFyZU93blBuIiwiNjU5Nzk5NDE5Mjg5OTRAbGlkIl0=","value":{"timestamp":"1779704821159"},"padding":"","version":7},"index":["shareOwnPn","65979941928994@lid"]},"id":"65979941928994@lid"}}
+{"time":"2026-05-25T10:27:05.306Z","level":"trace","msg":"processing sync action","detail":{"syncAction":{"syncAction":{"index":"WyJzaGFyZU93blBuIiwiMjYzNTgyNjEyNzI1OTExQGxpZCJd","value":{"timestamp":"1779704821159"},"padding":"","version":7},"index":["shareOwnPn","263582612725911@lid"]},"initialSync":false}}
+{"time":"2026-05-25T10:27:05.307Z","level":"debug","msg":"unprocessable update","detail":{"syncAction":{"syncAction":{"index":"WyJzaGFyZU93blBuIiwiMjYzNTgyNjEyNzI1OTExQGxpZCJd","value":{"timestamp":"1779704821159"},"padding":"","version":7},"index":["shareOwnPn","263582612725911@lid"]},"id":"263582612725911@lid"}}
+{"time":"2026-05-25T10:27:05.307Z","level":"trace","msg":"processing sync action","detail":{"syncAction":{"syncAction":{"index":"WyJzaGFyZU93blBuIiwiMjA0NzM3NDUwMzczMjY3QGxpZCJd","value":{"timestamp":"1779704821159"},"padding":"","version":7},"index":["shareOwnPn","204737450373267@lid"]},"initialSync":false}}
+{"time":"2026-05-25T10:27:05.308Z","level":"debug","msg":"unprocessable update","detail":{"syncAction":{"syncAction":{"index":"WyJzaGFyZU93blBuIiwiMjA0NzM3NDUwMzczMjY3QGxpZCJd","value":{"timestamp":"1779704821159"},"padding":"","version":7},"index":["shareOwnPn","204737450373267@lid"]},"id":"204737450373267@lid"}}
+{"time":"2026-05-25T10:27:05.308Z","level":"trace","msg":"processing sync action","detail":{"syncAction":{"syncAction":{"index":"WyJzaGFyZU93blBuIiwiNjAyMzcwNTA2MDU4MjJAbGlkIl0=","value":{"timestamp":"1779704821160"},"padding":"","version":7},"index":["shareOwnPn","60237050605822@lid"]},"initialSync":false}}
+{"time":"2026-05-25T10:27:05.308Z","level":"debug","msg":"unprocessable update","detail":{"syncAction":{"syncAction":{"index":"WyJzaGFyZU93blBuIiwiNjAyMzcwNTA2MDU4MjJAbGlkIl0=","value":{"timestamp":"1779704821160"},"padding":"","version":7},"index":["shareOwnPn","60237050605822@lid"]},"id":"60237050605822@lid"}}
+{"time":"2026-05-25T10:27:05.309Z","level":"trace","msg":"processing sync action","detail":{"syncAction":{"syncAction":{"index":"WyJzaGFyZU93blBuIiwiMjM3ODM0MjMzNDkxNzExQGxpZCJd","value":{"timestamp":"1779704821160"},"padding":"","version":7},"index":["shareOwnPn","237834233491711@lid"]},"initialSync":false}}
+{"time":"2026-05-25T10:27:05.309Z","level":"debug","msg":"unprocessable update","detail":{"syncAction":{"syncAction":{"index":"WyJzaGFyZU93blBuIiwiMjM3ODM0MjMzNDkxNzExQGxpZCJd","value":{"timestamp":"1779704821160"},"padding":"","version":7},"index":["shareOwnPn","237834233491711@lid"]},"id":"237834233491711@lid"}}
+{"time":"2026-05-25T10:27:05.310Z","level":"trace","msg":"processing sync action","detail":{"syncAction":{"syncAction":{"index":"WyJzaGFyZU93blBuIiwiMjEyOTI1Nzg4NzI1MzE5QGxpZCJd","value":{"timestamp":"1779704821160"},"padding":"","version":7},"index":["shareOwnPn","212925788725319@lid"]},"initialSync":false}}
+{"time":"2026-05-25T10:27:05.310Z","level":"debug","msg":"unprocessable update","detail":{"syncAction":{"syncAction":{"index":"WyJzaGFyZU93blBuIiwiMjEyOTI1Nzg4NzI1MzE5QGxpZCJd","value":{"timestamp":"1779704821160"},"padding":"","version":7},"index":["shareOwnPn","212925788725319@lid"]},"id":"212925788725319@lid"}}
+{"time":"2026-05-25T10:27:05.311Z","level":"trace","msg":"processing sync action","detail":{"syncAction":{"syncAction":{"index":"WyJzaGFyZU93blBuIiwiMTY3MTIxMjA0ODQwNEBsaWQiXQ==","value":{"timestamp":"1779704821160"},"padding":"","version":7},"index":["shareOwnPn","1671212048404@lid"]},"initialSync":false}}
+{"time":"2026-05-25T10:27:05.311Z","level":"debug","msg":"unprocessable update","detail":{"syncAction":{"syncAction":{"index":"WyJzaGFyZU93blBuIiwiMTY3MTIxMjA0ODQwNEBsaWQiXQ==","value":{"timestamp":"1779704821160"},"padding":"","version":7},"index":["shareOwnPn","1671212048404@lid"]},"id":"1671212048404@lid"}}
+{"time":"2026-05-25T10:27:05.312Z","level":"trace","msg":"processing sync action","detail":{"syncAction":{"syncAction":{"index":"WyJzaGFyZU93blBuIiwiMjYyNjYzMTIwNjc5MDkwQGxpZCJd","value":{"timestamp":"1779704821160"},"padding":"","version":7},"index":["shareOwnPn","262663120679090@lid"]},"initialSync":false}}
+{"time":"2026-05-25T10:27:05.312Z","level":"debug","msg":"unprocessable update","detail":{"syncAction":{"syncAction":{"index":"WyJzaGFyZU93blBuIiwiMjYyNjYzMTIwNjc5MDkwQGxpZCJd","value":{"timestamp":"1779704821160"},"padding":"","version":7},"index":["shareOwnPn","262663120679090@lid"]},"id":"262663120679090@lid"}}
+{"time":"2026-05-25T10:27:05.313Z","level":"trace","msg":"processing sync action","detail":{"syncAction":{"syncAction":{"index":"WyJ1c2VybmFtZUNoYXRTdGFydE1vZGUiXQ==","value":{"timestamp":"1779704820729","usernameChatStartMode":{"chatStartMode":"LID"}},"padding":"","version":7},"index":["usernameChatStartMode"]},"initialSync":false}}
+{"time":"2026-05-25T10:27:05.314Z","level":"debug","msg":"unprocessable update","detail":{"syncAction":{"syncAction":{"index":"WyJ1c2VybmFtZUNoYXRTdGFydE1vZGUiXQ==","value":{"timestamp":"1779704820729","usernameChatStartMode":{"chatStartMode":"LID"}},"padding":"","version":7},"index":["usernameChatStartMode"]}}}
+{"time":"2026-05-25T10:27:05.314Z","level":"trace","msg":"processing sync action","detail":{"syncAction":{"syncAction":{"index":"WyJwcmltYXJ5X2ZlYXR1cmUiXQ==","value":{"timestamp":"1779704821213","primaryFeature":{"flags":["ddm_settings","link_preview","link_preview_hq_thumbnail","poll_creation_group","poll_creation_on_one_one","poll_creation_cag","newsletter","primary_campaign_id_in_history_sync_support","favorite_sticker","primary_favorites_sync_support","history_sync_on_demand","is_extended_history_sync_on_demand_enabled","settings_sync_enabled","external_web_beta_opt_in","ai_fbid_migration_receiving_enabled","post_status_in_companion","text_status_creation_support","text_status_receive_support","companion_contact_change_enabled","primary_has_addressbook_permission","is_contacts_backup_on","primary_has_agreed_to_native_contacts_nux","primary_lists_support","reactions_send","vo_sp_receiver","disable_link_previews","is_galaxy_flow_companion_sync_supported"]}},"padding":"","version":7},"index":["primary_feature"]},"initialSync":false}}
+{"time":"2026-05-25T10:27:05.316Z","level":"debug","msg":"unprocessable update","detail":{"syncAction":{"syncAction":{"index":"WyJwcmltYXJ5X2ZlYXR1cmUiXQ==","value":{"timestamp":"1779704821213","primaryFeature":{"flags":["ddm_settings","link_preview","link_preview_hq_thumbnail","poll_creation_group","poll_creation_on_one_one","poll_creation_cag","newsletter","primary_campaign_id_in_history_sync_support","favorite_sticker","primary_favorites_sync_support","history_sync_on_demand","is_extended_history_sync_on_demand_enabled","settings_sync_enabled","external_web_beta_opt_in","ai_fbid_migration_receiving_enabled","post_status_in_companion","text_status_creation_support","text_status_receive_support","companion_contact_change_enabled","primary_has_addressbook_permission","is_contacts_backup_on","primary_has_agreed_to_native_contacts_nux","primary_lists_support","reactions_send","vo_sp_receiver","disable_link_previews","is_galaxy_flow_companion_sync_supported"]}},"padding":"","version":7},"index":["primary_feature"]}}}
+{"time":"2026-05-25T10:27:05.320Z","level":"trace","msg":"processing sync action","detail":{"syncAction":{"syncAction":{"index":"WyJsYWJlbF9lZGl0IiwiMSJd","value":{"timestamp":"1779704821248","labelEditAction":{"name":"Оқылмаған","color":0,"deleted":false,"orderIndex":0,"isActive":true,"type":"UNREAD","isImmutable":false}},"padding":"","version":3},"index":["label_edit","1"]},"initialSync":false}}
+{"time":"2026-05-25T10:27:05.321Z","level":"trace","msg":"processing sync action","detail":{"syncAction":{"syncAction":{"index":"WyJsYWJlbF9lZGl0IiwiMiJd","value":{"timestamp":"1779704821248","labelEditAction":{"name":"Таңдаулылар","color":0,"deleted":false,"orderIndex":1,"isActive":true,"type":"FAVORITES","isImmutable":false}},"padding":"","version":3},"index":["label_edit","2"]},"initialSync":false}}
+{"time":"2026-05-25T10:27:05.322Z","level":"trace","msg":"processing sync action","detail":{"syncAction":{"syncAction":{"index":"WyJsYWJlbF9lZGl0IiwiMyJd","value":{"timestamp":"1779704821248","labelEditAction":{"name":"Топтар","color":0,"deleted":false,"orderIndex":4,"isActive":false,"type":"GROUPS","isImmutable":false}},"padding":"","version":3},"index":["label_edit","3"]},"initialSync":false}}
+{"time":"2026-05-25T10:27:05.322Z","level":"trace","msg":"processing sync action","detail":{"syncAction":{"syncAction":{"index":"WyJtdXNpY191c2VyX2lkIl0=","value":{"timestamp":"1779704821253"},"padding":"","version":7},"index":["music_user_id"]},"initialSync":false}}
+{"time":"2026-05-25T10:27:05.323Z","level":"debug","msg":"unprocessable update","detail":{"syncAction":{"syncAction":{"index":"WyJtdXNpY191c2VyX2lkIl0=","value":{"timestamp":"1779704821253"},"padding":"","version":7},"index":["music_user_id"]}}}
+{"time":"2026-05-25T10:27:05.323Z","level":"debug","msg":"sent ack","detail":{"recv":{"tag":"notification","attrs":{"from":"@s.whatsapp.net","type":"server_sync","id":"512671807","t":"1779704823"}},"sent":{"id":"512671807","to":"@s.whatsapp.net","class":"notification","type":"server_sync"}}}
+{"time":"2026-05-25T10:27:05.327Z","level":"debug","msg":"Flushing event buffer"}
+{"time":"2026-05-25T10:27:05.328Z","level":"trace","msg":"released buffered events","detail":{"conditionalChatUpdatesLeft":0}}
+{"time":"2026-05-25T10:27:11.413Z","level":"trace","msg":"recv 667 bytes, total recv 667 bytes"}
+{"time":"2026-05-25T10:27:11.415Z","level":"trace","msg":"recv frame","detail":{"msg":"ACD6950C320EEC9AE8BD6FC19A5E668E"}}
+{"time":"2026-05-25T10:27:11.415Z","level":"debug","msg":"Event buffer activated"}
+{"time":"2026-05-25T10:27:11.417Z","level":"trace","msg":"updated cache","detail":{"keys":1}}
+{"time":"2026-05-25T10:27:11.419Z","level":"debug","msg":"sending receipt for messages","detail":{"attrs":{"id":"ACD6950C320EEC9AE8BD6FC19A5E668E","to":"77760711033@s.whatsapp.net","type":"peer_msg"},"messageIds":["ACD6950C320EEC9AE8BD6FC19A5E668E"]}}
+{"time":"2026-05-25T10:27:11.420Z","level":"debug","msg":"sending receipt for messages","detail":{"attrs":{"id":"ACD6950C320EEC9AE8BD6FC19A5E668E","to":"77760711033@s.whatsapp.net","type":"hist_sync"},"messageIds":["ACD6950C320EEC9AE8BD6FC19A5E668E"]}}
+{"time":"2026-05-25T10:27:11.422Z","level":"info","msg":"got history notification","detail":{"histNotification":{"fileSha256":"4JA97KI+mLSoGha505MNi+Mu1UHOBaOfNlG/yTzUfgw=","fileLength":"115026","mediaKey":"H0bq5/yUtJDXUzs3suVmfgempl52QA3bwTXkyKwBKJo=","fileEncSha256":"BV3HHtMd67Tac87KjCoIW4i4hV2YxhpTXywhjD+xkIc=","directPath":"/v/t62.31111-24/707046297_1470894180839505_38502227622586903_n.enc?ccb=11-4&oh=01_Q5Aa4gEx5iPNf_fD7whuVm-mqC8-zxtCrAX_e0Q1jGSnLytkBA&oe=6A3BA55F&_nc_sid=5e03e0","syncType":"RECENT","chunkOrder":1,"progress":100,"oldestMsgInChunkTimestampSec":"1776822119","encHandle":"AQKOwnNM29l7Oatrg00N-6uHuQSQCAGlDVcRjZRgG9mH5OgpspEGvYqc-BWLZj-qkW7yODnLKuallWaiCwU8aXhYeAhjD6mIaFXfik3bHCwsl6XGrz6dNF57yCEGAV0WNNY"},"process":false,"id":"ACD6950C320EEC9AE8BD6FC19A5E668E","isLatest":true}}
+{"time":"2026-05-25T10:27:11.423Z","level":"debug","msg":"Flushing event buffer"}
+{"time":"2026-05-25T10:27:11.423Z","level":"trace","msg":"released buffered events","detail":{"conditionalChatUpdatesLeft":0}}
+{"time":"2026-05-25T10:27:11.600Z","level":"trace","msg":"recv 58 bytes, total recv 58 bytes"}
+{"time":"2026-05-25T10:27:11.601Z","level":"trace","msg":"recv frame","detail":{"msg":"ACD6950C320EEC9AE8BD6FC19A5E668E"}}
+{"time":"2026-05-25T10:27:11.604Z","level":"trace","msg":"recv 58 bytes, total recv 58 bytes"}
+{"time":"2026-05-25T10:27:11.605Z","level":"trace","msg":"recv frame","detail":{"msg":"ACD6950C320EEC9AE8BD6FC19A5E668E"}}
+{"time":"2026-05-25T10:27:18.983Z","level":"trace","msg":"recv 46 bytes, total recv 46 bytes"}
+{"time":"2026-05-25T10:27:18.985Z","level":"trace","msg":"recv frame","detail":{"msg":"34227.1856-9"}}
+{"time":"2026-05-25T10:27:36.675Z","level":"trace","msg":"entering transaction"}
+{"time":"2026-05-25T10:27:37.598Z","level":"trace","msg":"recv 379 bytes, total recv 379 bytes"}
+{"time":"2026-05-25T10:27:37.601Z","level":"trace","msg":"recv frame","detail":{"msg":"34227.1856-11"}}
+{"time":"2026-05-25T10:27:37.604Z","level":"trace","msg":"loading from store","detail":{"items":5}}
+{"time":"2026-05-25T10:27:37.609Z","level":"debug","msg":"fetching sessions","detail":{"jidsRequiringFetch":["32487669498063@lid","212925788725319@lid","32487669498063:4@lid","32487669498063:7@lid","32487669498063:8@lid"]}}
+{"time":"2026-05-25T10:27:38.212Z","level":"trace","msg":"recv 1783 bytes, total recv 1783 bytes"}
+{"time":"2026-05-25T10:27:38.224Z","level":"trace","msg":"recv frame","detail":{"msg":"34227.1856-12"}}
+{"time":"2026-05-25T10:27:38.529Z","level":"trace","msg":"loading from store","detail":{"items":1}}
+{"time":"2026-05-25T10:27:38.532Z","level":"trace","msg":"loading from store","detail":{"items":1}}
+{"time":"2026-05-25T10:27:38.533Z","level":"trace","msg":"loading from store","detail":{"items":1}}
+{"time":"2026-05-25T10:27:38.534Z","level":"trace","msg":"loading from store","detail":{"items":1}}
+{"time":"2026-05-25T10:27:38.535Z","level":"trace","msg":"loading from store","detail":{"items":1}}
+{"time":"2026-05-25T10:27:38.537Z","level":"trace","msg":"caching in transaction","detail":{"types":["session"]}}
+{"time":"2026-05-25T10:27:38.541Z","level":"trace","msg":"caching in transaction","detail":{"types":["session"]}}
+{"time":"2026-05-25T10:27:38.542Z","level":"trace","msg":"caching in transaction","detail":{"types":["session"]}}
+{"time":"2026-05-25T10:27:38.544Z","level":"trace","msg":"caching in transaction","detail":{"types":["session"]}}
+{"time":"2026-05-25T10:27:38.545Z","level":"trace","msg":"caching in transaction","detail":{"types":["session"]}}
+{"time":"2026-05-25T10:27:38.559Z","level":"trace","msg":"caching in transaction","detail":{"types":["session"]}}
+{"time":"2026-05-25T10:27:38.561Z","level":"trace","msg":"caching in transaction","detail":{"types":["session"]}}
+{"time":"2026-05-25T10:27:38.563Z","level":"trace","msg":"caching in transaction","detail":{"types":["session"]}}
+{"time":"2026-05-25T10:27:38.576Z","level":"trace","msg":"caching in transaction","detail":{"types":["session"]}}
+{"time":"2026-05-25T10:27:38.585Z","level":"trace","msg":"caching in transaction","detail":{"types":["session"]}}
+{"time":"2026-05-25T10:27:38.587Z","level":"debug","msg":"adding device identity","detail":{"jid":"32487669498063@lid"}}
+{"time":"2026-05-25T10:27:38.612Z","level":"debug","msg":"sending message to 5 devices","detail":{"msgId":"3EB003AC8C631A046B856F"}}
+{"time":"2026-05-25T10:27:38.626Z","level":"trace","msg":"committing transaction"}
+{"time":"2026-05-25T10:27:38.636Z","level":"trace","msg":"updated cache","detail":{"keys":5}}
+{"time":"2026-05-25T10:27:38.952Z","level":"trace","msg":"committed transaction","detail":{"dbQueriesInTransaction":6}}
+{"time":"2026-05-25T10:27:38.965Z","level":"info","msg":"Хабарлама жіберілді: 498063@lid"}
+{"time":"2026-05-25T10:27:39.017Z","level":"info","msg":"Кезек жауабы жіберілді: 1252"}
+{"time":"2026-05-25T10:27:39.019Z","level":"debug","msg":"Event buffer activated"}
+{"time":"2026-05-25T10:27:39.033Z","level":"trace","msg":"recv 65 bytes, total recv 65 bytes"}
+{"time":"2026-05-25T10:27:39.034Z","level":"trace","msg":"recv frame","detail":{"msg":"3EB003AC8C631A046B856F"}}
+{"time":"2026-05-25T10:27:39.277Z","level":"trace","msg":"recv 75 bytes, total recv 75 bytes"}
+{"time":"2026-05-25T10:27:39.278Z","level":"trace","msg":"recv frame","detail":{"msg":"3EB003AC8C631A046B856F"}}
+{"time":"2026-05-25T10:27:39.280Z","level":"debug","msg":"sent ack","detail":{"recv":{"tag":"receipt","attrs":{"from":"212925788725319@lid","type":"sender","id":"3EB003AC8C631A046B856F","recipient":"32487669498063@lid","t":"1779704857"}},"sent":{"id":"3EB003AC8C631A046B856F","to":"212925788725319@lid","class":"receipt","recipient":"32487669498063@lid","type":"sender"}}}
+{"time":"2026-05-25T10:27:39.283Z","level":"debug","msg":"Flushing event buffer"}
+{"time":"2026-05-25T10:27:39.284Z","level":"trace","msg":"released buffered events","detail":{"conditionalChatUpdatesLeft":0}}
+{"time":"2026-05-25T10:27:39.311Z","level":"trace","msg":"recv 58 bytes, total recv 58 bytes"}
+{"time":"2026-05-25T10:27:39.312Z","level":"trace","msg":"recv frame","detail":{"msg":"3EB003AC8C631A046B856F"}}
+{"time":"2026-05-25T10:27:39.313Z","level":"debug","msg":"Event buffer activated"}
+{"time":"2026-05-25T10:27:39.313Z","level":"debug","msg":"sent ack","detail":{"recv":{"tag":"receipt","attrs":{"from":"32487669498063@lid","id":"3EB003AC8C631A046B856F","t":"1779704858"}},"sent":{"id":"3EB003AC8C631A046B856F","to":"32487669498063@lid","class":"receipt"}}}
+{"time":"2026-05-25T10:27:39.315Z","level":"debug","msg":"Flushing event buffer"}
+{"time":"2026-05-25T10:27:39.316Z","level":"trace","msg":"released buffered events","detail":{"conditionalChatUpdatesLeft":0}}
+{"time":"2026-05-25T10:27:44.126Z","level":"trace","msg":"recv 47 bytes, total recv 47 bytes"}
+{"time":"2026-05-25T10:27:44.128Z","level":"trace","msg":"recv frame","detail":{"msg":"34227.1856-13"}}
+{"time":"2026-05-25T10:27:56.190Z","level":"error","msg":"unexpected error in 'init queries'","detail":{"err":{"data":{"stack":"Error\n    at promiseTimeout (file:///C:/Users/Erom/Downloads/QazaQsha_fixed/QazaQsha/node_modules/@whiskeysockets/baileys/lib/Utils/generics.js:126:19)\n    at waitForMessage (file:///C:/Users/Erom/Downloads/QazaQsha_fixed/QazaQsha/node_modules/@whiskeysockets/baileys/lib/Socket/socket.js:115:34)\n    at query (file:///C:/Users/Erom/Downloads/QazaQsha_fixed/QazaQsha/node_modules/@whiskeysockets/baileys/lib/Socket/socket.js:138:45)\n    at fetchProps (file:///C:/Users/Erom/Downloads/QazaQsha_fixed/QazaQsha/node_modules/@whiskeysockets/baileys/lib/Socket/chats.js:631:34)\n    at executeInitQueries (file:///C:/Users/Erom/Downloads/QazaQsha_fixed/QazaQsha/node_modules/@whiskeysockets/baileys/lib/Socket/chats.js:762:28)\n    at EventEmitter.<anonymous> (file:///C:/Users/Erom/Downloads/QazaQsha_fixed/QazaQsha/node_modules/@whiskeysockets/baileys/lib/Socket/chats.js:859:17)\n    at EventEmitter.emit (node:events:521:24)\n    at EventEmitter.<anonymous> (file:///C:/Users/Erom/Downloads/QazaQsha_fixed/QazaQsha/node_modules/@whiskeysockets/baileys/lib/Utils/event-buffer.js:35:16)\n    at EventEmitter.emit (node:events:509:28)\n    at Object.emit (file:///C:/Users/Erom/Downloads/QazaQsha_fixed/QazaQsha/node_modules/@whiskeysockets/baileys/lib/Utils/event-buffer.js:83:23)\n    at WebSocketClient.<anonymous> (file:///C:/Users/Erom/Downloads/QazaQsha_fixed/QazaQsha/node_modules/@whiskeysockets/baileys/lib/Socket/socket.js:505:12)\n    at process.processTicksAndRejections (node:internal/process/task_queues:104:5)"},"isBoom":true,"isServer":false,"output":{"statusCode":408,"payload":{"statusCode":408,"error":"Request Time-out","message":"Timed Out"},"headers":{}}}}}
+{"time":"2026-05-25T10:28:08.964Z","level":"trace","msg":"recv 47 bytes, total recv 47 bytes"}
+{"time":"2026-05-25T10:28:08.965Z","level":"trace","msg":"recv frame","detail":{"msg":"34227.1856-14"}}
+{"time":"2026-05-25T10:28:34.234Z","level":"trace","msg":"recv 47 bytes, total recv 47 bytes"}
+{"time":"2026-05-25T10:28:34.236Z","level":"trace","msg":"recv frame","detail":{"msg":"34227.1856-15"}}
+{"time":"2026-05-25T10:28:59.343Z","level":"trace","msg":"recv 47 bytes, total recv 47 bytes"}
+{"time":"2026-05-25T10:28:59.344Z","level":"trace","msg":"recv frame","detail":{"msg":"34227.1856-16"}}
+{"time":"2026-05-25T10:29:25.447Z","level":"trace","msg":"recv 47 bytes, total recv 47 bytes"}
+{"time":"2026-05-25T10:29:25.448Z","level":"trace","msg":"recv frame","detail":{"msg":"34227.1856-17"}}
+{"time":"2026-05-25T10:29:36.466Z","level":"trace","msg":"recv 77 bytes, total recv 77 bytes"}
+{"time":"2026-05-25T10:29:36.468Z","level":"trace","msg":"recv frame","detail":{"msg":"AC7392F9A7B843C1ED944E5E3BD777F3"}}
+{"time":"2026-05-25T10:29:36.473Z","level":"debug","msg":"Event buffer activated"}
+{"time":"2026-05-25T10:29:36.480Z","level":"debug","msg":"sent ack","detail":{"recv":{"tag":"receipt","attrs":{"from":"120363063831432596@g.us","id":"AC7392F9A7B843C1ED944E5E3BD777F3","participant":"32487669498063:8@lid","t":"1779704971"}},"sent":{"id":"AC7392F9A7B843C1ED944E5E3BD777F3","to":"120363063831432596@g.us","class":"receipt","participant":"32487669498063:8@lid"}}}
+{"time":"2026-05-25T10:29:36.619Z","level":"debug","msg":"Flushing event buffer"}
+{"time":"2026-05-25T10:29:36.819Z","level":"trace","msg":"released buffered events","detail":{"conditionalChatUpdatesLeft":0}}
+{"time":"2026-05-25T10:29:42.947Z","level":"trace","msg":"recv 224 bytes, total recv 224 bytes"}
+{"time":"2026-05-25T10:29:42.949Z","level":"trace","msg":"recv frame","detail":{"msg":"AC8A8A47B64B14DC89890E5DDB2BE872"}}
+{"time":"2026-05-25T10:29:42.951Z","level":"debug","msg":"Event buffer activated"}
+{"time":"2026-05-25T10:29:42.952Z","level":"debug","msg":"sent ack","detail":{"recv":{"tag":"receipt","attrs":{"from":"32487669498063:8@lid","id":"AC8A8A47B64B14DC89890E5DDB2BE872","t":"1779704981"}},"sent":{"id":"AC8A8A47B64B14DC89890E5DDB2BE872","to":"32487669498063:8@lid","class":"receipt"}}}
+{"time":"2026-05-25T10:29:43.134Z","level":"debug","msg":"Flushing event buffer"}
+{"time":"2026-05-25T10:29:43.135Z","level":"trace","msg":"released buffered events","detail":{"conditionalChatUpdatesLeft":0}}
+{"time":"2026-05-25T10:29:49.624Z","level":"trace","msg":"recv 47 bytes, total recv 47 bytes"}
+{"time":"2026-05-25T10:29:49.625Z","level":"trace","msg":"recv frame","detail":{"msg":"34227.1856-18"}}
+{"time":"2026-05-25T10:30:14.594Z","level":"trace","msg":"recv 47 bytes, total recv 47 bytes"}
+{"time":"2026-05-25T10:30:14.595Z","level":"trace","msg":"recv frame","detail":{"msg":"34227.1856-19"}}
+{"time":"2026-05-25T10:30:19.855Z","level":"trace","msg":"recv 58 bytes, total recv 58 bytes"}
+{"time":"2026-05-25T10:30:19.856Z","level":"trace","msg":"recv frame","detail":{"msg":"3EB003AC8C631A046B856F"}}
+{"time":"2026-05-25T10:30:19.857Z","level":"debug","msg":"Event buffer activated"}
+{"time":"2026-05-25T10:30:19.857Z","level":"debug","msg":"sent ack","detail":{"recv":{"tag":"receipt","attrs":{"from":"32487669498063:8@lid","id":"3EB003AC8C631A046B856F","t":"1779705018"}},"sent":{"id":"3EB003AC8C631A046B856F","to":"32487669498063:8@lid","class":"receipt"}}}
+{"time":"2026-05-25T10:30:19.859Z","level":"debug","msg":"Flushing event buffer"}
+{"time":"2026-05-25T10:30:19.860Z","level":"trace","msg":"released buffered events","detail":{"conditionalChatUpdatesLeft":0}}
+{"time":"2026-05-25T10:30:21.777Z","level":"trace","msg":"recv 77 bytes, total recv 77 bytes"}
+{"time":"2026-05-25T10:30:21.778Z","level":"trace","msg":"recv frame","detail":{"msg":"ACD023EA9E6E7DDAD7B8B52EE170DA8D"}}
+{"time":"2026-05-25T10:30:21.778Z","level":"debug","msg":"Event buffer activated"}
+{"time":"2026-05-25T10:30:21.779Z","level":"debug","msg":"sent ack","detail":{"recv":{"tag":"receipt","attrs":{"from":"120363063831432596@g.us","id":"ACD023EA9E6E7DDAD7B8B52EE170DA8D","participant":"32487669498063:8@lid","t":"1779705018"}},"sent":{"id":"ACD023EA9E6E7DDAD7B8B52EE170DA8D","to":"120363063831432596@g.us","class":"receipt","participant":"32487669498063:8@lid"}}}
+{"time":"2026-05-25T10:30:21.780Z","level":"debug","msg":"Flushing event buffer"}
+{"time":"2026-05-25T10:30:21.781Z","level":"trace","msg":"released buffered events","detail":{"conditionalChatUpdatesLeft":0}}
+{"time":"2026-05-25T10:30:23.925Z","level":"trace","msg":"recv 129 bytes, total recv 129 bytes"}
+{"time":"2026-05-25T10:30:23.926Z","level":"trace","msg":"recv frame","detail":{"msg":"3A987DBC59C9B8A96912"}}
+{"time":"2026-05-25T10:30:23.927Z","level":"debug","msg":"Event buffer activated"}
+{"time":"2026-05-25T10:30:23.928Z","level":"debug","msg":"sent ack","detail":{"recv":{"tag":"receipt","attrs":{"from":"212925788725319@lid","type":"read-self","id":"3A987DBC59C9B8A96912","recipient":"32487669498063@lid","t":"1779705022"}},"sent":{"id":"3A987DBC59C9B8A96912","to":"212925788725319@lid","class":"receipt","recipient":"32487669498063@lid","type":"read-self"}}}
+{"time":"2026-05-25T10:30:23.929Z","level":"debug","msg":"Flushing event buffer"}
+{"time":"2026-05-25T10:30:23.930Z","level":"trace","msg":"released buffered events","detail":{"conditionalChatUpdatesLeft":0}}
+{"time":"2026-05-25T10:30:24.051Z","level":"trace","msg":"recv 347 bytes, total recv 347 bytes"}
+{"time":"2026-05-25T10:30:24.052Z","level":"trace","msg":"recv frame","detail":{"msg":"AC4752771C20A5EB6FD8C268867592D7"}}
+{"time":"2026-05-25T10:30:24.053Z","level":"debug","msg":"Event buffer activated"}
+{"time":"2026-05-25T10:30:24.060Z","level":"trace","msg":"updated cache","detail":{"keys":1}}
+{"time":"2026-05-25T10:30:24.078Z","level":"debug","msg":"sending receipt for messages","detail":{"attrs":{"id":"AC4752771C20A5EB6FD8C268867592D7","to":"32487669498063@lid","type":"sender"},"messageIds":["AC4752771C20A5EB6FD8C268867592D7"]}}
+{"time":"2026-05-25T10:30:24.084Z","level":"debug","msg":"Flushing event buffer"}
+{"time":"2026-05-25T10:30:24.085Z","level":"trace","msg":"released buffered events","detail":{"conditionalChatUpdatesLeft":0}}
+{"time":"2026-05-25T10:30:25.479Z","level":"trace","msg":"recv 63 bytes, total recv 63 bytes"}
+{"time":"2026-05-25T10:30:25.480Z","level":"trace","msg":"recv frame","detail":{"msg":"AC4752771C20A5EB6FD8C268867592D7"}}
+{"time":"2026-05-25T10:30:25.480Z","level":"debug","msg":"Event buffer activated"}
+{"time":"2026-05-25T10:30:25.481Z","level":"debug","msg":"sent ack","detail":{"recv":{"tag":"receipt","attrs":{"from":"32487669498063@lid","id":"AC4752771C20A5EB6FD8C268867592D7","t":"1779705023"}},"sent":{"id":"AC4752771C20A5EB6FD8C268867592D7","to":"32487669498063@lid","class":"receipt"}}}
+{"time":"2026-05-25T10:30:25.483Z","level":"debug","msg":"Flushing event buffer"}
+{"time":"2026-05-25T10:30:25.483Z","level":"trace","msg":"released buffered events","detail":{"conditionalChatUpdatesLeft":0}}
+{"time":"2026-05-25T10:30:40.483Z","level":"trace","msg":"recv 47 bytes, total recv 47 bytes"}
+{"time":"2026-05-25T10:30:40.485Z","level":"trace","msg":"recv frame","detail":{"msg":"34227.1856-20"}}
+{"time":"2026-05-25T10:30:49.802Z","level":"trace","msg":"recv 63 bytes, total recv 63 bytes"}
+{"time":"2026-05-25T10:30:49.803Z","level":"trace","msg":"recv frame","detail":{"msg":"AC4752771C20A5EB6FD8C268867592D7"}}
+{"time":"2026-05-25T10:30:49.807Z","level":"debug","msg":"Event buffer activated"}
+{"time":"2026-05-25T10:30:49.807Z","level":"debug","msg":"sent ack","detail":{"recv":{"tag":"receipt","attrs":{"from":"32487669498063:8@lid","id":"AC4752771C20A5EB6FD8C268867592D7","t":"1779705045"}},"sent":{"id":"AC4752771C20A5EB6FD8C268867592D7","to":"32487669498063:8@lid","class":"receipt"}}}
+{"time":"2026-05-25T10:30:49.872Z","level":"debug","msg":"Flushing event buffer"}
+{"time":"2026-05-25T10:30:49.873Z","level":"trace","msg":"released buffered events","detail":{"conditionalChatUpdatesLeft":0}}
+{"time":"2026-05-25T10:31:04.967Z","level":"trace","msg":"recv 47 bytes, total recv 47 bytes"}
+{"time":"2026-05-25T10:31:04.998Z","level":"trace","msg":"recv frame","detail":{"msg":"34227.1856-21"}}
+{"time":"2026-05-25T10:31:17.391Z","level":"trace","msg":"recv 41 bytes, total recv 41 bytes"}
+{"time":"2026-05-25T10:31:17.394Z","level":"trace","msg":"recv frame","detail":{}}
+{"time":"2026-05-25T10:31:20.128Z","level":"trace","msg":"recv 107 bytes, total recv 107 bytes"}
+{"time":"2026-05-25T10:31:20.129Z","level":"trace","msg":"recv frame","detail":{"msg":"3083244057"}}
+{"time":"2026-05-25T10:31:20.155Z","level":"debug","msg":"Event buffer activated"}
+{"time":"2026-05-25T10:31:20.233Z","level":"debug","msg":"got privacy token update","detail":{"jid":"212925788725319@lid"}}
+{"time":"2026-05-25T10:31:20.234Z","level":"debug","msg":"sent ack","detail":{"recv":{"tag":"notification","attrs":{"from":"32487669498063@lid","type":"privacy_token","id":"3083244057","t":"1779705078"}},"sent":{"id":"3083244057","to":"32487669498063@lid","class":"notification","type":"privacy_token"}}}
+{"time":"2026-05-25T10:31:20.392Z","level":"debug","msg":"Flushing event buffer"}
+{"time":"2026-05-25T10:31:20.452Z","level":"trace","msg":"released buffered events","detail":{"conditionalChatUpdatesLeft":0}}
+{"time":"2026-05-25T10:31:20.618Z","level":"trace","msg":"recv 378 bytes, total recv 378 bytes"}
+{"time":"2026-05-25T10:31:21.030Z","level":"trace","msg":"recv frame","detail":{"msg":"3EB00F400B63CDC7733D35"}}
+{"time":"2026-05-25T10:31:21.051Z","level":"debug","msg":"Event buffer activated"}
+{"time":"2026-05-25T10:31:21.071Z","level":"trace","msg":"updated cache","detail":{"keys":1}}
+{"time":"2026-05-25T10:31:21.121Z","level":"debug","msg":"sending receipt for messages","detail":{"attrs":{"id":"3EB00F400B63CDC7733D35","to":"32487669498063:8@lid","type":"inactive"},"messageIds":["3EB00F400B63CDC7733D35"]}}
+{"time":"2026-05-25T10:31:21.141Z","level":"debug","msg":"Flushing event buffer"}
+{"time":"2026-05-25T10:31:26.205Z","level":"trace","msg":"released buffered events","detail":{"conditionalChatUpdatesLeft":0}}
+{"time":"2026-05-25T10:31:30.011Z","level":"trace","msg":"recv 47 bytes, total recv 47 bytes"}
+{"time":"2026-05-25T10:31:30.012Z","level":"trace","msg":"recv frame","detail":{"msg":"34227.1856-22"}}
+{"time":"2026-05-25T10:31:31.024Z","level":"trace","msg":"entering transaction"}
+{"time":"2026-05-25T10:31:31.045Z","level":"trace","msg":"using cache for devices","detail":{"user":"32487669498063"}}
+{"time":"2026-05-25T10:31:31.604Z","level":"trace","msg":"recv 239 bytes, total recv 239 bytes"}
+{"time":"2026-05-25T10:31:31.612Z","level":"trace","msg":"recv frame","detail":{"msg":"34227.1856-24"}}
+{"time":"2026-05-25T10:31:31.674Z","level":"trace","msg":"caching in transaction","detail":{"types":["session"]}}
+{"time":"2026-05-25T10:31:31.679Z","level":"trace","msg":"caching in transaction","detail":{"types":["session"]}}
+{"time":"2026-05-25T10:31:31.688Z","level":"trace","msg":"caching in transaction","detail":{"types":["session"]}}
+{"time":"2026-05-25T10:31:31.693Z","level":"trace","msg":"caching in transaction","detail":{"types":["session"]}}
+{"time":"2026-05-25T10:31:31.696Z","level":"trace","msg":"caching in transaction","detail":{"types":["session"]}}
+{"time":"2026-05-25T10:31:31.703Z","level":"debug","msg":"adding device identity","detail":{"jid":"32487669498063@lid"}}
+{"time":"2026-05-25T10:31:31.707Z","level":"debug","msg":"sending message to 5 devices","detail":{"msgId":"3EB0C2D37C4EFAB2569E27"}}
+{"time":"2026-05-25T10:31:31.756Z","level":"trace","msg":"committing transaction"}
+{"time":"2026-05-25T10:31:31.757Z","level":"trace","msg":"updated cache","detail":{"keys":5}}
+{"time":"2026-05-25T10:31:31.766Z","level":"trace","msg":"committed transaction","detail":{"dbQueriesInTransaction":1}}
+{"time":"2026-05-25T10:31:31.773Z","level":"info","msg":"Хабарлама жіберілді: 498063@lid"}
+{"time":"2026-05-25T10:31:31.793Z","level":"info","msg":"Жауап берілді: ...1252 (10551мс)"}
+{"time":"2026-05-25T10:31:31.796Z","level":"debug","msg":"Event buffer activated"}
+{"time":"2026-05-25T10:31:31.893Z","level":"trace","msg":"recv 65 bytes, total recv 65 bytes"}
+{"time":"2026-05-25T10:31:31.897Z","level":"trace","msg":"recv frame","detail":{"msg":"3EB0C2D37C4EFAB2569E27"}}
+{"time":"2026-05-25T10:31:32.171Z","level":"trace","msg":"recv 75 bytes, total recv 75 bytes"}
+{"time":"2026-05-25T10:31:32.173Z","level":"trace","msg":"recv frame","detail":{"msg":"3EB0C2D37C4EFAB2569E27"}}
+{"time":"2026-05-25T10:31:32.178Z","level":"debug","msg":"sent ack","detail":{"recv":{"tag":"receipt","attrs":{"from":"212925788725319@lid","type":"sender","id":"3EB0C2D37C4EFAB2569E27","recipient":"32487669498063@lid","t":"1779705090"}},"sent":{"id":"3EB0C2D37C4EFAB2569E27","to":"212925788725319@lid","class":"receipt","recipient":"32487669498063@lid","type":"sender"}}}
+{"time":"2026-05-25T10:31:33.093Z","level":"trace","msg":"recv 58 bytes, total recv 58 bytes"}
+{"time":"2026-05-25T10:31:33.188Z","level":"trace","msg":"recv frame","detail":{"msg":"3EB0C2D37C4EFAB2569E27"}}
+{"time":"2026-05-25T10:31:33.192Z","level":"debug","msg":"sent ack","detail":{"recv":{"tag":"receipt","attrs":{"from":"32487669498063@lid","id":"3EB0C2D37C4EFAB2569E27","t":"1779705091"}},"sent":{"id":"3EB0C2D37C4EFAB2569E27","to":"32487669498063@lid","class":"receipt"}}}
+{"time":"2026-05-25T10:31:33.194Z","level":"trace","msg":"recv 60 bytes, total recv 60 bytes"}
+{"time":"2026-05-25T10:31:33.258Z","level":"trace","msg":"recv frame","detail":{"msg":"3EB0C2D37C4EFAB2569E27"}}
+{"time":"2026-05-25T10:31:34.028Z","level":"debug","msg":"sent ack","detail":{"recv":{"tag":"receipt","attrs":{"from":"32487669498063:8@lid","type":"read","id":"3EB0C2D37C4EFAB2569E27","t":"1779705091"}},"sent":{"id":"3EB0C2D37C4EFAB2569E27","to":"32487669498063:8@lid","class":"receipt","type":"read"}}}
+{"time":"2026-05-25T10:31:34.031Z","level":"trace","msg":"recv 58 bytes, total recv 58 bytes"}
+{"time":"2026-05-25T10:31:34.058Z","level":"trace","msg":"recv frame","detail":{"msg":"3EB0C2D37C4EFAB2569E27"}}
+{"time":"2026-05-25T10:31:34.060Z","level":"debug","msg":"sent ack","detail":{"recv":{"tag":"receipt","attrs":{"from":"32487669498063:8@lid","id":"3EB0C2D37C4EFAB2569E27","t":"1779705092"}},"sent":{"id":"3EB0C2D37C4EFAB2569E27","to":"32487669498063:8@lid","class":"receipt"}}}
+{"time":"2026-05-25T10:31:34.093Z","level":"debug","msg":"Flushing event buffer"}
+{"time":"2026-05-25T10:31:34.307Z","level":"trace","msg":"released buffered events","detail":{"conditionalChatUpdatesLeft":0}}
+{"time":"2026-05-25T10:31:37.250Z","level":"trace","msg":"recv 41 bytes, total recv 41 bytes"}
+{"time":"2026-05-25T10:31:37.252Z","level":"trace","msg":"recv frame","detail":{}}
+{"time":"2026-05-25T10:31:42.464Z","level":"trace","msg":"recv 41 bytes, total recv 41 bytes"}
+{"time":"2026-05-25T10:31:42.465Z","level":"trace","msg":"recv frame","detail":{}}
+{"time":"2026-05-25T10:31:43.265Z","level":"trace","msg":"recv 41 bytes, total recv 41 bytes"}
+{"time":"2026-05-25T10:31:43.266Z","level":"trace","msg":"recv frame","detail":{}}
+{"time":"2026-05-25T10:31:44.036Z","level":"trace","msg":"recv 41 bytes, total recv 41 bytes"}
+{"time":"2026-05-25T10:31:44.037Z","level":"trace","msg":"recv frame","detail":{}}
+{"time":"2026-05-25T10:31:45.372Z","level":"trace","msg":"recv 41 bytes, total recv 41 bytes"}
+{"time":"2026-05-25T10:31:45.374Z","level":"trace","msg":"recv frame","detail":{}}
+{"time":"2026-05-25T10:31:53.981Z","level":"trace","msg":"recv 394 bytes, total recv 394 bytes"}
+{"time":"2026-05-25T10:31:53.982Z","level":"trace","msg":"recv frame","detail":{"msg":"3EB04E6411DD445F26AEE3"}}
+{"time":"2026-05-25T10:31:53.984Z","level":"debug","msg":"Event buffer activated"}
+{"time":"2026-05-25T10:31:53.995Z","level":"trace","msg":"updated cache","detail":{"keys":1}}
+{"time":"2026-05-25T10:31:54.041Z","level":"debug","msg":"sending receipt for messages","detail":{"attrs":{"id":"3EB04E6411DD445F26AEE3","to":"32487669498063:8@lid","type":"inactive"},"messageIds":["3EB04E6411DD445F26AEE3"]}}
+{"time":"2026-05-25T10:31:54.043Z","level":"debug","msg":"Flushing event buffer"}
+{"time":"2026-05-25T10:31:54.050Z","level":"warn","msg":"Негатив анықталды: +77478061252 (1/10)"}
+{"time":"2026-05-25T10:31:54.054Z","level":"trace","msg":"released buffered events","detail":{"conditionalChatUpdatesLeft":0}}
+{"time":"2026-05-25T10:31:55.003Z","level":"trace","msg":"recv 47 bytes, total recv 47 bytes"}
+{"time":"2026-05-25T10:31:55.004Z","level":"trace","msg":"recv frame","detail":{"msg":"34227.1856-25"}}
+{"time":"2026-05-25T10:31:58.113Z","level":"trace","msg":"entering transaction"}
+{"time":"2026-05-25T10:31:58.138Z","level":"trace","msg":"using cache for devices","detail":{"user":"32487669498063"}}
+{"time":"2026-05-25T10:31:58.616Z","level":"trace","msg":"recv 239 bytes, total recv 239 bytes"}
+{"time":"2026-05-25T10:31:58.654Z","level":"trace","msg":"recv frame","detail":{"msg":"34227.1856-27"}}
+{"time":"2026-05-25T10:31:58.697Z","level":"trace","msg":"caching in transaction","detail":{"types":["session"]}}
+{"time":"2026-05-25T10:31:58.700Z","level":"trace","msg":"caching in transaction","detail":{"types":["session"]}}
+{"time":"2026-05-25T10:31:58.730Z","level":"trace","msg":"caching in transaction","detail":{"types":["session"]}}
+{"time":"2026-05-25T10:31:58.732Z","level":"trace","msg":"caching in transaction","detail":{"types":["session"]}}
+{"time":"2026-05-25T10:31:58.734Z","level":"trace","msg":"caching in transaction","detail":{"types":["session"]}}
+{"time":"2026-05-25T10:31:58.736Z","level":"debug","msg":"adding device identity","detail":{"jid":"32487669498063@lid"}}
+{"time":"2026-05-25T10:31:58.755Z","level":"debug","msg":"sending message to 5 devices","detail":{"msgId":"3EB002F4891E9648351A83"}}
+{"time":"2026-05-25T10:31:58.972Z","level":"trace","msg":"committing transaction"}
+{"time":"2026-05-25T10:31:58.977Z","level":"trace","msg":"updated cache","detail":{"keys":5}}
+{"time":"2026-05-25T10:31:59.014Z","level":"trace","msg":"committed transaction","detail":{"dbQueriesInTransaction":1}}
+{"time":"2026-05-25T10:31:59.023Z","level":"info","msg":"Хабарлама жіберілді: 498063@lid"}
+{"time":"2026-05-25T10:31:59.029Z","level":"info","msg":"Жауап берілді: ...1252 (4985мс)"}
+{"time":"2026-05-25T10:31:59.031Z","level":"debug","msg":"Event buffer activated"}
+{"time":"2026-05-25T10:31:59.098Z","level":"trace","msg":"recv 65 bytes, total recv 65 bytes"}
+{"time":"2026-05-25T10:31:59.099Z","level":"trace","msg":"recv frame","detail":{"msg":"3EB002F4891E9648351A83"}}
+{"time":"2026-05-25T10:32:00.052Z","level":"trace","msg":"recv 75 bytes, total recv 75 bytes"}
+{"time":"2026-05-25T10:32:00.054Z","level":"trace","msg":"recv frame","detail":{"msg":"3EB002F4891E9648351A83"}}
+{"time":"2026-05-25T10:32:00.054Z","level":"debug","msg":"sent ack","detail":{"recv":{"tag":"receipt","attrs":{"from":"212925788725319@lid","type":"sender","id":"3EB002F4891E9648351A83","recipient":"32487669498063@lid","t":"1779705118"}},"sent":{"id":"3EB002F4891E9648351A83","to":"212925788725319@lid","class":"receipt","recipient":"32487669498063@lid","type":"sender"}}}
+{"time":"2026-05-25T10:32:00.141Z","level":"trace","msg":"recv 58 bytes, total recv 58 bytes"}
+{"time":"2026-05-25T10:32:00.164Z","level":"trace","msg":"recv frame","detail":{"msg":"3EB002F4891E9648351A83"}}
+{"time":"2026-05-25T10:32:00.203Z","level":"debug","msg":"sent ack","detail":{"recv":{"tag":"receipt","attrs":{"from":"32487669498063:8@lid","id":"3EB002F4891E9648351A83","t":"1779705118"}},"sent":{"id":"3EB002F4891E9648351A83","to":"32487669498063:8@lid","class":"receipt"}}}
+{"time":"2026-05-25T10:32:00.208Z","level":"trace","msg":"recv 58 bytes, total recv 58 bytes"}
+{"time":"2026-05-25T10:32:00.210Z","level":"trace","msg":"recv frame","detail":{"msg":"3EB002F4891E9648351A83"}}
+{"time":"2026-05-25T10:32:00.225Z","level":"debug","msg":"sent ack","detail":{"recv":{"tag":"receipt","attrs":{"from":"32487669498063@lid","id":"3EB002F4891E9648351A83","t":"1779705118"}},"sent":{"id":"3EB002F4891E9648351A83","to":"32487669498063@lid","class":"receipt"}}}
+{"time":"2026-05-25T10:32:00.240Z","level":"trace","msg":"recv 60 bytes, total recv 60 bytes"}
+{"time":"2026-05-25T10:32:00.241Z","level":"trace","msg":"recv frame","detail":{"msg":"3EB002F4891E9648351A83"}}
+{"time":"2026-05-25T10:32:00.256Z","level":"debug","msg":"sent ack","detail":{"recv":{"tag":"receipt","attrs":{"from":"32487669498063:8@lid","type":"read","id":"3EB002F4891E9648351A83","t":"1779705118"}},"sent":{"id":"3EB002F4891E9648351A83","to":"32487669498063:8@lid","class":"receipt","type":"read"}}}
+{"time":"2026-05-25T10:32:00.280Z","level":"debug","msg":"Flushing event buffer"}
+{"time":"2026-05-25T10:32:00.296Z","level":"trace","msg":"released buffered events","detail":{"conditionalChatUpdatesLeft":0}}
+{"time":"2026-05-25T10:32:08.276Z","level":"trace","msg":"recv 41 bytes, total recv 41 bytes"}
+{"time":"2026-05-25T10:32:08.277Z","level":"trace","msg":"recv frame","detail":{}}
+{"time":"2026-05-25T10:32:17.235Z","level":"trace","msg":"recv 426 bytes, total recv 426 bytes"}
+{"time":"2026-05-25T10:32:17.238Z","level":"trace","msg":"recv frame","detail":{"msg":"3EB048D6941116332B1C15"}}
+{"time":"2026-05-25T10:32:17.240Z","level":"debug","msg":"Event buffer activated"}
+{"time":"2026-05-25T10:32:17.383Z","level":"trace","msg":"updated cache","detail":{"keys":1}}
+{"time":"2026-05-25T10:32:17.426Z","level":"debug","msg":"sending receipt for messages","detail":{"attrs":{"id":"3EB048D6941116332B1C15","to":"32487669498063:8@lid","type":"inactive"},"messageIds":["3EB048D6941116332B1C15"]}}
+{"time":"2026-05-25T10:32:17.433Z","level":"debug","msg":"Flushing event buffer"}
+{"time":"2026-05-25T10:32:17.447Z","level":"trace","msg":"released buffered events","detail":{"conditionalChatUpdatesLeft":0}}
+{"time":"2026-05-25T10:32:20.058Z","level":"trace","msg":"recv 47 bytes, total recv 47 bytes"}
+{"time":"2026-05-25T10:32:20.059Z","level":"trace","msg":"recv frame","detail":{"msg":"34227.1856-28"}}
+{"time":"2026-05-25T10:32:22.817Z","level":"trace","msg":"entering transaction"}
+{"time":"2026-05-25T10:32:22.819Z","level":"trace","msg":"using cache for devices","detail":{"user":"32487669498063"}}
+{"time":"2026-05-25T10:32:23.292Z","level":"trace","msg":"recv 239 bytes, total recv 239 bytes"}
+{"time":"2026-05-25T10:32:23.294Z","level":"trace","msg":"recv frame","detail":{"msg":"34227.1856-30"}}
+{"time":"2026-05-25T10:32:23.370Z","level":"trace","msg":"caching in transaction","detail":{"types":["session"]}}
+{"time":"2026-05-25T10:32:23.379Z","level":"trace","msg":"caching in transaction","detail":{"types":["session"]}}
+{"time":"2026-05-25T10:32:23.390Z","level":"trace","msg":"caching in transaction","detail":{"types":["session"]}}
+{"time":"2026-05-25T10:32:23.394Z","level":"trace","msg":"caching in transaction","detail":{"types":["session"]}}
+{"time":"2026-05-25T10:32:23.396Z","level":"trace","msg":"caching in transaction","detail":{"types":["session"]}}
+{"time":"2026-05-25T10:32:23.406Z","level":"debug","msg":"adding device identity","detail":{"jid":"32487669498063@lid"}}
+{"time":"2026-05-25T10:32:23.408Z","level":"debug","msg":"sending message to 5 devices","detail":{"msgId":"3EB0BB359175400B36D1DA"}}
+{"time":"2026-05-25T10:32:23.410Z","level":"trace","msg":"committing transaction"}
+{"time":"2026-05-25T10:32:23.413Z","level":"trace","msg":"updated cache","detail":{"keys":5}}
+{"time":"2026-05-25T10:32:23.449Z","level":"trace","msg":"committed transaction","detail":{"dbQueriesInTransaction":1}}
+{"time":"2026-05-25T10:32:23.452Z","level":"info","msg":"Хабарлама жіберілді: 498063@lid"}
+{"time":"2026-05-25T10:32:23.454Z","level":"info","msg":"Жауап берілді: ...1252 (6016мс)"}
+{"time":"2026-05-25T10:32:23.463Z","level":"debug","msg":"Event buffer activated"}
+{"time":"2026-05-25T10:32:23.557Z","level":"trace","msg":"recv 65 bytes, total recv 65 bytes"}
+{"time":"2026-05-25T10:32:23.559Z","level":"trace","msg":"recv frame","detail":{"msg":"3EB0BB359175400B36D1DA"}}
+{"time":"2026-05-25T10:32:23.841Z","level":"trace","msg":"recv 75 bytes, total recv 75 bytes"}
+{"time":"2026-05-25T10:32:23.842Z","level":"trace","msg":"recv frame","detail":{"msg":"3EB0BB359175400B36D1DA"}}
+{"time":"2026-05-25T10:32:23.856Z","level":"debug","msg":"sent ack","detail":{"recv":{"tag":"receipt","attrs":{"from":"212925788725319@lid","type":"sender","id":"3EB0BB359175400B36D1DA","recipient":"32487669498063@lid","t":"1779705142"}},"sent":{"id":"3EB0BB359175400B36D1DA","to":"212925788725319@lid","class":"receipt","recipient":"32487669498063@lid","type":"sender"}}}
+{"time":"2026-05-25T10:32:24.150Z","level":"trace","msg":"recv 58 bytes, total recv 58 bytes"}
+{"time":"2026-05-25T10:32:24.311Z","level":"trace","msg":"recv frame","detail":{"msg":"3EB0BB359175400B36D1DA"}}
+{"time":"2026-05-25T10:32:24.312Z","level":"debug","msg":"sent ack","detail":{"recv":{"tag":"receipt","attrs":{"from":"32487669498063@lid","id":"3EB0BB359175400B36D1DA","t":"1779705142"}},"sent":{"id":"3EB0BB359175400B36D1DA","to":"32487669498063@lid","class":"receipt"}}}
+{"time":"2026-05-25T10:32:24.314Z","level":"trace","msg":"recv 58 bytes, total recv 58 bytes"}
+{"time":"2026-05-25T10:32:24.370Z","level":"trace","msg":"recv frame","detail":{"msg":"3EB0BB359175400B36D1DA"}}
+{"time":"2026-05-25T10:32:24.376Z","level":"debug","msg":"sent ack","detail":{"recv":{"tag":"receipt","attrs":{"from":"32487669498063:8@lid","id":"3EB0BB359175400B36D1DA","t":"1779705142"}},"sent":{"id":"3EB0BB359175400B36D1DA","to":"32487669498063:8@lid","class":"receipt"}}}
+{"time":"2026-05-25T10:32:24.387Z","level":"trace","msg":"recv 60 bytes, total recv 60 bytes"}
+{"time":"2026-05-25T10:32:24.396Z","level":"trace","msg":"recv frame","detail":{"msg":"3EB0BB359175400B36D1DA"}}
+{"time":"2026-05-25T10:32:24.397Z","level":"debug","msg":"sent ack","detail":{"recv":{"tag":"receipt","attrs":{"from":"32487669498063:8@lid","type":"read","id":"3EB0BB359175400B36D1DA","t":"1779705143"}},"sent":{"id":"3EB0BB359175400B36D1DA","to":"32487669498063:8@lid","class":"receipt","type":"read"}}}
+{"time":"2026-05-25T10:32:24.405Z","level":"debug","msg":"Flushing event buffer"}
+{"time":"2026-05-25T10:32:24.433Z","level":"trace","msg":"released buffered events","detail":{"conditionalChatUpdatesLeft":0}}
+{"time":"2026-05-25T10:32:31.967Z","level":"trace","msg":"recv 41 bytes, total recv 41 bytes"}
+{"time":"2026-05-25T10:32:31.968Z","level":"trace","msg":"recv frame","detail":{}}
+{"time":"2026-05-25T10:32:40.045Z","level":"trace","msg":"recv 41 bytes, total recv 41 bytes"}
+{"time":"2026-05-25T10:32:40.047Z","level":"trace","msg":"recv frame","detail":{}}
+{"time":"2026-05-25T10:32:40.610Z","level":"trace","msg":"recv 41 bytes, total recv 41 bytes"}
+{"time":"2026-05-25T10:32:40.611Z","level":"trace","msg":"recv frame","detail":{}}
+{"time":"2026-05-25T10:32:45.055Z","level":"trace","msg":"recv 47 bytes, total recv 47 bytes"}
+{"time":"2026-05-25T10:32:45.056Z","level":"trace","msg":"recv frame","detail":{"msg":"34227.1856-31"}}
+{"time":"2026-05-25T10:32:50.035Z","level":"trace","msg":"recv 426 bytes, total recv 426 bytes"}
+{"time":"2026-05-25T10:32:50.036Z","level":"trace","msg":"recv frame","detail":{"msg":"3EB0194E83145EE34B49BD"}}
+{"time":"2026-05-25T10:32:50.037Z","level":"debug","msg":"Event buffer activated"}
+{"time":"2026-05-25T10:32:50.043Z","level":"trace","msg":"updated cache","detail":{"keys":1}}
+{"time":"2026-05-25T10:32:50.048Z","level":"debug","msg":"sending receipt for messages","detail":{"attrs":{"id":"3EB0194E83145EE34B49BD","to":"32487669498063:8@lid","type":"inactive"},"messageIds":["3EB0194E83145EE34B49BD"]}}
+{"time":"2026-05-25T10:32:50.053Z","level":"debug","msg":"Flushing event buffer"}
+{"time":"2026-05-25T10:32:50.095Z","level":"trace","msg":"released buffered events","detail":{"conditionalChatUpdatesLeft":0}}
+{"time":"2026-05-25T10:32:53.587Z","level":"trace","msg":"entering transaction"}
+{"time":"2026-05-25T10:32:54.309Z","level":"trace","msg":"recv 379 bytes, total recv 379 bytes"}
+{"time":"2026-05-25T10:32:54.533Z","level":"trace","msg":"recv frame","detail":{"msg":"34227.1856-33"}}
+{"time":"2026-05-25T10:32:54.584Z","level":"trace","msg":"caching in transaction","detail":{"types":["session"]}}
+{"time":"2026-05-25T10:32:54.586Z","level":"trace","msg":"caching in transaction","detail":{"types":["session"]}}
+{"time":"2026-05-25T10:32:54.587Z","level":"trace","msg":"caching in transaction","detail":{"types":["session"]}}
+{"time":"2026-05-25T10:32:54.588Z","level":"trace","msg":"caching in transaction","detail":{"types":["session"]}}
+{"time":"2026-05-25T10:32:54.590Z","level":"trace","msg":"caching in transaction","detail":{"types":["session"]}}
+{"time":"2026-05-25T10:32:54.633Z","level":"debug","msg":"adding device identity","detail":{"jid":"32487669498063@lid"}}
+{"time":"2026-05-25T10:32:54.635Z","level":"debug","msg":"sending message to 5 devices","detail":{"msgId":"3EB00FB1EDBC692A2E3AB6"}}
+{"time":"2026-05-25T10:32:54.637Z","level":"trace","msg":"committing transaction"}
+{"time":"2026-05-25T10:32:54.642Z","level":"trace","msg":"updated cache","detail":{"keys":5}}
+{"time":"2026-05-25T10:32:54.682Z","level":"trace","msg":"committed transaction","detail":{"dbQueriesInTransaction":1}}
+{"time":"2026-05-25T10:32:54.685Z","level":"info","msg":"Хабарлама жіберілді: 498063@lid"}
+{"time":"2026-05-25T10:32:54.687Z","level":"info","msg":"Жауап берілді: ...1252 (4633мс)"}
+{"time":"2026-05-25T10:32:54.688Z","level":"debug","msg":"Event buffer activated"}
+{"time":"2026-05-25T10:32:54.781Z","level":"trace","msg":"recv 65 bytes, total recv 65 bytes"}
+{"time":"2026-05-25T10:32:54.782Z","level":"trace","msg":"recv frame","detail":{"msg":"3EB00FB1EDBC692A2E3AB6"}}
+{"time":"2026-05-25T10:32:55.021Z","level":"trace","msg":"recv 75 bytes, total recv 75 bytes"}
+{"time":"2026-05-25T10:32:55.023Z","level":"trace","msg":"recv frame","detail":{"msg":"3EB00FB1EDBC692A2E3AB6"}}
+{"time":"2026-05-25T10:32:55.024Z","level":"debug","msg":"sent ack","detail":{"recv":{"tag":"receipt","attrs":{"from":"212925788725319@lid","type":"sender","id":"3EB00FB1EDBC692A2E3AB6","recipient":"32487669498063@lid","t":"1779705173"}},"sent":{"id":"3EB00FB1EDBC692A2E3AB6","to":"212925788725319@lid","class":"receipt","recipient":"32487669498063@lid","type":"sender"}}}
+{"time":"2026-05-25T10:32:55.026Z","level":"debug","msg":"Flushing event buffer"}
+{"time":"2026-05-25T10:32:55.245Z","level":"trace","msg":"released buffered events","detail":{"conditionalChatUpdatesLeft":0}}
+{"time":"2026-05-25T10:32:55.248Z","level":"trace","msg":"recv 58 bytes, total recv 58 bytes"}
+{"time":"2026-05-25T10:32:55.252Z","level":"trace","msg":"recv frame","detail":{"msg":"3EB00FB1EDBC692A2E3AB6"}}
+{"time":"2026-05-25T10:32:55.485Z","level":"debug","msg":"Event buffer activated"}
+{"time":"2026-05-25T10:32:55.486Z","level":"debug","msg":"sent ack","detail":{"recv":{"tag":"receipt","attrs":{"from":"32487669498063:8@lid","id":"3EB00FB1EDBC692A2E3AB6","t":"1779705173"}},"sent":{"id":"3EB00FB1EDBC692A2E3AB6","to":"32487669498063:8@lid","class":"receipt"}}}
+{"time":"2026-05-25T10:32:55.488Z","level":"trace","msg":"recv 60 bytes, total recv 60 bytes"}
+{"time":"2026-05-25T10:32:55.490Z","level":"trace","msg":"recv frame","detail":{"msg":"3EB00FB1EDBC692A2E3AB6"}}
+{"time":"2026-05-25T10:32:55.491Z","level":"debug","msg":"sent ack","detail":{"recv":{"tag":"receipt","attrs":{"from":"32487669498063:8@lid","type":"read","id":"3EB00FB1EDBC692A2E3AB6","t":"1779705174"}},"sent":{"id":"3EB00FB1EDBC692A2E3AB6","to":"32487669498063:8@lid","class":"receipt","type":"read"}}}
+{"time":"2026-05-25T10:32:55.508Z","level":"trace","msg":"recv 58 bytes, total recv 58 bytes"}
+{"time":"2026-05-25T10:32:55.509Z","level":"trace","msg":"recv frame","detail":{"msg":"3EB00FB1EDBC692A2E3AB6"}}
+{"time":"2026-05-25T10:32:55.536Z","level":"debug","msg":"sent ack","detail":{"recv":{"tag":"receipt","attrs":{"from":"32487669498063@lid","id":"3EB00FB1EDBC692A2E3AB6","t":"1779705174"}},"sent":{"id":"3EB00FB1EDBC692A2E3AB6","to":"32487669498063@lid","class":"receipt"}}}
+{"time":"2026-05-25T10:32:55.554Z","level":"debug","msg":"Flushing event buffer"}
+{"time":"2026-05-25T10:32:55.555Z","level":"trace","msg":"released buffered events","detail":{"conditionalChatUpdatesLeft":0}}
+{"time":"2026-05-25T10:33:05.708Z","level":"trace","msg":"recv 41 bytes, total recv 41 bytes"}
+{"time":"2026-05-25T10:33:05.709Z","level":"trace","msg":"recv frame","detail":{}}
+{"time":"2026-05-25T10:33:10.137Z","level":"trace","msg":"recv 47 bytes, total recv 47 bytes"}
+{"time":"2026-05-25T10:33:10.138Z","level":"trace","msg":"recv frame","detail":{"msg":"34227.1856-34"}}
+{"time":"2026-05-25T10:33:13.249Z","level":"trace","msg":"recv 41 bytes, total recv 41 bytes"}
+{"time":"2026-05-25T10:33:13.250Z","level":"trace","msg":"recv frame","detail":{}}
+{"time":"2026-05-25T10:33:14.140Z","level":"trace","msg":"recv 41 bytes, total recv 41 bytes"}
+{"time":"2026-05-25T10:33:14.141Z","level":"trace","msg":"recv frame","detail":{}}
+{"time":"2026-05-25T10:33:22.380Z","level":"trace","msg":"recv 378 bytes, total recv 378 bytes"}
+{"time":"2026-05-25T10:33:22.381Z","level":"trace","msg":"recv frame","detail":{"msg":"3EB03588DE4EB1858CE52B"}}
+{"time":"2026-05-25T10:33:22.382Z","level":"debug","msg":"Event buffer activated"}
+{"time":"2026-05-25T10:33:22.392Z","level":"trace","msg":"updated cache","detail":{"keys":1}}
+{"time":"2026-05-25T10:33:22.409Z","level":"debug","msg":"sending receipt for messages","detail":{"attrs":{"id":"3EB03588DE4EB1858CE52B","to":"32487669498063:8@lid","type":"inactive"},"messageIds":["3EB03588DE4EB1858CE52B"]}}
+{"time":"2026-05-25T10:33:22.411Z","level":"debug","msg":"Flushing event buffer"}
+{"time":"2026-05-25T10:33:22.417Z","level":"trace","msg":"released buffered events","detail":{"conditionalChatUpdatesLeft":0}}
+{"time":"2026-05-25T10:33:29.513Z","level":"trace","msg":"entering transaction"}
+{"time":"2026-05-25T10:33:29.514Z","level":"trace","msg":"using cache for devices","detail":{"user":"32487669498063"}}
+{"time":"2026-05-25T10:33:30.035Z","level":"trace","msg":"recv 239 bytes, total recv 239 bytes"}
+{"time":"2026-05-25T10:33:30.037Z","level":"trace","msg":"recv frame","detail":{"msg":"34227.1856-36"}}
+{"time":"2026-05-25T10:33:30.039Z","level":"trace","msg":"caching in transaction","detail":{"types":["session"]}}
+{"time":"2026-05-25T10:33:30.041Z","level":"trace","msg":"caching in transaction","detail":{"types":["session"]}}
+{"time":"2026-05-25T10:33:30.042Z","level":"trace","msg":"caching in transaction","detail":{"types":["session"]}}
+{"time":"2026-05-25T10:33:30.043Z","level":"trace","msg":"caching in transaction","detail":{"types":["session"]}}
+{"time":"2026-05-25T10:33:30.048Z","level":"trace","msg":"caching in transaction","detail":{"types":["session"]}}
+{"time":"2026-05-25T10:33:30.049Z","level":"debug","msg":"adding device identity","detail":{"jid":"32487669498063@lid"}}
+{"time":"2026-05-25T10:33:30.051Z","level":"debug","msg":"sending message to 5 devices","detail":{"msgId":"3EB0F711686F7085AF3509"}}
+{"time":"2026-05-25T10:33:30.053Z","level":"trace","msg":"committing transaction"}
+{"time":"2026-05-25T10:33:30.054Z","level":"trace","msg":"updated cache","detail":{"keys":5}}
+{"time":"2026-05-25T10:33:30.060Z","level":"trace","msg":"committed transaction","detail":{"dbQueriesInTransaction":1}}
+{"time":"2026-05-25T10:33:30.065Z","level":"info","msg":"Хабарлама жіберілді: 498063@lid"}
+{"time":"2026-05-25T10:33:30.069Z","level":"info","msg":"Жауап берілді: ...1252 (7655мс)"}
+{"time":"2026-05-25T10:33:30.070Z","level":"debug","msg":"Event buffer activated"}
+{"time":"2026-05-25T10:33:30.206Z","level":"trace","msg":"recv 65 bytes, total recv 65 bytes"}
+{"time":"2026-05-25T10:33:30.208Z","level":"trace","msg":"recv frame","detail":{"msg":"3EB0F711686F7085AF3509"}}
+{"time":"2026-05-25T10:33:30.466Z","level":"trace","msg":"recv 75 bytes, total recv 75 bytes"}
+{"time":"2026-05-25T10:33:30.467Z","level":"trace","msg":"recv frame","detail":{"msg":"3EB0F711686F7085AF3509"}}
+{"time":"2026-05-25T10:33:30.467Z","level":"debug","msg":"sent ack","detail":{"recv":{"tag":"receipt","attrs":{"from":"212925788725319@lid","type":"sender","id":"3EB0F711686F7085AF3509","recipient":"32487669498063@lid","t":"1779705209"}},"sent":{"id":"3EB0F711686F7085AF3509","to":"212925788725319@lid","class":"receipt","recipient":"32487669498063@lid","type":"sender"}}}
+{"time":"2026-05-25T10:33:30.600Z","level":"debug","msg":"Flushing event buffer"}
+{"time":"2026-05-25T10:33:30.602Z","level":"trace","msg":"released buffered events","detail":{"conditionalChatUpdatesLeft":0}}
+{"time":"2026-05-25T10:33:30.787Z","level":"trace","msg":"recv 58 bytes, total recv 58 bytes"}
+{"time":"2026-05-25T10:33:30.788Z","level":"trace","msg":"recv frame","detail":{"msg":"3EB0F711686F7085AF3509"}}
+{"time":"2026-05-25T10:33:30.788Z","level":"debug","msg":"Event buffer activated"}
+{"time":"2026-05-25T10:33:30.788Z","level":"debug","msg":"sent ack","detail":{"recv":{"tag":"receipt","attrs":{"from":"32487669498063@lid","id":"3EB0F711686F7085AF3509","t":"1779705209"}},"sent":{"id":"3EB0F711686F7085AF3509","to":"32487669498063@lid","class":"receipt"}}}
+{"time":"2026-05-25T10:33:30.791Z","level":"debug","msg":"Flushing event buffer"}
+{"time":"2026-05-25T10:33:30.792Z","level":"trace","msg":"released buffered events","detail":{"conditionalChatUpdatesLeft":0}}
+{"time":"2026-05-25T10:33:31.142Z","level":"trace","msg":"recv 58 bytes, total recv 58 bytes"}
+{"time":"2026-05-25T10:33:31.143Z","level":"trace","msg":"recv frame","detail":{"msg":"3EB0F711686F7085AF3509"}}
+{"time":"2026-05-25T10:33:31.145Z","level":"debug","msg":"Event buffer activated"}
+{"time":"2026-05-25T10:33:31.148Z","level":"debug","msg":"sent ack","detail":{"recv":{"tag":"receipt","attrs":{"from":"32487669498063:8@lid","id":"3EB0F711686F7085AF3509","t":"1779705209"}},"sent":{"id":"3EB0F711686F7085AF3509","to":"32487669498063:8@lid","class":"receipt"}}}
+{"time":"2026-05-25T10:33:31.171Z","level":"trace","msg":"recv 60 bytes, total recv 60 bytes"}
+{"time":"2026-05-25T10:33:31.173Z","level":"trace","msg":"recv frame","detail":{"msg":"3EB0F711686F7085AF3509"}}
+{"time":"2026-05-25T10:33:31.174Z","level":"debug","msg":"sent ack","detail":{"recv":{"tag":"receipt","attrs":{"from":"32487669498063:8@lid","type":"read","id":"3EB0F711686F7085AF3509","t":"1779705209"}},"sent":{"id":"3EB0F711686F7085AF3509","to":"32487669498063:8@lid","class":"receipt","type":"read"}}}
+{"time":"2026-05-25T10:33:31.176Z","level":"debug","msg":"Flushing event buffer"}
+{"time":"2026-05-25T10:33:31.179Z","level":"trace","msg":"released buffered events","detail":{"conditionalChatUpdatesLeft":0}}
+{"time":"2026-05-25T10:33:35.140Z","level":"trace","msg":"recv 47 bytes, total recv 47 bytes"}
+{"time":"2026-05-25T10:33:35.141Z","level":"trace","msg":"recv frame","detail":{"msg":"34227.1856-37"}}
+{"time":"2026-05-25T10:33:35.575Z","level":"trace","msg":"recv 41 bytes, total recv 41 bytes"}
+{"time":"2026-05-25T10:33:35.576Z","level":"trace","msg":"recv frame","detail":{}}
+{"time":"2026-05-25T10:33:39.889Z","level":"trace","msg":"recv 41 bytes, total recv 41 bytes"}
+{"time":"2026-05-25T10:33:39.890Z","level":"trace","msg":"recv frame","detail":{}}
+{"time":"2026-05-25T10:33:40.771Z","level":"trace","msg":"recv 41 bytes, total recv 41 bytes"}
+{"time":"2026-05-25T10:33:40.772Z","level":"trace","msg":"recv frame","detail":{}}
+{"time":"2026-05-25T10:33:41.779Z","level":"trace","msg":"recv 41 bytes, total recv 41 bytes"}
+{"time":"2026-05-25T10:33:41.780Z","level":"trace","msg":"recv frame","detail":{}}
+{"time":"2026-05-25T10:33:46.245Z","level":"trace","msg":"recv 41 bytes, total recv 41 bytes"}
+{"time":"2026-05-25T10:33:46.246Z","level":"trace","msg":"recv frame","detail":{}}
+{"time":"2026-05-25T10:33:55.782Z","level":"trace","msg":"recv 426 bytes, total recv 426 bytes"}
+{"time":"2026-05-25T10:33:55.783Z","level":"trace","msg":"recv frame","detail":{"msg":"3EB0FA2D17D1EFBFBA72F9"}}
+{"time":"2026-05-25T10:33:55.784Z","level":"debug","msg":"Event buffer activated"}
+{"time":"2026-05-25T10:33:55.794Z","level":"trace","msg":"updated cache","detail":{"keys":1}}
+{"time":"2026-05-25T10:33:55.804Z","level":"debug","msg":"sending receipt for messages","detail":{"attrs":{"id":"3EB0FA2D17D1EFBFBA72F9","to":"32487669498063:8@lid","type":"inactive"},"messageIds":["3EB0FA2D17D1EFBFBA72F9"]}}
+{"time":"2026-05-25T10:33:55.807Z","level":"debug","msg":"Flushing event buffer"}
+{"time":"2026-05-25T10:33:55.851Z","level":"trace","msg":"released buffered events","detail":{"conditionalChatUpdatesLeft":0}}
+{"time":"2026-05-25T10:34:00.174Z","level":"trace","msg":"recv 47 bytes, total recv 47 bytes"}
+{"time":"2026-05-25T10:34:00.175Z","level":"trace","msg":"recv frame","detail":{"msg":"34227.1856-38"}}
+{"time":"2026-05-25T10:34:00.607Z","level":"trace","msg":"entering transaction"}
+{"time":"2026-05-25T10:34:00.608Z","level":"trace","msg":"using cache for devices","detail":{"user":"32487669498063"}}
+{"time":"2026-05-25T10:34:01.101Z","level":"trace","msg":"recv 239 bytes, total recv 239 bytes"}
+{"time":"2026-05-25T10:34:01.103Z","level":"trace","msg":"recv frame","detail":{"msg":"34227.1856-40"}}
+{"time":"2026-05-25T10:34:01.107Z","level":"trace","msg":"caching in transaction","detail":{"types":["session"]}}
+{"time":"2026-05-25T10:34:01.115Z","level":"trace","msg":"caching in transaction","detail":{"types":["session"]}}
+{"time":"2026-05-25T10:34:01.119Z","level":"trace","msg":"caching in transaction","detail":{"types":["session"]}}
+{"time":"2026-05-25T10:34:01.121Z","level":"trace","msg":"caching in transaction","detail":{"types":["session"]}}
+{"time":"2026-05-25T10:34:01.123Z","level":"trace","msg":"caching in transaction","detail":{"types":["session"]}}
+{"time":"2026-05-25T10:34:01.125Z","level":"debug","msg":"adding device identity","detail":{"jid":"32487669498063@lid"}}
+{"time":"2026-05-25T10:34:01.131Z","level":"debug","msg":"sending message to 5 devices","detail":{"msgId":"3EB0398A5F1A466344BF00"}}
+{"time":"2026-05-25T10:34:01.134Z","level":"trace","msg":"committing transaction"}
+{"time":"2026-05-25T10:34:01.135Z","level":"trace","msg":"updated cache","detail":{"keys":5}}
+{"time":"2026-05-25T10:34:01.141Z","level":"trace","msg":"committed transaction","detail":{"dbQueriesInTransaction":1}}
+{"time":"2026-05-25T10:34:01.146Z","level":"info","msg":"Хабарлама жіберілді: 498063@lid"}
+{"time":"2026-05-25T10:34:01.149Z","level":"info","msg":"Жауап берілді: ...1252 (5341мс)"}
+{"time":"2026-05-25T10:34:01.149Z","level":"debug","msg":"Event buffer activated"}
+{"time":"2026-05-25T10:34:01.276Z","level":"trace","msg":"recv 65 bytes, total recv 65 bytes"}
+{"time":"2026-05-25T10:34:01.277Z","level":"trace","msg":"recv frame","detail":{"msg":"3EB0398A5F1A466344BF00"}}
+{"time":"2026-05-25T10:34:01.521Z","level":"trace","msg":"recv 75 bytes, total recv 75 bytes"}
+{"time":"2026-05-25T10:34:01.523Z","level":"trace","msg":"recv frame","detail":{"msg":"3EB0398A5F1A466344BF00"}}
+{"time":"2026-05-25T10:34:01.523Z","level":"debug","msg":"sent ack","detail":{"recv":{"tag":"receipt","attrs":{"from":"212925788725319@lid","type":"sender","id":"3EB0398A5F1A466344BF00","recipient":"32487669498063@lid","t":"1779705240"}},"sent":{"id":"3EB0398A5F1A466344BF00","to":"212925788725319@lid","class":"receipt","recipient":"32487669498063@lid","type":"sender"}}}
+{"time":"2026-05-25T10:34:01.535Z","level":"debug","msg":"Flushing event buffer"}
+{"time":"2026-05-25T10:34:01.535Z","level":"trace","msg":"released buffered events","detail":{"conditionalChatUpdatesLeft":0}}
+{"time":"2026-05-25T10:34:01.701Z","level":"trace","msg":"recv 58 bytes, total recv 58 bytes"}
+{"time":"2026-05-25T10:34:01.863Z","level":"trace","msg":"recv frame","detail":{"msg":"3EB0398A5F1A466344BF00"}}
+{"time":"2026-05-25T10:34:01.865Z","level":"debug","msg":"Event buffer activated"}
+{"time":"2026-05-25T10:34:01.873Z","level":"debug","msg":"sent ack","detail":{"recv":{"tag":"receipt","attrs":{"from":"32487669498063:8@lid","id":"3EB0398A5F1A466344BF00","t":"1779705240"}},"sent":{"id":"3EB0398A5F1A466344BF00","to":"32487669498063:8@lid","class":"receipt"}}}
+{"time":"2026-05-25T10:34:01.878Z","level":"trace","msg":"recv 58 bytes, total recv 58 bytes"}
+{"time":"2026-05-25T10:34:01.885Z","level":"trace","msg":"recv frame","detail":{"msg":"3EB0398A5F1A466344BF00"}}
+{"time":"2026-05-25T10:34:01.892Z","level":"debug","msg":"sent ack","detail":{"recv":{"tag":"receipt","attrs":{"from":"32487669498063@lid","id":"3EB0398A5F1A466344BF00","t":"1779705240"}},"sent":{"id":"3EB0398A5F1A466344BF00","to":"32487669498063@lid","class":"receipt"}}}
+{"time":"2026-05-25T10:34:01.898Z","level":"debug","msg":"Flushing event buffer"}
+{"time":"2026-05-25T10:34:01.904Z","level":"trace","msg":"released buffered events","detail":{"conditionalChatUpdatesLeft":0}}
+{"time":"2026-05-25T10:34:01.955Z","level":"trace","msg":"recv 60 bytes, total recv 60 bytes"}
+{"time":"2026-05-25T10:34:01.956Z","level":"trace","msg":"recv frame","detail":{"msg":"3EB0398A5F1A466344BF00"}}
+{"time":"2026-05-25T10:34:01.957Z","level":"debug","msg":"Event buffer activated"}
+{"time":"2026-05-25T10:34:01.958Z","level":"debug","msg":"sent ack","detail":{"recv":{"tag":"receipt","attrs":{"from":"32487669498063:8@lid","type":"read","id":"3EB0398A5F1A466344BF00","t":"1779705240"}},"sent":{"id":"3EB0398A5F1A466344BF00","to":"32487669498063:8@lid","class":"receipt","type":"read"}}}
+{"time":"2026-05-25T10:34:02.031Z","level":"debug","msg":"Flushing event buffer"}
+{"time":"2026-05-25T10:34:02.047Z","level":"trace","msg":"released buffered events","detail":{"conditionalChatUpdatesLeft":0}}
+{"time":"2026-05-25T10:34:25.178Z","level":"trace","msg":"recv 47 bytes, total recv 47 bytes"}
+{"time":"2026-05-25T10:34:25.179Z","level":"trace","msg":"recv frame","detail":{"msg":"34227.1856-41"}}
+{"time":"2026-05-25T10:34:49.891Z","level":"trace","msg":"recv 41 bytes, total recv 41 bytes"}
+{"time":"2026-05-25T10:34:49.896Z","level":"trace","msg":"recv frame","detail":{}}
+{"time":"2026-05-25T10:34:50.250Z","level":"trace","msg":"recv 47 bytes, total recv 47 bytes"}
+{"time":"2026-05-25T10:34:50.251Z","level":"trace","msg":"recv frame","detail":{"msg":"34227.1856-42"}}
+{"time":"2026-05-25T10:34:51.162Z","level":"trace","msg":"recv 41 bytes, total recv 41 bytes"}
+{"time":"2026-05-25T10:34:51.164Z","level":"trace","msg":"recv frame","detail":{}}
+{"time":"2026-05-25T10:34:51.641Z","level":"trace","msg":"recv 41 bytes, total recv 41 bytes"}
+{"time":"2026-05-25T10:34:51.642Z","level":"trace","msg":"recv frame","detail":{}}
+{"time":"2026-05-25T10:34:57.692Z","level":"trace","msg":"recv 378 bytes, total recv 378 bytes"}
+{"time":"2026-05-25T10:34:57.694Z","level":"trace","msg":"recv frame","detail":{"msg":"3EB0D67D069519700D4935"}}
+{"time":"2026-05-25T10:34:57.695Z","level":"debug","msg":"Event buffer activated"}
+{"time":"2026-05-25T10:34:57.770Z","level":"trace","msg":"updated cache","detail":{"keys":1}}
+{"time":"2026-05-25T10:34:57.785Z","level":"debug","msg":"sending receipt for messages","detail":{"attrs":{"id":"3EB0D67D069519700D4935","to":"32487669498063:8@lid","type":"inactive"},"messageIds":["3EB0D67D069519700D4935"]}}
+{"time":"2026-05-25T10:34:57.788Z","level":"debug","msg":"Flushing event buffer"}
+{"time":"2026-05-25T10:34:57.797Z","level":"trace","msg":"released buffered events","detail":{"conditionalChatUpdatesLeft":0}}
+{"time":"2026-05-25T10:35:01.472Z","level":"trace","msg":"entering transaction"}
+{"time":"2026-05-25T10:35:01.488Z","level":"trace","msg":"using cache for devices","detail":{"user":"32487669498063"}}
+{"time":"2026-05-25T10:35:02.218Z","level":"trace","msg":"recv 239 bytes, total recv 239 bytes"}
+{"time":"2026-05-25T10:35:02.238Z","level":"trace","msg":"recv frame","detail":{"msg":"34227.1856-44"}}
+{"time":"2026-05-25T10:35:02.654Z","level":"trace","msg":"caching in transaction","detail":{"types":["session"]}}
+{"time":"2026-05-25T10:35:02.655Z","level":"trace","msg":"caching in transaction","detail":{"types":["session"]}}
+{"time":"2026-05-25T10:35:02.734Z","level":"trace","msg":"caching in transaction","detail":{"types":["session"]}}
+{"time":"2026-05-25T10:35:02.736Z","level":"trace","msg":"caching in transaction","detail":{"types":["session"]}}
+{"time":"2026-05-25T10:35:02.746Z","level":"trace","msg":"caching in transaction","detail":{"types":["session"]}}
+{"time":"2026-05-25T10:35:02.763Z","level":"debug","msg":"adding device identity","detail":{"jid":"32487669498063@lid"}}
+{"time":"2026-05-25T10:35:02.765Z","level":"debug","msg":"sending message to 5 devices","detail":{"msgId":"3EB0347C8DBE2D5305DADE"}}
+{"time":"2026-05-25T10:35:02.767Z","level":"trace","msg":"committing transaction"}
+{"time":"2026-05-25T10:35:02.775Z","level":"trace","msg":"updated cache","detail":{"keys":5}}
+{"time":"2026-05-25T10:35:02.871Z","level":"trace","msg":"committed transaction","detail":{"dbQueriesInTransaction":1}}
+{"time":"2026-05-25T10:35:02.888Z","level":"info","msg":"Хабарлама жіберілді: 498063@lid"}
+{"time":"2026-05-25T10:35:02.895Z","level":"info","msg":"Жауап берілді: ...1252 (5106мс)"}
+{"time":"2026-05-25T10:35:02.901Z","level":"debug","msg":"Event buffer activated"}
+{"time":"2026-05-25T10:35:02.927Z","level":"trace","msg":"recv 65 bytes, total recv 65 bytes"}
+{"time":"2026-05-25T10:35:02.929Z","level":"trace","msg":"recv frame","detail":{"msg":"3EB0347C8DBE2D5305DADE"}}
+{"time":"2026-05-25T10:35:03.163Z","level":"trace","msg":"recv 75 bytes, total recv 75 bytes"}
+{"time":"2026-05-25T10:35:03.164Z","level":"trace","msg":"recv frame","detail":{"msg":"3EB0347C8DBE2D5305DADE"}}
+{"time":"2026-05-25T10:35:03.197Z","level":"debug","msg":"sent ack","detail":{"recv":{"tag":"receipt","attrs":{"from":"212925788725319@lid","type":"sender","id":"3EB0347C8DBE2D5305DADE","recipient":"32487669498063@lid","t":"1779705301"}},"sent":{"id":"3EB0347C8DBE2D5305DADE","to":"212925788725319@lid","class":"receipt","recipient":"32487669498063@lid","type":"sender"}}}
+{"time":"2026-05-25T10:35:04.765Z","level":"trace","msg":"recv 58 bytes, total recv 58 bytes"}
+{"time":"2026-05-25T10:35:04.767Z","level":"trace","msg":"recv frame","detail":{"msg":"3EB0347C8DBE2D5305DADE"}}
+{"time":"2026-05-25T10:35:04.768Z","level":"debug","msg":"sent ack","detail":{"recv":{"tag":"receipt","attrs":{"from":"32487669498063@lid","id":"3EB0347C8DBE2D5305DADE","t":"1779705302"}},"sent":{"id":"3EB0347C8DBE2D5305DADE","to":"32487669498063@lid","class":"receipt"}}}
+{"time":"2026-05-25T10:35:04.770Z","level":"trace","msg":"recv 58 bytes, total recv 58 bytes"}
+{"time":"2026-05-25T10:35:04.783Z","level":"trace","msg":"recv frame","detail":{"msg":"3EB0347C8DBE2D5305DADE"}}
+{"time":"2026-05-25T10:35:04.784Z","level":"debug","msg":"sent ack","detail":{"recv":{"tag":"receipt","attrs":{"from":"32487669498063:8@lid","id":"3EB0347C8DBE2D5305DADE","t":"1779705302"}},"sent":{"id":"3EB0347C8DBE2D5305DADE","to":"32487669498063:8@lid","class":"receipt"}}}
+{"time":"2026-05-25T10:35:04.786Z","level":"trace","msg":"recv 60 bytes, total recv 60 bytes"}
+{"time":"2026-05-25T10:35:05.033Z","level":"trace","msg":"recv frame","detail":{"msg":"3EB0347C8DBE2D5305DADE"}}
+{"time":"2026-05-25T10:35:05.034Z","level":"debug","msg":"sent ack","detail":{"recv":{"tag":"receipt","attrs":{"from":"32487669498063:8@lid","type":"read","id":"3EB0347C8DBE2D5305DADE","t":"1779705303"}},"sent":{"id":"3EB0347C8DBE2D5305DADE","to":"32487669498063:8@lid","class":"receipt","type":"read"}}}
+{"time":"2026-05-25T10:35:05.036Z","level":"debug","msg":"Flushing event buffer"}
+{"time":"2026-05-25T10:35:05.037Z","level":"trace","msg":"released buffered events","detail":{"conditionalChatUpdatesLeft":0}}
+{"time":"2026-05-25T10:35:12.983Z","level":"trace","msg":"recv 41 bytes, total recv 41 bytes"}
+{"time":"2026-05-25T10:35:12.984Z","level":"trace","msg":"recv frame","detail":{}}
+{"time":"2026-05-25T10:35:15.101Z","level":"trace","msg":"recv 378 bytes, total recv 378 bytes"}
+{"time":"2026-05-25T10:35:15.103Z","level":"trace","msg":"recv frame","detail":{"msg":"3EB07DDE3D90F660DE8BBC"}}
+{"time":"2026-05-25T10:35:15.108Z","level":"debug","msg":"Event buffer activated"}
+{"time":"2026-05-25T10:35:15.129Z","level":"trace","msg":"updated cache","detail":{"keys":1}}
+{"time":"2026-05-25T10:35:15.261Z","level":"debug","msg":"sending receipt for messages","detail":{"attrs":{"id":"3EB07DDE3D90F660DE8BBC","to":"32487669498063:8@lid","type":"inactive"},"messageIds":["3EB07DDE3D90F660DE8BBC"]}}
+{"time":"2026-05-25T10:35:15.263Z","level":"debug","msg":"Flushing event buffer"}
+{"time":"2026-05-25T10:35:15.267Z","level":"trace","msg":"released buffered events","detail":{"conditionalChatUpdatesLeft":0}}
+{"time":"2026-05-25T10:35:15.811Z","level":"trace","msg":"recv 47 bytes, total recv 47 bytes"}
+{"time":"2026-05-25T10:35:15.812Z","level":"trace","msg":"recv frame","detail":{"msg":"34227.1856-45"}}
+{"time":"2026-05-25T10:35:18.916Z","level":"trace","msg":"recv 41 bytes, total recv 41 bytes"}
+{"time":"2026-05-25T10:35:18.936Z","level":"trace","msg":"recv frame","detail":{}}
+{"time":"2026-05-25T10:35:19.393Z","level":"trace","msg":"entering transaction"}
+{"time":"2026-05-25T10:35:19.398Z","level":"trace","msg":"using cache for devices","detail":{"user":"32487669498063"}}
+{"time":"2026-05-25T10:35:20.424Z","level":"trace","msg":"recv 239 bytes, total recv 239 bytes"}
+{"time":"2026-05-25T10:35:20.493Z","level":"trace","msg":"recv frame","detail":{"msg":"34227.1856-47"}}
+{"time":"2026-05-25T10:35:20.554Z","level":"trace","msg":"caching in transaction","detail":{"types":["session"]}}
+{"time":"2026-05-25T10:35:20.733Z","level":"trace","msg":"caching in transaction","detail":{"types":["session"]}}
+{"time":"2026-05-25T10:35:20.737Z","level":"trace","msg":"caching in transaction","detail":{"types":["session"]}}
+{"time":"2026-05-25T10:35:20.748Z","level":"trace","msg":"caching in transaction","detail":{"types":["session"]}}
+{"time":"2026-05-25T10:35:20.750Z","level":"trace","msg":"caching in transaction","detail":{"types":["session"]}}
+{"time":"2026-05-25T10:35:20.752Z","level":"debug","msg":"adding device identity","detail":{"jid":"32487669498063@lid"}}
+{"time":"2026-05-25T10:35:20.754Z","level":"debug","msg":"sending message to 5 devices","detail":{"msgId":"3EB0E26E8F49002822D39D"}}
+{"time":"2026-05-25T10:35:20.766Z","level":"trace","msg":"committing transaction"}
+{"time":"2026-05-25T10:35:20.767Z","level":"trace","msg":"updated cache","detail":{"keys":5}}
+{"time":"2026-05-25T10:35:20.785Z","level":"trace","msg":"committed transaction","detail":{"dbQueriesInTransaction":1}}
+{"time":"2026-05-25T10:35:20.786Z","level":"info","msg":"Хабарлама жіберілді: 498063@lid"}
+{"time":"2026-05-25T10:35:20.804Z","level":"info","msg":"Жауап берілді: ...1252 (5540мс)"}
+{"time":"2026-05-25T10:35:20.826Z","level":"debug","msg":"Event buffer activated"}
+{"time":"2026-05-25T10:35:21.079Z","level":"trace","msg":"recv 65 bytes, total recv 65 bytes"}
+{"time":"2026-05-25T10:35:21.080Z","level":"trace","msg":"recv frame","detail":{"msg":"3EB0E26E8F49002822D39D"}}
+{"time":"2026-05-25T10:35:21.083Z","level":"trace","msg":"recv 377 bytes, total recv 377 bytes"}
+{"time":"2026-05-25T10:35:21.084Z","level":"trace","msg":"recv frame","detail":{"msg":"3A68D83E112E4C1A58B5"}}
+{"time":"2026-05-25T10:35:21.102Z","level":"trace","msg":"updated cache","detail":{"keys":1}}
+{"time":"2026-05-25T10:35:21.197Z","level":"debug","msg":"sending receipt for messages","detail":{"attrs":{"id":"3A68D83E112E4C1A58B5","to":"32487669498063@lid","type":"inactive"},"messageIds":["3A68D83E112E4C1A58B5"]}}
+{"time":"2026-05-25T10:35:21.200Z","level":"debug","msg":"Flushing event buffer"}
+{"time":"2026-05-25T10:35:21.202Z","level":"trace","msg":"released buffered events","detail":{"conditionalChatUpdatesLeft":0}}
+{"time":"2026-05-25T10:35:21.287Z","level":"trace","msg":"recv 41 bytes, total recv 41 bytes"}
+{"time":"2026-05-25T10:35:21.294Z","level":"trace","msg":"recv frame","detail":{}}
+{"time":"2026-05-25T10:35:21.300Z","level":"trace","msg":"recv 75 bytes, total recv 75 bytes"}
+{"time":"2026-05-25T10:35:21.301Z","level":"trace","msg":"recv frame","detail":{"msg":"3EB0E26E8F49002822D39D"}}
+{"time":"2026-05-25T10:35:21.814Z","level":"debug","msg":"Event buffer activated"}
+{"time":"2026-05-25T10:35:21.816Z","level":"debug","msg":"sent ack","detail":{"recv":{"tag":"receipt","attrs":{"from":"212925788725319@lid","type":"sender","id":"3EB0E26E8F49002822D39D","recipient":"32487669498063@lid","t":"1779705319"}},"sent":{"id":"3EB0E26E8F49002822D39D","to":"212925788725319@lid","class":"receipt","recipient":"32487669498063@lid","type":"sender"}}}
+{"time":"2026-05-25T10:35:21.833Z","level":"trace","msg":"recv 58 bytes, total recv 58 bytes"}
+{"time":"2026-05-25T10:35:21.986Z","level":"trace","msg":"recv frame","detail":{"msg":"3EB0E26E8F49002822D39D"}}
+{"time":"2026-05-25T10:35:22.148Z","level":"debug","msg":"sent ack","detail":{"recv":{"tag":"receipt","attrs":{"from":"32487669498063@lid","id":"3EB0E26E8F49002822D39D","t":"1779705320"}},"sent":{"id":"3EB0E26E8F49002822D39D","to":"32487669498063@lid","class":"receipt"}}}
+{"time":"2026-05-25T10:35:22.149Z","level":"trace","msg":"recv 60 bytes, total recv 60 bytes"}
+{"time":"2026-05-25T10:35:22.398Z","level":"trace","msg":"recv frame","detail":{"msg":"3EB0E26E8F49002822D39D"}}
+{"time":"2026-05-25T10:35:22.399Z","level":"debug","msg":"sent ack","detail":{"recv":{"tag":"receipt","attrs":{"from":"32487669498063@lid","type":"read","id":"3EB0E26E8F49002822D39D","t":"1779705320"}},"sent":{"id":"3EB0E26E8F49002822D39D","to":"32487669498063@lid","class":"receipt","type":"read"}}}
+{"time":"2026-05-25T10:35:22.400Z","level":"trace","msg":"recv 58 bytes, total recv 58 bytes"}
+{"time":"2026-05-25T10:35:22.515Z","level":"trace","msg":"recv frame","detail":{"msg":"3EB0E26E8F49002822D39D"}}
+{"time":"2026-05-25T10:35:22.516Z","level":"debug","msg":"sent ack","detail":{"recv":{"tag":"receipt","attrs":{"from":"32487669498063:8@lid","id":"3EB0E26E8F49002822D39D","t":"1779705320"}},"sent":{"id":"3EB0E26E8F49002822D39D","to":"32487669498063:8@lid","class":"receipt"}}}
+{"time":"2026-05-25T10:35:22.521Z","level":"debug","msg":"Flushing event buffer"}
+{"time":"2026-05-25T10:35:22.785Z","level":"trace","msg":"released buffered events","detail":{"conditionalChatUpdatesLeft":0}}
+{"time":"2026-05-25T10:35:27.250Z","level":"trace","msg":"recv 377 bytes, total recv 377 bytes"}
+{"time":"2026-05-25T10:35:27.252Z","level":"trace","msg":"recv frame","detail":{"msg":"3A825805DFE680303625"}}
+{"time":"2026-05-25T10:35:27.253Z","level":"debug","msg":"Event buffer activated"}
+{"time":"2026-05-25T10:35:27.647Z","level":"trace","msg":"updated cache","detail":{"keys":1}}
+{"time":"2026-05-25T10:35:28.353Z","level":"debug","msg":"sending receipt for messages","detail":{"attrs":{"id":"3A825805DFE680303625","to":"32487669498063@lid","type":"inactive"},"messageIds":["3A825805DFE680303625"]}}
+{"time":"2026-05-25T10:35:29.011Z","level":"debug","msg":"Flushing event buffer"}
+{"time":"2026-05-25T10:35:29.068Z","level":"trace","msg":"released buffered events","detail":{"conditionalChatUpdatesLeft":0}}
+{"time":"2026-05-25T10:35:29.116Z","level":"trace","msg":"recv 41 bytes, total recv 41 bytes"}
+{"time":"2026-05-25T10:35:29.117Z","level":"trace","msg":"recv frame","detail":{}}
+{"time":"2026-05-25T10:35:32.083Z","level":"trace","msg":"recv 41 bytes, total recv 41 bytes"}
+{"time":"2026-05-25T10:35:32.085Z","level":"trace","msg":"recv frame","detail":{}}
+{"time":"2026-05-25T10:35:33.199Z","level":"trace","msg":"entering transaction"}
+{"time":"2026-05-25T10:35:33.219Z","level":"trace","msg":"using cache for devices","detail":{"user":"32487669498063"}}
+{"time":"2026-05-25T10:35:33.870Z","level":"trace","msg":"recv 239 bytes, total recv 239 bytes"}
+{"time":"2026-05-25T10:35:33.902Z","level":"trace","msg":"recv frame","detail":{"msg":"34227.1856-49"}}
+{"time":"2026-05-25T10:35:33.920Z","level":"trace","msg":"caching in transaction","detail":{"types":["session"]}}
+{"time":"2026-05-25T10:35:33.936Z","level":"trace","msg":"caching in transaction","detail":{"types":["session"]}}
+{"time":"2026-05-25T10:35:33.944Z","level":"trace","msg":"caching in transaction","detail":{"types":["session"]}}
+{"time":"2026-05-25T10:35:33.947Z","level":"trace","msg":"caching in transaction","detail":{"types":["session"]}}
+{"time":"2026-05-25T10:35:33.948Z","level":"trace","msg":"caching in transaction","detail":{"types":["session"]}}
+{"time":"2026-05-25T10:35:33.951Z","level":"debug","msg":"adding device identity","detail":{"jid":"32487669498063@lid"}}
+{"time":"2026-05-25T10:35:33.952Z","level":"debug","msg":"sending message to 5 devices","detail":{"msgId":"3EB07EEDA62F12609D341B"}}
+{"time":"2026-05-25T10:35:33.969Z","level":"trace","msg":"committing transaction"}
+{"time":"2026-05-25T10:35:34.032Z","level":"trace","msg":"updated cache","detail":{"keys":5}}
+{"time":"2026-05-25T10:35:34.079Z","level":"trace","msg":"committed transaction","detail":{"dbQueriesInTransaction":1}}
+{"time":"2026-05-25T10:35:34.083Z","level":"info","msg":"Хабарлама жіберілді: 498063@lid"}
+{"time":"2026-05-25T10:35:34.092Z","level":"info","msg":"Жауап берілді: ...1252 (5048мс)"}
+{"time":"2026-05-25T10:35:34.096Z","level":"debug","msg":"Event buffer activated"}
+{"time":"2026-05-25T10:35:34.151Z","level":"trace","msg":"recv 65 bytes, total recv 65 bytes"}
+{"time":"2026-05-25T10:35:34.153Z","level":"trace","msg":"recv frame","detail":{"msg":"3EB07EEDA62F12609D341B"}}
+{"time":"2026-05-25T10:35:34.773Z","level":"trace","msg":"recv 75 bytes, total recv 75 bytes"}
+{"time":"2026-05-25T10:35:34.775Z","level":"trace","msg":"recv frame","detail":{"msg":"3EB07EEDA62F12609D341B"}}
+{"time":"2026-05-25T10:35:34.775Z","level":"debug","msg":"sent ack","detail":{"recv":{"tag":"receipt","attrs":{"from":"212925788725319@lid","type":"sender","id":"3EB07EEDA62F12609D341B","recipient":"32487669498063@lid","t":"1779705333"}},"sent":{"id":"3EB07EEDA62F12609D341B","to":"212925788725319@lid","class":"receipt","recipient":"32487669498063@lid","type":"sender"}}}
+{"time":"2026-05-25T10:35:35.697Z","level":"trace","msg":"recv 58 bytes, total recv 58 bytes"}
+{"time":"2026-05-25T10:35:35.699Z","level":"trace","msg":"recv frame","detail":{"msg":"3EB07EEDA62F12609D341B"}}
+{"time":"2026-05-25T10:35:35.701Z","level":"debug","msg":"sent ack","detail":{"recv":{"tag":"receipt","attrs":{"from":"32487669498063@lid","id":"3EB07EEDA62F12609D341B","t":"1779705333"}},"sent":{"id":"3EB07EEDA62F12609D341B","to":"32487669498063@lid","class":"receipt"}}}
+{"time":"2026-05-25T10:35:36.696Z","level":"trace","msg":"recv 60 bytes, total recv 60 bytes"}
+{"time":"2026-05-25T10:35:36.948Z","level":"trace","msg":"recv frame","detail":{"msg":"3EB07EEDA62F12609D341B"}}
+{"time":"2026-05-25T10:35:36.949Z","level":"debug","msg":"sent ack","detail":{"recv":{"tag":"receipt","attrs":{"from":"32487669498063@lid","type":"read","id":"3EB07EEDA62F12609D341B","t":"1779705333"}},"sent":{"id":"3EB07EEDA62F12609D341B","to":"32487669498063@lid","class":"receipt","type":"read"}}}
+{"time":"2026-05-25T10:35:36.953Z","level":"trace","msg":"recv 58 bytes, total recv 58 bytes"}
+{"time":"2026-05-25T10:35:36.961Z","level":"trace","msg":"recv frame","detail":{"msg":"3EB07EEDA62F12609D341B"}}
+{"time":"2026-05-25T10:35:36.962Z","level":"debug","msg":"sent ack","detail":{"recv":{"tag":"receipt","attrs":{"from":"32487669498063:8@lid","id":"3EB07EEDA62F12609D341B","t":"1779705333"}},"sent":{"id":"3EB07EEDA62F12609D341B","to":"32487669498063:8@lid","class":"receipt"}}}
+{"time":"2026-05-25T10:35:37.151Z","level":"trace","msg":"recv 393 bytes, total recv 393 bytes"}
+{"time":"2026-05-25T10:35:37.163Z","level":"trace","msg":"recv frame","detail":{"msg":"3A00C5F05264DED87D5D"}}
+{"time":"2026-05-25T10:35:37.753Z","level":"trace","msg":"updated cache","detail":{"keys":1}}
+{"time":"2026-05-25T10:35:37.913Z","level":"trace","msg":"recv 41 bytes, total recv 41 bytes"}
+{"time":"2026-05-25T10:35:37.915Z","level":"trace","msg":"recv frame","detail":{}}
+{"time":"2026-05-25T10:35:37.920Z","level":"debug","msg":"Flushing event buffer"}
+{"time":"2026-05-25T10:35:38.166Z","level":"trace","msg":"released buffered events","detail":{"conditionalChatUpdatesLeft":0}}
+{"time":"2026-05-25T10:35:38.458Z","level":"debug","msg":"sending receipt for messages","detail":{"attrs":{"id":"3A00C5F05264DED87D5D","to":"32487669498063@lid","type":"inactive"},"messageIds":["3A00C5F05264DED87D5D"]}}
+{"time":"2026-05-25T10:35:38.462Z","level":"debug","msg":"Event buffer activated"}
+{"time":"2026-05-25T10:35:38.479Z","level":"debug","msg":"Flushing event buffer"}
+{"time":"2026-05-25T10:35:38.514Z","level":"trace","msg":"released buffered events","detail":{"conditionalChatUpdatesLeft":0}}
+{"time":"2026-05-25T10:35:39.694Z","level":"trace","msg":"recv 41 bytes, total recv 41 bytes"}
+{"time":"2026-05-25T10:35:39.696Z","level":"trace","msg":"recv frame","detail":{}}
+{"time":"2026-05-25T10:35:40.384Z","level":"trace","msg":"recv 41 bytes, total recv 41 bytes"}
+{"time":"2026-05-25T10:35:40.385Z","level":"trace","msg":"recv frame","detail":{}}
+{"time":"2026-05-25T10:35:40.386Z","level":"trace","msg":"recv 47 bytes, total recv 47 bytes"}
+{"time":"2026-05-25T10:35:40.395Z","level":"trace","msg":"recv frame","detail":{"msg":"34227.1856-50"}}
+{"time":"2026-05-25T10:35:40.799Z","level":"trace","msg":"recv 41 bytes, total recv 41 bytes"}
+{"time":"2026-05-25T10:35:40.800Z","level":"trace","msg":"recv frame","detail":{}}
+{"time":"2026-05-25T10:35:42.929Z","level":"trace","msg":"recv 361 bytes, total recv 361 bytes"}
+{"time":"2026-05-25T10:35:42.930Z","level":"trace","msg":"recv frame","detail":{"msg":"3EB0B7BF4141FDB47FB8D2"}}
+{"time":"2026-05-25T10:35:42.934Z","level":"debug","msg":"Event buffer activated"}
+{"time":"2026-05-25T10:35:42.981Z","level":"trace","msg":"updated cache","detail":{"keys":1}}
+{"time":"2026-05-25T10:35:43.650Z","level":"trace","msg":"entering transaction"}
+{"time":"2026-05-25T10:35:43.667Z","level":"trace","msg":"using cache for devices","detail":{"user":"32487669498063"}}
+{"time":"2026-05-25T10:35:43.713Z","level":"debug","msg":"sending receipt for messages","detail":{"attrs":{"id":"3EB0B7BF4141FDB47FB8D2","to":"32487669498063:8@lid","type":"inactive"},"messageIds":["3EB0B7BF4141FDB47FB8D2"]}}
+{"time":"2026-05-25T10:35:43.851Z","level":"debug","msg":"Flushing event buffer"}
+{"time":"2026-05-25T10:35:44.067Z","level":"trace","msg":"released buffered events","detail":{"conditionalChatUpdatesLeft":0}}
+{"time":"2026-05-25T10:35:44.215Z","level":"trace","msg":"recv 239 bytes, total recv 239 bytes"}
+{"time":"2026-05-25T10:35:44.230Z","level":"trace","msg":"recv frame","detail":{"msg":"34227.1856-52"}}
+{"time":"2026-05-25T10:35:44.245Z","level":"trace","msg":"caching in transaction","detail":{"types":["session"]}}
+{"time":"2026-05-25T10:35:44.248Z","level":"trace","msg":"caching in transaction","detail":{"types":["session"]}}
+{"time":"2026-05-25T10:35:44.250Z","level":"trace","msg":"caching in transaction","detail":{"types":["session"]}}
+{"time":"2026-05-25T10:35:44.258Z","level":"trace","msg":"caching in transaction","detail":{"types":["session"]}}
+{"time":"2026-05-25T10:35:44.261Z","level":"trace","msg":"caching in transaction","detail":{"types":["session"]}}
+{"time":"2026-05-25T10:35:44.264Z","level":"debug","msg":"adding device identity","detail":{"jid":"32487669498063@lid"}}
+{"time":"2026-05-25T10:35:44.265Z","level":"debug","msg":"sending message to 5 devices","detail":{"msgId":"3EB0A1E8FC2716E9B25ED7"}}
+{"time":"2026-05-25T10:35:44.281Z","level":"trace","msg":"committing transaction"}
+{"time":"2026-05-25T10:35:44.282Z","level":"trace","msg":"updated cache","detail":{"keys":5}}
+{"time":"2026-05-25T10:35:44.315Z","level":"trace","msg":"committed transaction","detail":{"dbQueriesInTransaction":1}}
+{"time":"2026-05-25T10:35:44.346Z","level":"info","msg":"Хабарлама жіберілді: 498063@lid"}
+{"time":"2026-05-25T10:35:44.347Z","level":"info","msg":"Жауап берілді: ...1252 (5867мс)"}
+{"time":"2026-05-25T10:35:44.348Z","level":"debug","msg":"Event buffer activated"}
+{"time":"2026-05-25T10:35:44.451Z","level":"trace","msg":"recv 65 bytes, total recv 65 bytes"}
+{"time":"2026-05-25T10:35:44.452Z","level":"trace","msg":"recv frame","detail":{"msg":"3EB0A1E8FC2716E9B25ED7"}}
+{"time":"2026-05-25T10:35:44.740Z","level":"trace","msg":"recv 75 bytes, total recv 75 bytes"}
+{"time":"2026-05-25T10:35:44.742Z","level":"trace","msg":"recv frame","detail":{"msg":"3EB0A1E8FC2716E9B25ED7"}}
+{"time":"2026-05-25T10:35:44.745Z","level":"debug","msg":"sent ack","detail":{"recv":{"tag":"receipt","attrs":{"from":"212925788725319@lid","type":"sender","id":"3EB0A1E8FC2716E9B25ED7","recipient":"32487669498063@lid","t":"1779705343"}},"sent":{"id":"3EB0A1E8FC2716E9B25ED7","to":"212925788725319@lid","class":"receipt","recipient":"32487669498063@lid","type":"sender"}}}
+{"time":"2026-05-25T10:35:44.763Z","level":"debug","msg":"Flushing event buffer"}
+{"time":"2026-05-25T10:35:44.794Z","level":"trace","msg":"released buffered events","detail":{"conditionalChatUpdatesLeft":0}}
+{"time":"2026-05-25T10:35:44.923Z","level":"trace","msg":"recv 58 bytes, total recv 58 bytes"}
+{"time":"2026-05-25T10:35:44.924Z","level":"trace","msg":"recv frame","detail":{"msg":"3EB0A1E8FC2716E9B25ED7"}}
+{"time":"2026-05-25T10:35:44.936Z","level":"debug","msg":"Event buffer activated"}
+{"time":"2026-05-25T10:35:44.941Z","level":"debug","msg":"sent ack","detail":{"recv":{"tag":"receipt","attrs":{"from":"32487669498063@lid","id":"3EB0A1E8FC2716E9B25ED7","t":"1779705343"}},"sent":{"id":"3EB0A1E8FC2716E9B25ED7","to":"32487669498063@lid","class":"receipt"}}}
+{"time":"2026-05-25T10:35:45.153Z","level":"trace","msg":"recv 60 bytes, total recv 60 bytes"}
+{"time":"2026-05-25T10:35:45.274Z","level":"trace","msg":"recv frame","detail":{"msg":"3EB0A1E8FC2716E9B25ED7"}}
+{"time":"2026-05-25T10:35:45.275Z","level":"debug","msg":"sent ack","detail":{"recv":{"tag":"receipt","attrs":{"from":"32487669498063@lid","type":"read","id":"3EB0A1E8FC2716E9B25ED7","t":"1779705343"}},"sent":{"id":"3EB0A1E8FC2716E9B25ED7","to":"32487669498063@lid","class":"receipt","type":"read"}}}
+{"time":"2026-05-25T10:35:45.596Z","level":"trace","msg":"recv 58 bytes, total recv 58 bytes"}
+{"time":"2026-05-25T10:35:45.599Z","level":"trace","msg":"recv frame","detail":{"msg":"3EB0A1E8FC2716E9B25ED7"}}
+{"time":"2026-05-25T10:35:45.600Z","level":"debug","msg":"sent ack","detail":{"recv":{"tag":"receipt","attrs":{"from":"32487669498063:8@lid","id":"3EB0A1E8FC2716E9B25ED7","t":"1779705343"}},"sent":{"id":"3EB0A1E8FC2716E9B25ED7","to":"32487669498063:8@lid","class":"receipt"}}}
+{"time":"2026-05-25T10:35:45.986Z","level":"debug","msg":"Flushing event buffer"}
+{"time":"2026-05-25T10:35:46.047Z","level":"trace","msg":"released buffered events","detail":{"conditionalChatUpdatesLeft":0}}
+{"time":"2026-05-25T10:35:46.528Z","level":"trace","msg":"recv 834 bytes, total recv 834 bytes"}
+{"time":"2026-05-25T10:35:46.913Z","level":"trace","msg":"recv frame","detail":{"msg":"3EB0518ECE6E47831CFBE8"}}
+{"time":"2026-05-25T10:35:46.915Z","level":"debug","msg":"Event buffer activated"}
+{"time":"2026-05-25T10:35:46.919Z","level":"debug","msg":"sending receipt for messages","detail":{"attrs":{"id":"3EB0518ECE6E47831CFBE8","to":"120363190578118631@newsletter","type":"inactive"},"messageIds":["3EB0518ECE6E47831CFBE8"]}}
+{"time":"2026-05-25T10:35:46.985Z","level":"debug","msg":"Flushing event buffer"}
+{"time":"2026-05-25T10:35:47.014Z","level":"warn","msg":"Негатив анықталды: +120363190578118631 (1/10)"}
+{"time":"2026-05-25T10:35:47.017Z","level":"trace","msg":"released buffered events","detail":{"conditionalChatUpdatesLeft":0}}
+{"time":"2026-05-25T10:35:47.651Z","level":"warn","msg":"Кілт key2 лимитте: [GoogleGenerativeAI Error]: Error fetching from https://gene"}
+{"time":"2026-05-25T10:35:47.967Z","level":"warn","msg":"Кілт key3 лимитте: [GoogleGenerativeAI Error]: Error fetching from https://gene"}
+{"time":"2026-05-25T10:35:48.203Z","level":"warn","msg":"Кілт key4 лимитте: [GoogleGenerativeAI Error]: Error fetching from https://gene"}
+{"time":"2026-05-25T10:35:49.901Z","level":"warn","msg":"Кілт key5 лимитте: [GoogleGenerativeAI Error]: Error fetching from https://gene"}
+{"time":"2026-05-25T10:35:49.949Z","level":"trace","msg":"entering transaction"}
+{"time":"2026-05-25T10:35:49.961Z","level":"trace","msg":"using cache for devices","detail":{"user":"32487669498063"}}
+{"time":"2026-05-25T10:35:50.417Z","level":"trace","msg":"recv 239 bytes, total recv 239 bytes"}
+{"time":"2026-05-25T10:35:50.433Z","level":"trace","msg":"recv frame","detail":{"msg":"34227.1856-54"}}
+{"time":"2026-05-25T10:35:50.465Z","level":"trace","msg":"caching in transaction","detail":{"types":["session"]}}
+{"time":"2026-05-25T10:35:50.547Z","level":"trace","msg":"caching in transaction","detail":{"types":["session"]}}
+{"time":"2026-05-25T10:35:50.548Z","level":"trace","msg":"caching in transaction","detail":{"types":["session"]}}
+{"time":"2026-05-25T10:35:50.559Z","level":"trace","msg":"caching in transaction","detail":{"types":["session"]}}
+{"time":"2026-05-25T10:35:50.571Z","level":"trace","msg":"caching in transaction","detail":{"types":["session"]}}
+{"time":"2026-05-25T10:35:50.576Z","level":"debug","msg":"adding device identity","detail":{"jid":"32487669498063@lid"}}
+{"time":"2026-05-25T10:35:50.577Z","level":"debug","msg":"sending message to 5 devices","detail":{"msgId":"3EB0DE3316FE3012B92AC4"}}
+{"time":"2026-05-25T10:35:50.610Z","level":"trace","msg":"committing transaction"}
+{"time":"2026-05-25T10:35:50.611Z","level":"trace","msg":"updated cache","detail":{"keys":5}}
+{"time":"2026-05-25T10:35:50.699Z","level":"trace","msg":"committed transaction","detail":{"dbQueriesInTransaction":1}}
+{"time":"2026-05-25T10:35:50.701Z","level":"info","msg":"Хабарлама жіберілді: 498063@lid"}
+{"time":"2026-05-25T10:35:50.716Z","level":"info","msg":"Жауап берілді: ...1252 (6748мс)"}
+{"time":"2026-05-25T10:35:50.718Z","level":"debug","msg":"Event buffer activated"}
+{"time":"2026-05-25T10:35:50.865Z","level":"trace","msg":"recv 65 bytes, total recv 65 bytes"}
+{"time":"2026-05-25T10:35:51.064Z","level":"trace","msg":"recv frame","detail":{"msg":"3EB0DE3316FE3012B92AC4"}}
+{"time":"2026-05-25T10:35:52.023Z","level":"trace","msg":"recv 75 bytes, total recv 75 bytes"}
+{"time":"2026-05-25T10:35:52.024Z","level":"trace","msg":"recv frame","detail":{"msg":"3EB0DE3316FE3012B92AC4"}}
+{"time":"2026-05-25T10:35:52.025Z","level":"debug","msg":"sent ack","detail":{"recv":{"tag":"receipt","attrs":{"from":"212925788725319@lid","type":"sender","id":"3EB0DE3316FE3012B92AC4","recipient":"32487669498063@lid","t":"1779705349"}},"sent":{"id":"3EB0DE3316FE3012B92AC4","to":"212925788725319@lid","class":"receipt","recipient":"32487669498063@lid","type":"sender"}}}
+{"time":"2026-05-25T10:35:52.165Z","level":"trace","msg":"recv 58 bytes, total recv 58 bytes"}
+{"time":"2026-05-25T10:35:52.167Z","level":"trace","msg":"recv frame","detail":{"msg":"3EB0DE3316FE3012B92AC4"}}
+{"time":"2026-05-25T10:35:52.168Z","level":"debug","msg":"sent ack","detail":{"recv":{"tag":"receipt","attrs":{"from":"32487669498063@lid","id":"3EB0DE3316FE3012B92AC4","t":"1779705350"}},"sent":{"id":"3EB0DE3316FE3012B92AC4","to":"32487669498063@lid","class":"receipt"}}}
+{"time":"2026-05-25T10:35:52.175Z","level":"trace","msg":"recv 60 bytes, total recv 60 bytes"}
+{"time":"2026-05-25T10:35:52.190Z","level":"trace","msg":"recv frame","detail":{"msg":"3EB0DE3316FE3012B92AC4"}}
+{"time":"2026-05-25T10:35:52.194Z","level":"debug","msg":"sent ack","detail":{"recv":{"tag":"receipt","attrs":{"from":"32487669498063@lid","type":"read","id":"3EB0DE3316FE3012B92AC4","t":"1779705350"}},"sent":{"id":"3EB0DE3316FE3012B92AC4","to":"32487669498063@lid","class":"receipt","type":"read"}}}
+{"time":"2026-05-25T10:35:52.207Z","level":"trace","msg":"recv 58 bytes, total recv 58 bytes"}
+{"time":"2026-05-25T10:35:52.208Z","level":"trace","msg":"recv frame","detail":{"msg":"3EB0DE3316FE3012B92AC4"}}
+{"time":"2026-05-25T10:35:52.244Z","level":"debug","msg":"sent ack","detail":{"recv":{"tag":"receipt","attrs":{"from":"32487669498063:8@lid","id":"3EB0DE3316FE3012B92AC4","t":"1779705350"}},"sent":{"id":"3EB0DE3316FE3012B92AC4","to":"32487669498063:8@lid","class":"receipt"}}}
+{"time":"2026-05-25T10:35:52.261Z","level":"trace","msg":"recv 60 bytes, total recv 60 bytes"}
+{"time":"2026-05-25T10:35:52.263Z","level":"trace","msg":"recv frame","detail":{"msg":"3EB0DE3316FE3012B92AC4"}}
+{"time":"2026-05-25T10:35:52.276Z","level":"debug","msg":"sent ack","detail":{"recv":{"tag":"receipt","attrs":{"from":"32487669498063:8@lid","type":"read","id":"3EB0DE3316FE3012B92AC4","t":"1779705350"}},"sent":{"id":"3EB0DE3316FE3012B92AC4","to":"32487669498063:8@lid","class":"receipt","type":"read"}}}
+{"time":"2026-05-25T10:35:52.285Z","level":"debug","msg":"Flushing event buffer"}
+{"time":"2026-05-25T10:35:52.303Z","level":"trace","msg":"released buffered events","detail":{"conditionalChatUpdatesLeft":0}}
+{"time":"2026-05-25T10:35:58.847Z","level":"trace","msg":"recv 41 bytes, total recv 41 bytes"}
+{"time":"2026-05-25T10:35:58.848Z","level":"trace","msg":"recv frame","detail":{}}
+{"time":"2026-05-25T10:36:02.259Z","level":"info","msg":"Модель fallback: gemini-2.5-pro → gemini-2.5-flash (key1)"}
+{"time":"2026-05-25T10:36:04.116Z","level":"trace","msg":"entering transaction"}
+{"time":"2026-05-25T10:36:04.178Z","level":"debug","msg":"sending newsletter message to 120363190578118631@newsletter","detail":{"msgId":"3EB048EA9AB39436059DE1"}}
+{"time":"2026-05-25T10:36:04.185Z","level":"trace","msg":"no mutations in transaction"}
+{"time":"2026-05-25T10:36:04.468Z","level":"info","msg":"Хабарлама жіберілді: newsletter"}
+{"time":"2026-05-25T10:36:04.528Z","level":"info","msg":"Жауап берілді: ...8631 (17527мс)"}
+{"time":"2026-05-25T10:36:04.529Z","level":"debug","msg":"Event buffer activated"}
+{"time":"2026-05-25T10:36:04.534Z","level":"trace","msg":"recv 79 bytes, total recv 79 bytes"}
+{"time":"2026-05-25T10:36:04.535Z","level":"trace","msg":"recv frame","detail":{"msg":"3EB048EA9AB39436059DE1"}}
+{"time":"2026-05-25T10:36:04.550Z","level":"warn","msg":"received error in ack","detail":{"attrs":{"from":"120363190578118631@newsletter","class":"message","id":"3EB048EA9AB39436059DE1","error":"401","t":"1779705363"}}}
+{"time":"2026-05-25T10:36:05.390Z","level":"trace","msg":"recv 47 bytes, total recv 47 bytes"}
+{"time":"2026-05-25T10:36:05.392Z","level":"trace","msg":"recv frame","detail":{"msg":"34227.1856-55"}}
+{"time":"2026-05-25T10:36:08.077Z","level":"trace","msg":"recv 393 bytes, total recv 393 bytes"}
+{"time":"2026-05-25T10:36:08.079Z","level":"trace","msg":"recv frame","detail":{"msg":"3A0DA87F0AD6117FC0BD"}}
+{"time":"2026-05-25T10:36:08.532Z","level":"trace","msg":"updated cache","detail":{"keys":1}}
+{"time":"2026-05-25T10:36:09.479Z","level":"debug","msg":"sending receipt for messages","detail":{"attrs":{"id":"3A0DA87F0AD6117FC0BD","to":"32487669498063@lid","type":"inactive"},"messageIds":["3A0DA87F0AD6117FC0BD"]}}
+{"time":"2026-05-25T10:36:09.491Z","level":"debug","msg":"Flushing event buffer"}
+{"time":"2026-05-25T10:36:09.500Z","level":"trace","msg":"released buffered events","detail":{"conditionalChatUpdatesLeft":0}}
+{"time":"2026-05-25T10:36:20.529Z","level":"trace","msg":"recv 106 bytes, total recv 106 bytes"}
+{"time":"2026-05-25T10:36:20.530Z","level":"trace","msg":"recv frame","detail":{"msg":"1253204236"}}
+{"time":"2026-05-25T10:36:20.531Z","level":"debug","msg":"Event buffer activated"}
+{"time":"2026-05-25T10:36:20.531Z","level":"debug","msg":"sent ack","detail":{"recv":{"tag":"notification","attrs":{"from":"32487669498063@lid","type":"devices","id":"1253204236","t":"1779705377"}},"sent":{"id":"1253204236","to":"32487669498063@lid","class":"notification","type":"devices"}}}
+{"time":"2026-05-25T10:36:20.533Z","level":"debug","msg":"Flushing event buffer"}
+{"time":"2026-05-25T10:36:20.535Z","level":"trace","msg":"released buffered events","detail":{"conditionalChatUpdatesLeft":0}}
+{"time":"2026-05-25T10:36:26.758Z","level":"trace","msg":"recv 891 bytes, total recv 891 bytes"}
+{"time":"2026-05-25T10:36:26.763Z","level":"trace","msg":"recv frame","detail":{"msg":"3EB0518ECE6E47831CFBE8"}}
+{"time":"2026-05-25T10:36:26.764Z","level":"debug","msg":"Event buffer activated"}
+{"time":"2026-05-25T10:36:26.765Z","level":"debug","msg":"sending receipt for messages","detail":{"attrs":{"id":"3EB0518ECE6E47831CFBE8","to":"120363190578118631@newsletter","type":"inactive"},"messageIds":["3EB0518ECE6E47831CFBE8"]}}
+{"time":"2026-05-25T10:36:26.766Z","level":"debug","msg":"Flushing event buffer"}
+{"time":"2026-05-25T10:36:26.772Z","level":"warn","msg":"Негатив анықталды: +120363190578118631 (2/10)"}
+{"time":"2026-05-25T10:36:26.774Z","level":"trace","msg":"released buffered events","detail":{"conditionalChatUpdatesLeft":0}}
+{"time":"2026-05-25T10:36:27.645Z","level":"warn","msg":"Кілт key1 лимитте: [GoogleGenerativeAI Error]: Error fetching from https://gene"}
+{"time":"2026-05-25T10:36:27.875Z","level":"warn","msg":"Кілт key2 лимитте: [GoogleGenerativeAI Error]: Error fetching from https://gene"}
+{"time":"2026-05-25T10:36:28.089Z","level":"warn","msg":"Кілт key3 лимитте: [GoogleGenerativeAI Error]: Error fetching from https://gene"}
+{"time":"2026-05-25T10:36:28.311Z","level":"warn","msg":"Кілт key4 лимитте: [GoogleGenerativeAI Error]: Error fetching from https://gene"}
+{"time":"2026-05-25T10:36:28.549Z","level":"warn","msg":"Кілт key5 лимитте: [GoogleGenerativeAI Error]: Error fetching from https://gene"}
+{"time":"2026-05-25T10:36:30.413Z","level":"trace","msg":"recv 47 bytes, total recv 47 bytes"}
+{"time":"2026-05-25T10:36:30.415Z","level":"trace","msg":"recv frame","detail":{"msg":"34227.1856-56"}}

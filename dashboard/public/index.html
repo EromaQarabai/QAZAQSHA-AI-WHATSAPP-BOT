@@ -1,0 +1,187 @@
+<!DOCTYPE html>
+<html lang="kk">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>QazaQsha — Admin Panel</title>
+  <link rel="icon" href="data:image/svg+xml,<svg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 32 32'><text y='26' font-size='28'>🤖</text></svg>" />
+  <link rel="preconnect" href="https://fonts.googleapis.com" />
+  <link href="https://fonts.googleapis.com/css2?family=Orbitron:wght@400;700;900&family=Inter:wght@300;400;600&display=swap" rel="stylesheet" />
+  <link rel="stylesheet" href="style.css" />
+</head>
+<body>
+  <div class="grid-bg"></div>
+  <div class="particles" id="particles"></div>
+
+  <header class="header">
+    <div class="logo">
+      <span class="logo-icon">⬡</span>
+      <span class="logo-text">QazaQsha<span class="logo-sub">-001</span></span>
+    </div>
+    <div class="header-right">
+      <div class="status-badge" id="statusBadge">
+        <span class="pulse"></span>
+        <span id="statusText">Жүктелуде...</span>
+      </div>
+      <div class="clock" id="clock"></div>
+    </div>
+  </header>
+
+  <main class="main">
+
+    <!-- ─── Stat Cards ─── -->
+    <section class="stat-grid">
+      <div class="stat-card" data-color="cyan">
+        <div class="stat-icon">💬</div>
+        <div class="stat-info">
+          <span class="stat-label">Бүгінгі хабар</span>
+          <span class="stat-value" id="statToday">—</span>
+        </div>
+        <div class="stat-glow"></div>
+      </div>
+      <div class="stat-card" data-color="purple">
+        <div class="stat-icon">👥</div>
+        <div class="stat-info">
+          <span class="stat-label">Пайдаланушылар</span>
+          <span class="stat-value" id="statUsers">—</span>
+        </div>
+        <div class="stat-glow"></div>
+      </div>
+      <div class="stat-card" data-color="green">
+        <div class="stat-icon">⚡</div>
+        <div class="stat-info">
+          <span class="stat-label">Орт. жауап</span>
+          <span class="stat-value" id="statResponse">—</span>
+        </div>
+        <div class="stat-glow"></div>
+      </div>
+      <div class="stat-card" data-color="orange">
+        <div class="stat-icon">📦</div>
+        <div class="stat-info">
+          <span class="stat-label">Барлық хабар</span>
+          <span class="stat-value" id="statTotal">—</span>
+        </div>
+        <div class="stat-glow"></div>
+      </div>
+    </section>
+
+    <!-- ─── Controls ─── -->
+    <section class="control-grid">
+
+      <!-- AI Status -->
+      <div class="card">
+        <div class="card-header">
+          <h2 class="card-title">🤖 Бот Басқару</h2>
+        </div>
+        <div class="card-body">
+          <div class="toggle-row">
+            <span class="toggle-label">AI Режим</span>
+            <label class="toggle">
+              <input type="checkbox" id="aiToggle" onchange="toggleAI(this.checked)"/>
+              <span class="slider"></span>
+            </label>
+          </div>
+          <div class="mood-section">
+            <span class="toggle-label">Көңіл-күй</span>
+            <div class="mood-btns">
+              <button class="mood-btn" onclick="setMood('Positive')" data-mood="Positive">😊 Positive</button>
+              <button class="mood-btn" onclick="setMood('Chill')" data-mood="Chill">😎 Chill</button>
+              <button class="mood-btn" onclick="setMood('Sarcastic')" data-mood="Sarcastic">😏 Sarcastic</button>
+              <button class="mood-btn" onclick="setMood('Energetic')" data-mood="Energetic">⚡ Energetic</button>
+              <button class="mood-btn" onclick="setMood('Supportive')" data-mood="Supportive">🤗 Supportive</button>
+            </div>
+          </div>
+        </div>
+      </div>
+
+      <!-- Busy Reason -->
+      <div class="card">
+        <div class="card-header">
+          <h2 class="card-title">📝 Неге Бос Емессің?</h2>
+        </div>
+        <div class="card-body">
+          <p class="card-desc">AI осы себепті пайдаланушыларға жеткізеді</p>
+          <div class="input-group">
+            <input type="text" id="busyReasonInput" class="futuristic-input"
+              placeholder="Мыс: Жиналыста, Сабақта, Жұмыста..." maxlength="200" />
+          </div>
+          <div class="btn-row">
+            <button class="btn btn-primary" onclick="setBusyReason()">✅ Орнату</button>
+            <button class="btn btn-ghost" onclick="clearBusyReason()">✕ Тазалау</button>
+          </div>
+          <div class="busy-current" id="busyCurrent" style="display:none">
+            <span class="busy-label">Ағымдағы:</span>
+            <span id="busyReasonDisplay"></span>
+          </div>
+        </div>
+      </div>
+
+      <!-- Language Stats -->
+      <div class="card">
+        <div class="card-header">
+          <h2 class="card-title">🌐 Тіл Статистикасы</h2>
+        </div>
+        <div class="card-body">
+          <div class="lang-bars">
+            <div class="lang-row">
+              <span class="lang-flag">🇰🇿</span>
+              <span class="lang-name">Қазақша</span>
+              <div class="lang-bar-wrap">
+                <div class="lang-bar cyan" id="barKk" style="width:0%"></div>
+              </div>
+              <span class="lang-pct" id="pctKk">0%</span>
+            </div>
+            <div class="lang-row">
+              <span class="lang-flag">🇷🇺</span>
+              <span class="lang-name">Орысша</span>
+              <div class="lang-bar-wrap">
+                <div class="lang-bar purple" id="barRu" style="width:0%"></div>
+              </div>
+              <span class="lang-pct" id="pctRu">0%</span>
+            </div>
+            <div class="lang-row">
+              <span class="lang-flag">🇬🇧</span>
+              <span class="lang-name">Ағылшынша</span>
+              <div class="lang-bar-wrap">
+                <div class="lang-bar green" id="barEn" style="width:0%"></div>
+              </div>
+              <span class="lang-pct" id="pctEn">0%</span>
+            </div>
+          </div>
+          <div class="most-active" id="mostActive">🏆 —</div>
+        </div>
+      </div>
+
+      <!-- Quick Actions -->
+      <div class="card">
+        <div class="card-header">
+          <h2 class="card-title">⚡ Жылдам Іс-қимыл</h2>
+        </div>
+        <div class="card-body actions-grid">
+          <button class="action-btn" onclick="refreshStats()">🔄 Жаңарту</button>
+          <button class="action-btn" onclick="createBackup()">💾 Backup</button>
+          <button class="action-btn danger" onclick="restartBot()">🔁 Restart</button>
+          <button class="action-btn" onclick="openDocs()">📖 Docs</button>
+        </div>
+        <div class="log-area" id="logArea">
+          <span class="log-placeholder">Жүйе журналы...</span>
+        </div>
+      </div>
+
+    </section>
+
+  </main>
+
+  <footer class="footer">
+    <span>QazaQsha-001 © 2025 — Қарабай Ермахан</span>
+    <div class="footer-links">
+      <a href="https://www.tiktok.com/@qarabai.ermahan" target="_blank" title="TikTok">📱 TikTok</a>
+      <a href="https://t.me/QarabaiErmahan" target="_blank" title="Telegram">✈️ Telegram</a>
+      <a href="https://www.instagram.com/qarabai.ermahan" target="_blank" title="Instagram">📸 Instagram</a>
+    </div>
+  </footer>
+
+  <div class="toast" id="toast"></div>
+  <script src="app.js"></script>
+</body>
+</html>
