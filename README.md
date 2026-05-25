@@ -48,40 +48,33 @@
 
 ## 🚀 Жылдам Іске Қосу
 
-### 1. Клондау
-
-```bash
-git clone https://github.com/СЕНІҢ_АККАУНТЫҢ/QazaQsha.git
-cd QazaQsha
-```
-
-### 2. Тәуелділіктерді орнату
+### 1. Тәуелділіктерді орнату
 
 ```bash
 npm install
 ```
 
-### 3. `.env` файлын толтыру
+### 2. `.env` файлын толтыру
 
 ```bash
 cp .env.example .env
 # .env файлын редактор арқылы ашыңыз
 ```
 
-### 4. Іске қосу
+### 3. Іске қосу
 
 ```bash
 npm start
 ```
 
-### 5. WhatsApp-ты қосу
+### 4. WhatsApp-ты қосу
 
 ```
 📱 QR код консольде шығады
 WhatsApp → Байланысқан құрылғылар → QR код сканерлеу
 ```
 
-### 6. Dashboard
+### 5. Dashboard
 
 ```
 🌐 http://localhost:3000
