@@ -9,9 +9,9 @@
   ╚══▀▀═╝ ╚═╝  ╚═╝╚══════╝╚═╝  ╚═╝ ╚══▀▀═╝╚══════╝╚═╝  ╚═╝╚═╝  ╚═╝
 ```
 
-# 🤖 QazaQsha-001
+<h1>🤖 QazaQsha-001
 
-**Қазақ тілінде сөйлейтін ЖИ бот — WhatsApp × Telegram × Dashboard**
+**Қазақ тілінде сөйлейтін ЖИ бот — WhatsApp × Telegram × Dashboard**</h1>
 
 [![Node.js](https://img.shields.io/badge/Node.js-18+-339933?style=for-the-badge&logo=node.js&logoColor=white)](https://nodejs.org)
 [![Gemini](https://img.shields.io/badge/Google_Gemini-2.5-4285F4?style=for-the-badge&logo=google&logoColor=white)](https://ai.google.dev)
@@ -213,6 +213,15 @@ QazaQsha/
 
 </div>
 
+---
+<div align="center">
+
+<h3>
+  ***Ескерту:
+  Baileys-бейресми WhatsApp API.
+  WhatsApp аккаунтыңызда бан болу қаупі бар.
+  Негізгі нөмеріңізбен пайдаланбаңыз.***
+</h3>
 ---
 
 <div align="center">
